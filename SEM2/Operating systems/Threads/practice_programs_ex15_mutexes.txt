@@ -1,0 +1,70 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <string.h>
+
+pthread_mutex_t mtx;
+
+int digits = 0, letters = 0, specials = 0;
+
+typedef struct 
+{
+    char str[50];
+} args;
+
+void *f(void *a)
+{
+    args d = *(args*)a;
+    
+    printf("String received: %s\n", d.str);
+
+    for (int i = 0; i < (int)strlen(d.str); i++)
+    {
+        pthread_mutex_lock(&mtx);
+        if (d.str[i] >= '0' && d.str[i] <= '9')
+        {
+            digits++;
+        }
+        else if (d.str[i] >= 'a' && d.str[i] <= 'z')
+        {
+            letters++;
+        }
+        else
+        {
+            specials++;
+        }
+        pthread_mutex_unlock(&mtx);
+    }
+    return NULL;
+}
+
+int main(int argc, char **argv)
+{
+    
+
+    pthread_t t[argc];
+
+    pthread_mutex_init(&mtx, NULL);
+    
+    for (int i = 1; i < argc; i++)
+    {
+        args arguments;
+        strcpy(arguments.str, argv[i]);
+
+        pthread_create(&t[i], NULL, f, &arguments);
+        
+        printf("String sent: %s\n", arguments.str);
+    }
+
+    for (int i = 1; i < argc; i++)
+    {
+        pthread_join(t[i], NULL);
+    }
+    
+
+    printf("%d", letters);
+
+    pthread_mutex_destroy(&mtx);
+
+    return 0;
+}

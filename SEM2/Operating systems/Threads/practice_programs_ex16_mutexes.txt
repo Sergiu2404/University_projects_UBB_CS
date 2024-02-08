@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <string.h>
+
+int freq[10];
+pthread_mutex_t mtx;
+
+void *f(void *a)
+{
+    char* data = (char*)a;
+    for (int j = 0; j < (int)strlen(data); j++)
+    {
+        pthread_mutex_lock(&mtx);
+        int digit = data[j] - '0';
+        freq[digit]++;
+        pthread_mutex_unlock(&mtx);
+    }
+    
+    return NULL;
+}
+
+int main(int argc, char **argv)
+{
+    pthread_t t[argc - 1];
+    pthread_mutex_init(&mtx, NULL);
+
+    for (int i = 1; i < argc; i++)
+    {
+        pthread_create(&t[i], NULL, f, argv[i]);
+        
+    }
+
+    for (int i = 1; i < argc; i++)
+    {
+        pthread_join(t[i], NULL);
+    }
+
+    pthread_mutex_destroy(&mtx);
+
+    for (int i = 0; i < 10; i++)
+        printf("%d ", freq[i]);
+
+    return 0;
+}
