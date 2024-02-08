@@ -1,0 +1,229 @@
+thread1.c
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+
+ 
+
+typedef struct {
+        int *a, *b, *c, start, end;
+} param;
+
+ 
+
+void* f(void* arg)
+{
+        param params = *(param*)arg;
+
+ 
+
+        for (int i = params.start; i < params.end; i++)
+                params.c[i] = params.a[i] + params.b[i];
+
+ 
+
+        return NULL;
+}
+
+ 
+
+void printArray(int *arr, int size)
+{
+        for (int i = 0; i < size; i++)
+                printf("%d ", arr[i]);
+
+ 
+
+        printf("\n");
+}
+
+ 
+
+int main()
+{
+        int p = 4;
+        pthread_t th[p];
+
+ 
+
+        int *a, *b, *c, n = 10;
+
+ 
+
+        a = (int*) malloc(sizeof(int) * n);
+        b = (int*) malloc(sizeof(int) * n);
+        c = (int*) malloc(sizeof(int) * n);
+
+ 
+
+        for (int i = 0; i < n; i++)
+        {
+                a[i] = rand() % 10;
+                b[i] = rand() % 10;
+        }
+
+ 
+
+        printf("a = ");
+        printArray(a, n);
+
+ 
+
+        printf("b = ");
+        printArray(b, n);
+
+ 
+
+        int start = 0, end;
+        int r = n % p;
+
+ 
+
+        param params[p];
+
+ 
+
+        for (int i = 0; i < p; i++)
+        {
+                end = start + n / p;
+                if (r > 0)
+                {
+                        end++;
+                        r--;
+                }
+
+ 
+
+                params[i].a = a; params[i].b = b; params[i].c = c;
+                params[i].start = start; params[i].end = end;
+
+ 
+
+                pthread_create(&th[i], NULL, f, (void*)&params[i]);
+                start = end;
+        }
+
+ 
+
+        for (int i = 0; i < p; i++)
+                pthread_join(th[i], NULL);
+
+ 
+
+        printf("c= ");
+        printArray(c, n);
+
+ 
+
+        return 0;
+}
+
+
+
+
+thread2.c
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+
+ 
+
+typedef struct {
+        int *a, *b, *c, id, n, p;
+} param;
+
+ 
+
+void* f(void* arg)
+{
+        param params = *(param*)arg;
+
+ 
+
+        for (int i = params.id; i < params.n; i = i + params.p)
+                params.c[i] = params.a[i] + params.b[i];
+
+ 
+
+        return NULL;
+}
+
+ 
+
+void printArray(int *arr, int size)
+{
+        for (int i = 0; i < size; i++)
+                printf("%d ", arr[i]);
+
+ 
+
+        printf("\n");
+}
+
+ 
+
+int main()
+{
+        int p = 4;
+        pthread_t th[p];
+
+ 
+
+        int *a, *b, *c, n = 10;
+
+ 
+
+        a = (int*) malloc(sizeof(int) * n);
+        b = (int*) malloc(sizeof(int) * n);
+        c = (int*) malloc(sizeof(int) * n);
+
+ 
+
+        for (int i = 0; i < n; i++)
+        {
+                a[i] = rand() % 10;
+                b[i] = rand() % 10;
+        }
+
+ 
+
+        printf("a = ");
+        printArray(a, n);
+
+ 
+
+        printf("b = ");
+        printArray(b, n);
+
+ 
+
+        param params[p];
+
+ 
+
+        for (int i = 0; i < p; i++)
+        {
+                params[i].a = a; params[i].b = b; params[i].c = c;
+                params[i].id = i; params[i].n = n; params[i].p = p;
+
+ 
+
+                pthread_create(&th[i], NULL, f, (void*)&params[i]);
+        }
+
+ 
+
+        for (int i = 0; i < p; i++)
+                pthread_join(th[i], NULL);
+
+ 
+
+        printf("c= ");
+        printArray(c, n);
+
+ 
+
+        return 0;
+}
