@@ -1,0 +1,601 @@
+[PROCESS ID]: 1
+[EXE STACK]: 
+string varf
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+varf = "test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+OpenReadFile(varf)
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int varc
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(varc)
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(varc)
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(string varf|(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+string varf
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+string varf
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+varf = "test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+varf = "test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(string varf|(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+string varf
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+string varf
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(varf = "test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+varf = "test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+varf = "test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+OpenReadFile(varf)
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+OpenReadFile(varf)
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+int varc
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+int varc
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(varc)
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(varc)
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(varc)
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(varc)
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+varf -> "test.in"
+varc -> 0
+[OUTPUT LIST]: 
+0
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
