@@ -1,0 +1,101 @@
+[PROCESS ID]: 2
+[EXE STACK]: 
+bool a
+(int v|(a = true|(if(a){v = 2}else{v = 3}|Print(v))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(int v|(a = true|(if(a){v = 2}else{v = 3}|Print(v))))
+[SYMBOL TABLE]: 
+a -> false
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+int v
+(a = true|(if(a){v = 2}else{v = 3}|Print(v)))
+[SYMBOL TABLE]: 
+a -> false
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(a = true|(if(a){v = 2}else{v = 3}|Print(v)))
+[SYMBOL TABLE]: 
+a -> false
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+a = true
+(if(a){v = 2}else{v = 3}|Print(v))
+[SYMBOL TABLE]: 
+a -> false
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(if(a){v = 2}else{v = 3}|Print(v))
+[SYMBOL TABLE]: 
+a -> true
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+if(a){v = 2}else{v = 3}
+Print(v)
+[SYMBOL TABLE]: 
+a -> true
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+v = 2
+Print(v)
+[SYMBOL TABLE]: 
+a -> true
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(v)
+[SYMBOL TABLE]: 
+a -> true
+v -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> true
+v -> 2
+[OUTPUT LIST]: 
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
