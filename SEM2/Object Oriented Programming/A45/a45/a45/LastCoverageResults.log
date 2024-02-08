@@ -1,0 +1,21 @@
+[2023-05-03 08:22:40] [info] Start Program:
+Path:"C:\Users\Sergiu\Desktop\OOP\A45\a45\x64\Debug\a45.exe"
+Arguments:
+Working directory: "C:\Users\Sergiu\Desktop\OOP\A45\a45\a45\"
+Modules: Selected: C:\Users\Sergiu\Desktop\OOP\A45\a45\x64\Debug\a45.exe Excluded: 
+Sources: Selected: C:\Users\Sergiu\Desktop\OOP\A45\a45\a45 Excluded: UI.cpp Tests.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Sergiu\AppData\Local\Temp\uabcsgi1.xjf 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-05-03 08:22:40] [info] Module: C:\Users\Sergiu\Desktop\OOP\A45\a45\x64\Debug\a45.exe is selected because it matches selected pattern: C:\Users\Sergiu\Desktop\OOP\A45\a45\x64\Debug\a45.exe
+[2023-05-03 08:22:42] [info] ----------------------------------------------------
+[2023-05-03 08:22:42] [info] Coverage binary generated in file: C:\Users\Sergiu\AppData\Local\Temp\uabcsgi1.xjf
+[2023-05-03 08:22:42] [info] ----------------------------------------------------
