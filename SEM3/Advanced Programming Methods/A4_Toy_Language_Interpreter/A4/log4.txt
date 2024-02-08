@@ -1,0 +1,974 @@
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='a', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+VarDeclStmt{variable name='a', variable type=integer}
+CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+VarDeclStmt{variable name='b', variable type=integer}
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+VarDeclStmt{variable name='bool1', variable type=boolean}
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+VarDeclStmt{variable name='bool2', variable type=boolean}
+CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}
+
+Symbol Table: 
+a -> 0
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}
+CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}
+
+Symbol Table: 
+a -> 0
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}
+CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}
+CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}
+CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='a'}}
+PrintStmt{exp=VariableExpression{variableExp='b'}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='b'}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+100
+
+File Table: 
+
+ExeStack: 
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+100
+23
+
+File Table: 
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='a', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+VarDeclStmt{variable name='a', variable type=integer}
+CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+VarDeclStmt{variable name='b', variable type=integer}
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+VarDeclStmt{variable name='bool1', variable type=boolean}
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+VarDeclStmt{variable name='bool2', variable type=boolean}
+CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}
+
+Symbol Table: 
+a -> 0
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}
+CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}
+
+Symbol Table: 
+a -> 0
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}
+CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}
+CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}
+CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='a'}}
+PrintStmt{exp=VariableExpression{variableExp='b'}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='b'}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+100
+
+File Table: 
+
+END
+
+ExeStack: 
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+100
+23
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='a', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='a', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}
+VarDeclStmt{variable name='a', variable type=integer}
+CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='b', variable type=integer}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}
+VarDeclStmt{variable name='b', variable type=integer}
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool1', variable type=boolean}, stmt2=CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}
+VarDeclStmt{variable name='bool1', variable type=boolean}
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='bool2', variable type=boolean}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}
+VarDeclStmt{variable name='bool2', variable type=boolean}
+CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}
+
+Symbol Table: 
+a -> 0
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}}
+
+Symbol Table: 
+a -> 0
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}
+AssignStmt{var name='a', expToAssign=ValueExpression{value=100}}
+CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}
+
+Symbol Table: 
+a -> 0
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}
+AssignStmt{var name='b', expToAssign=ValueExpression{value=100}}
+CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 0
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}
+AssignStmt{var name='bool1', expToAssign=ValueExpression{value=true}}
+CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> false
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}, stmt2=CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}
+AssignStmt{var name='bool2', expToAssign=ValueExpression{value=false}}
+CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}, stmt2=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+IfStmt{expToEval=LogicalExpression{e1=VariableExpression{variableExp='bool1'} &&  e2=VariableExpression{variableExp='bool2'}}, thenStmt=AssignStmt{var name='a', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='a'} + , exp2=ValueExpression{value=77}}}, elseStmt=AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}}
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+AssignStmt{var name='b', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='b'} - , exp2=ValueExpression{value=77}}}
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 100
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='a'}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='b'}}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='b'}}
+PrintStmt{exp=VariableExpression{variableExp='a'}}
+PrintStmt{exp=VariableExpression{variableExp='b'}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='b'}}
+
+Symbol Table: 
+a -> 100
+bool2 -> false
+b -> 23
+bool1 -> true
+
+Output List: 
+100
+
+File Table: 
+
+END
+
