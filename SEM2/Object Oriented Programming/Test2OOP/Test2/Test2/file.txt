@@ -1,0 +1,5 @@
+type: class Surgery, S, 100, 100, efficient: false
+type: class Neonatal, h, 100, 9, efficient: true
+type: class Neonatal, h1 Neonatal, 200, 9, efficient: true
+type: class Surgery, h2 Surgery, 100, 200, efficient: true
+type: class Neonatal, h3 Neonatal, 15, 7.25, efficient: false
