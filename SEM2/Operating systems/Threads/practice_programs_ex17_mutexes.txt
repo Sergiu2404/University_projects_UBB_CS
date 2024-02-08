@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <time.h>
+
+int i = 0;
+int n;
+pthread_mutex_t mtx;
+
+void *f(void *a)
+{
+    while(i < n)
+    {
+        pthread_mutex_lock(&mtx);
+        int nr = rand() % 2000;
+
+        nr /= 2;
+
+        int *data = (int*)a;
+
+        data[i] = nr;
+
+        i++; 
+        pthread_mutex_unlock(&mtx);
+    }
+
+    return NULL;    
+}
+
+void *g(void *a)
+{
+    while(i < n)
+    {
+        pthread_mutex_lock(&mtx);
+        int nr = rand() % 1000;
+        
+        if (nr % 2 == 0)
+            nr++;
+
+        int *data = (int*)a;
+
+        data[i] = nr;
+
+        i++; 
+        pthread_mutex_unlock(&mtx);
+    }
+    
+    return NULL;
+}
+
+int main(int argc, char **argv)
+{
+    srand(time(NULL));
+    int v[50];
+    
+    scanf("%d", &n);
+
+    pthread_t t[2];
+
+    pthread_mutex_init(&mtx, NULL);
+
+    pthread_create(&t[0], NULL, f, v);
+    pthread_create(&t[1], NULL, g, v);
+
+    pthread_join(t[0], NULL);
+    pthread_join(t[1], NULL);
+
+    pthread_mutex_destroy(&mtx);
+
+    for (int j = 0; j < n; j++)
+    {
+        printf("%d ", v[j]);
+    }
+
+    return 0;
+}
