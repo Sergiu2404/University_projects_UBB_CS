@@ -1,0 +1,1655 @@
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int v|(v = 2|Print(v)))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 2
+Print(v)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 2
+Print(v)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int v|(v = 2|Print(v)))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 2
+Print(v)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 2
+Print(v)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int v|(v = 2|Print(v)))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 2
+Print(v)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 2
+Print(v)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int v|(int w|(v = 2|(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]})))))))))
+[SYMBOL TABLE]: 
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(int w|(v = 2|(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))))))
+[SYMBOL TABLE]: 
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(int w|(v = 2|(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))))))
+[SYMBOL TABLE]: 
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int w|(v = 2|(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))))))
+[SYMBOL TABLE]: 
+v -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int w|(v = 2|(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))))))
+[SYMBOL TABLE]: 
+v -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int w
+(v = 2|(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]})))))))
+[SYMBOL TABLE]: 
+v -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int w
+(v = 2|(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]})))))))
+[SYMBOL TABLE]: 
+v -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 2|(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]})))))))
+[SYMBOL TABLE]: 
+v -> 0
+w -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 2|(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]})))))))
+[SYMBOL TABLE]: 
+v -> 0
+w -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 2
+(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))))
+[SYMBOL TABLE]: 
+v -> 0
+w -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 2
+(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))))
+[SYMBOL TABLE]: 
+v -> 0
+w -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(w = 5|(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+w = 5
+(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]})))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+w = 5
+(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]})))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 0
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]})))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(sum(){[v * 10, w]}|(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]})))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sum(){[v * 10, w]}
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sum(){[v * 10, w]}
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int v|(v = a + b|Print(v)))
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int v|(v = a + b|Print(v)))
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = a + b|Print(v))
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = a + b|Print(v))
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = a + b|Print(v))
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = a + b|Print(v))
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = a + b
+Print(v)
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = a + b
+Print(v)
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+v -> 25
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+v -> 25
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+v -> 25
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+return;
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+a -> 20
+b -> 5
+v -> 25
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(v)|fork ((product(){[v, w]}|fork (sum(){[v, w]}))))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+fork ((product(){[v, w]}|fork (sum(){[v, w]})))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v)
+fork ((product(){[v, w]}|fork (sum(){[v, w]})))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+fork ((product(){[v, w]}|fork (sum(){[v, w]})))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+fork ((product(){[v, w]}|fork (sum(){[v, w]})))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(product(){[v, w]}|fork (sum(){[v, w]}))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(product(){[v, w]}|fork (sum(){[v, w]}))
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+product(){[v, w]}
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+product(){[v, w]}
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(int v|(v = a * b|Print(v)))
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(int v|(v = a * b|Print(v)))
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+int v
+(v = a * b|Print(v))
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+int v
+(v = a * b|Print(v))
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(v = a * b|Print(v))
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(v = a * b|Print(v))
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+v = a * b
+Print(v)
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+v = a * b
+Print(v)
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(v)
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 10
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(v)
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 10
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 10
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+return;
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 10
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+fork (sum(){[v, w]})
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+sum(){[v, w]}
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+sum(){[v, w]}
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+(int v|(v = a + b|Print(v)))
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+(int v|(v = a + b|Print(v)))
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+int v
+(v = a + b|Print(v))
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+int v
+(v = a + b|Print(v))
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+(v = a + b|Print(v))
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+(v = a + b|Print(v))
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+v = a + b
+Print(v)
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+v = a + b
+Print(v)
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 0
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+Print(v)
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 7
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+Print(v)
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 7
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 7
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+return;
+[SYMBOL TABLE]: 
+a -> 2
+b -> 5
+v -> 7
+
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 2
+w -> 5
+
+[OUTPUT LIST]: 
+25
+2
+10
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCEDURES TABLE]:
+product -> [a, b]=(int v|(v = a * b|Print(v))), Inner statement: (int v|(v = a * b|Print(v)))
+sum -> [a, b]=(int v|(v = a + b|Print(v))), Inner statement: (int v|(v = a + b|Print(v)))
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.a7_gui.ProgramExecutionTables">
+    <children>
+        <VBox alignment="TOP_CENTER" style="-fx-background-color: #b2c8d8;">
+            <children>
+                <TextField fx:id="numberOfProgramStatesField" editable="false" prefHeight="22.0" prefWidth="300.0" promptText="Number of running processes">
+                </TextField>
+                <Button fx:id="runOneStepButton" alignment="TOP_CENTER" mnemonicParsing="false" onMouseClicked="#oneStep" prefHeight="31.0" prefWidth="102.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000;" text="One step">
+                </Button>
+                <HBox alignment="TOP_CENTER">
+                    <children>
+                        <VBox>
+                            <children>
+                                <Label text="Running Processes IDs">
+                                </Label>
+                                <ListView fx:id="programIdsListView" onMouseClicked="#switchProgramState" prefHeight="200.0" prefWidth="200.0" />
+                            </children>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="New table">
+                                </Label>
+                                <TableView fx:id="newTableView" prefHeight="200.0" prefWidth="200.0">
+                                    <columns>
+                                        <TableColumn fx:id="c1" editable="false" prefWidth="99.20001524686813" text="Column 1" />
+                                        <TableColumn fx:id="c2" editable="false" prefWidth="100.0" text="Column 2" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="Execution Stack View">
+                                </Label>
+                                <ListView fx:id="executionStackListView" prefHeight="200.0" prefWidth="200.0" />
+                            </children>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="Output View">
+                                </Label>
+                                <ListView fx:id="outputListView" prefHeight="200.0" prefWidth="200.0" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="TOP_CENTER">
+                    <children>
+                        <VBox>
+                            <children>
+                                <Label text="Heap Memory View">
+                                </Label>
+                                <TableView fx:id="heapTableView" prefHeight="200.0" prefWidth="200.0">
+                                    <columns>
+                                        <TableColumn fx:id="heapAddress" editable="false" prefWidth="101.20001375675201" text="Address" />
+                                        <TableColumn fx:id="heapValue" editable="false" prefWidth="97.99999237060547" text="Value" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="Variables Table">
+                                </Label>
+                                <TableView fx:id="symbolTableView" prefHeight="200.0" prefWidth="200.0">
+                                    <columns>
+                                        <TableColumn fx:id="variableName" editable="false" prefWidth="99.20001524686813" text="Name" />
+                                        <TableColumn fx:id="variableValue" editable="false" prefWidth="100.0" text="Value" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="File Table">
+                                </Label>
+                                <ListView fx:id="fileTableListView" prefHeight="200.0" prefWidth="200.0">
+                                </ListView>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</StackPane>
