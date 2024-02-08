@@ -1,0 +1,20 @@
+#!/bin/bash
+names=`cat names.txt`
+
+name_count=`wc names.txt | awk '{print $1}'`
+counter=1
+
+for I in $names ; do
+        email=""
+        email+=$I
+        email+="@scs.ubbcluj.ro"
+
+        echo -n $email
+
+        if [ $counter != $name_count ] ; then
+                echo -n ","
+        fi
+
+        ((counter++))
+done
+echo ""
