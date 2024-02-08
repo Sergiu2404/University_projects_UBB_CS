@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CarManager2Class</class>
+ <widget class="QMainWindow" name="CarManager2Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>595</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CarManager2</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QListWidget" name="carsList">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>170</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="manufacturerButton">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>280</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>manufacturer</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="yearSlider">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>250</y>
+      <width>160</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1900</number>
+    </property>
+    <property name="maximum">
+     <number>2023</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="yearButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>280</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>year</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="manufacturerLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>240</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="grey">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>grey</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="blue">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>blue</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="red">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>red</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="colorLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>140</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="yearLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>110</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="modelLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>80</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="brandLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>50</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>595</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="CarManager2.qrc"/>
+ </resources>
+ <connections/>
+</ui>
