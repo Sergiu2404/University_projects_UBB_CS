@@ -1,0 +1,9 @@
+﻿  Hospital.cpp
+  Neonatal.cpp
+  Service.cpp
+  Source.cpp
+  Surgery.cpp
+  UI.cpp
+C:\Users\Sergiu\Desktop\SEM2\Test2OOP\Test2\Test2\UI.cpp(72,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Test2.vcxproj -> C:\Users\Sergiu\Desktop\SEM2\Test2OOP\Test2\x64\Debug\Test2.exe
