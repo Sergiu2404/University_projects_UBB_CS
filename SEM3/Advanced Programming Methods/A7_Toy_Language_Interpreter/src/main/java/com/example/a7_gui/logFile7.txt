@@ -1,0 +1,964 @@
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Ref(int) v|(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(int) v
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(int) v
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(v, 20)
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(v, 20)
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(Ref(int)) a
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(Ref(int)) a
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(a, v)
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(a, v)
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(ReadHeap(v))
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(ReadHeap(v))
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Ref(int) v|(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(int) v
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(int) v
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(v, 20)
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(v, 20)
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(Ref(int)) a
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(Ref(int)) a
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(a, v)
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(a, v)
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(ReadHeap(v))
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(ReadHeap(v))
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(Ref(int) v|(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Ref(int) v
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Ref(int) v
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+New(v, 20)
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+New(v, 20)
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Ref(Ref(int)) a
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Ref(Ref(int)) a
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+New(a, v)
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+New(a, v)
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Print(ReadHeap(v))
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Print(ReadHeap(v))
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Ref(int) v|(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Ref(int) v
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Ref(int) v
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+New(v, 20)
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+New(v, 20)
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (0, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Ref(Ref(int)) a
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Ref(Ref(int)) a
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+New(a, v)
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+New(a, v)
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (0, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(ReadHeap(v))
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(ReadHeap(v))
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(ReadHeap(ReadHeap(a)) + 5)
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> (2, Ref(int))
+v -> (1, int)
+[OUTPUT LIST]: 
+20
+25
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 20
+2 -> (1, int)
+
