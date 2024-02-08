@@ -1,0 +1,10 @@
+﻿  App.cpp
+C:\Users\Sergiu\Desktop\SEM2\Data Structures\lab2\lab2_linkedList\lab2_SDA_linkedList\lab2_SDA_linkedList\App.cpp(35,19): warning C4101: 'e': unreferenced local variable
+  ExtendedTest.cpp
+C:\Users\Sergiu\Desktop\SEM2\Data Structures\lab2\lab2_linkedList\lab2_SDA_linkedList\lab2_SDA_linkedList\ExtendedTest.cpp(243,20): warning C4101: 'ex': unreferenced local variable
+  LinkedList.cpp
+  MultiMap.cpp
+  MultiMapIterator.cpp
+  ShortTest.cpp
+  Generating Code...
+  lab2_SDA_linkedList.vcxproj -> C:\Users\Sergiu\Desktop\SEM2\Data Structures\lab2\lab2_linkedList\lab2_SDA_linkedList\x64\Debug\lab2_SDA_linkedList.exe
