@@ -1,0 +1,9 @@
+#!/bin/bash
+for I in $@ ; do
+        processName=`ps | tail -n +2 | awk '{print $4}'`
+        for J in $processName ; do
+                if `test $I == $J` ; then
+                        pkill $J
+                fi
+        done
+done
