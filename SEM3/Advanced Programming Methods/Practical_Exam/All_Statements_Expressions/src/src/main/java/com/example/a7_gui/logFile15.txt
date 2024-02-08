@@ -1,0 +1,1656 @@
+[PROCESS ID]: 10
+[EXE STACK]: 
+(int v|(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+int v
+(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+int v
+(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10))))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10))))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+v = 0
+(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+v = 0
+(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 11
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 11
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 11
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 11
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 11
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 11
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 11
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 12
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 12
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 12
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 12
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 12
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 12
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 12
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 13
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 13
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 13
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 13
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 13
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 13
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 13
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+sleep(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 10
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+30
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int v|(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10))))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 0|(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10))))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 0
+(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 0
+(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}|(sleep(5)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Fork((Print(v)|v = v + 1))|v = v + 1)
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 1
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Fork((Print(v)|v = v + 1))
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = v + 1
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Print(v)|v = v + 1)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+while(v < 3){(Fork((Print(v)|v = v + 1))|v = v + 1)}
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(v)
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(sleep(5)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+v = v + 1
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+sleep(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 3
+[OUTPUT LIST]: 
+0
+1
+2
+30
+[FILE TABLE]:
+[HEAP STORAGE]:
+

@@ -1,0 +1,2567 @@
+[PROCESS ID]: 15
+[EXE STACK]: 
+(int v|(v = 20|(wait(10)|Print(v * 10))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+int v
+(v = 20|(wait(10)|Print(v * 10)))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+int v
+(v = 20|(wait(10)|Print(v * 10)))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(v = 20|(wait(10)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(v = 20|(wait(10)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+v = 20
+(wait(10)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+v = 20
+(wait(10)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(wait(10)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(wait(10)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(10)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(10)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(10)|wait(9))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(10)|wait(9))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(10)
+wait(9)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(10)
+wait(9)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(9)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(9)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(9)|wait(8))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(9)|wait(8))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(9)
+wait(8)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(9)
+wait(8)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(8)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(8)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(8)|wait(7))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(8)|wait(7))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(8)
+wait(7)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(8)
+wait(7)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(7)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(7)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(7)|wait(6))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(7)|wait(6))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(7)
+wait(6)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(7)
+wait(6)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(6)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(6)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(6)|wait(5))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(6)|wait(5))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(6)
+wait(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(6)
+wait(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(5)|wait(4))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(5)|wait(4))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(5)
+wait(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(5)
+wait(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(4)|wait(3))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(4)|wait(3))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(4)
+wait(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(4)
+wait(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(3)|wait(2))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(3)|wait(2))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(3)
+wait(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(3)
+wait(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(2)|wait(1))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(2)|wait(1))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(2)
+wait(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(2)
+wait(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(1)|wait(0))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+(Print(1)|wait(0))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(1)
+wait(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(1)
+wait(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+wait(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 15
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+200
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int v|(v = 20|(wait(10)|Print(v * 10))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 20|(wait(10)|Print(v * 10)))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(v = 20|(wait(10)|Print(v * 10)))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 20|(wait(10)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 20|(wait(10)|Print(v * 10)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 20
+(wait(10)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 20
+(wait(10)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(wait(10)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(wait(10)|Print(v * 10))
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(10)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(10)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(10)|wait(9))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(10)|wait(9))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(10)
+wait(9)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(10)
+wait(9)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(9)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(9)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(9)|wait(8))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(9)|wait(8))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(9)
+wait(8)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(9)
+wait(8)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(8)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(8)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(8)|wait(7))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(8)|wait(7))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(8)
+wait(7)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(8)
+wait(7)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(7)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(7)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(7)|wait(6))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(7)|wait(6))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(7)
+wait(6)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(7)
+wait(6)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(6)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(6)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(6)|wait(5))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(6)|wait(5))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(6)
+wait(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(6)
+wait(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(5)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(5)|wait(4))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(5)|wait(4))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(5)
+wait(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(5)
+wait(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(4)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(4)|wait(3))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(4)|wait(3))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(4)
+wait(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(4)
+wait(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(3)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(3)|wait(2))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(3)|wait(2))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(3)
+wait(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(3)
+wait(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(2)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(2)|wait(1))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(2)|wait(1))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(2)
+wait(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(2)
+wait(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(1)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(1)|wait(0))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(1)|wait(0))
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(1)
+wait(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(1)
+wait(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+wait(0)
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(v * 10)
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 20
+[OUTPUT LIST]: 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+200
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int a|(int b|(int c|(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int a
+(int b|(int c|(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int a
+(int b|(int c|(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int b|(int c|(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))))))
+[SYMBOL TABLE]: 
+a -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int b|(int c|(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))))))
+[SYMBOL TABLE]: 
+a -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int b
+(int c|(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))))))
+[SYMBOL TABLE]: 
+a -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int b
+(int c|(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))))))
+[SYMBOL TABLE]: 
+a -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int c|(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))))))
+[SYMBOL TABLE]: 
+a -> 0
+b -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int c|(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))))))
+[SYMBOL TABLE]: 
+a -> 0
+b -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int c
+(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))))
+[SYMBOL TABLE]: 
+a -> 0
+b -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int c
+(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))))
+[SYMBOL TABLE]: 
+a -> 0
+b -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))))
+[SYMBOL TABLE]: 
+a -> 0
+b -> 0
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(a = 1|(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))))
+[SYMBOL TABLE]: 
+a -> 0
+b -> 0
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+a = 1
+(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))))
+[SYMBOL TABLE]: 
+a -> 0
+b -> 0
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+a = 1
+(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))))
+[SYMBOL TABLE]: 
+a -> 0
+b -> 0
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 0
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(b = 2|(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 0
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+b = 2
+(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 0
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+b = 2
+(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 0
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(c = 5|(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300)))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = 5
+(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = 5
+(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }|Print(300))
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+switch(a * 10){ (case b * c: (Print(a)|Print(b)))(case 10: (Print(100)|Print(200)))(default: Print(300)) }
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+if(a * 10 == b * c){(Print(a)|Print(b))}else{if(a * 10 == 10){(Print(100)|Print(200))}else{Print(300)}}
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+if(a * 10 == b * c){(Print(a)|Print(b))}else{if(a * 10 == 10){(Print(100)|Print(200))}else{Print(300)}}
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(a)|Print(b))
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(a)|Print(b))
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(a)
+Print(b)
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(a)
+Print(b)
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(b)
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(b)
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(300)
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+1
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> 1
+b -> 2
+c -> 5
+[OUTPUT LIST]: 
+1
+2
+300
+[FILE TABLE]:
+[HEAP STORAGE]:
+
