@@ -1,0 +1,655 @@
+ExeStack: 
+CompoundStmt{stmt1=VarDeclStmt{variable name='v', variable type=integer}, stmt2=CompoundStmt{stmt1=AssignStmt{var name='v', expToAssign=ValueExpression{value=4}}, stmt2=CompoundStmt{stmt1=WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='v'}}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='v', expToAssign=ValueExpression{value=4}}, stmt2=CompoundStmt{stmt1=WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='v'}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=AssignStmt{var name='v', expToAssign=ValueExpression{value=4}}, stmt2=CompoundStmt{stmt1=WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='v'}}}}
+
+Symbol Table: 
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+
+Symbol Table: 
+v -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+
+Symbol Table: 
+v -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='v'}}}
+
+Symbol Table: 
+v -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+CompoundStmt{stmt1=WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}, stmt2=PrintStmt{exp=VariableExpression{variableExp='v'}}}
+
+Symbol Table: 
+v -> 0
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+4
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 4
+
+Output List: 
+4
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 3
+
+Output List: 
+4
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 3
+
+Output List: 
+4
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 3
+
+Output List: 
+4
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 3
+
+Output List: 
+4
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 3
+
+Output List: 
+4
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 3
+
+Output List: 
+4
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 3
+
+Output List: 
+4
+3
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 3
+
+Output List: 
+4
+3
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 2
+
+Output List: 
+4
+3
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 2
+
+Output List: 
+4
+3
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 2
+
+Output List: 
+4
+3
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 2
+
+Output List: 
+4
+3
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 2
+
+Output List: 
+4
+3
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 2
+
+Output List: 
+4
+3
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 2
+
+Output List: 
+4
+3
+2
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 2
+
+Output List: 
+4
+3
+2
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 1
+
+Output List: 
+4
+3
+2
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 1
+
+Output List: 
+4
+3
+2
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 1
+
+Output List: 
+4
+3
+2
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 1
+
+Output List: 
+4
+3
+2
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 1
+
+Output List: 
+4
+3
+2
+
+File Table: 
+
+END
+
+ExeStack: 
+AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 1
+
+Output List: 
+4
+3
+2
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 1
+
+Output List: 
+4
+3
+2
+1
+
+File Table: 
+
+END
+
+ExeStack: 
+WhileStmt{condToEVal=RelationalExpression{exp1=VariableExpression{variableExp='v'} > exp2=ValueExpression{value=0}'}, statement=CompoundStmt{stmt1=PrintStmt{exp=VariableExpression{variableExp='v'}}, stmt2=AssignStmt{var name='v', expToAssign=ArithmeticExpression{exp1=VariableExpression{variableExp='v'} - , exp2=ValueExpression{value=1}}}}}
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 1
+
+Output List: 
+4
+3
+2
+1
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 0
+
+Output List: 
+4
+3
+2
+1
+
+File Table: 
+
+END
+
+ExeStack: 
+PrintStmt{exp=VariableExpression{variableExp='v'}}
+
+Symbol Table: 
+v -> 0
+
+Output List: 
+4
+3
+2
+1
+
+File Table: 
+
+END
+
+ExeStack: 
+
+Symbol Table: 
+v -> 0
+
+Output List: 
+4
+3
+2
+1
+
+File Table: 
+
+END
+
+ExeStack: 
+
+Symbol Table: 
+v -> 0
+
+Output List: 
+4
+3
+2
+1
+
+File Table: 
+
+END
+
