@@ -1,0 +1,1 @@
+<bound method Graph.numberVertices of <Graph.Graph object at 0x000002A7649A63B0>> <bound method Graph.numberEdges of <Graph.Graph object at 0x000002A7649A63B0>>
