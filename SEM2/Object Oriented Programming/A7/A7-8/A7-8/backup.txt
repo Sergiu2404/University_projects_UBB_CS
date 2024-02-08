@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Current WatchList</title>
+</head>
+<table style="color:black;border:3px solid;">
+    <tr>
+        <td>Mission Impossible 7</td>
+        <td>action</td>
+        <td>2023</td>
+        <td>140000</td>
+        <td><a href="https://www.youtube.com/watch?v=2m1drlOZSDw">https://www.youtube.com/watch?v=2m1drlOZSDw</a></td>
+    </tr>
+    <tr>
+        <td>Top Gun 2</td>
+        <td>action</td>
+        <td>2022</td>
+        <td>3400000</td>
+        <td><a href="https://www.youtube.com/watch?v=giXco2jaZ_4">https://www.youtube.com/watch?v=giXco2jaZ_4</a></td>
+    </tr>
+    <tr>
+        <td>Hacksaw Ridge</td>
+        <td>thriller</td>
+        <td>2016</td>
+        <td>165000</td>
+        <td><a href="https://www.youtube.com/watch?v=RdjO0p4GJPA">https://www.youtube.com/watch?v=RdjO0p4GJPA</a></td>
+    </tr>
+    <tr>
+        <td>Fast 10</td>
+        <td>action</td>
+        <td>2023</td>
+        <td>1200000</td>
+        <td><a href="https://www.youtube.com/watch?v=MeF5QeZ_LLI">https://www.youtube.com/watch?v=MeF5QeZ_LLI</a></td>
+    </tr>
+    <tr>
+        <td>John Wick 4</td>
+        <td>action</td>
+        <td>2023</td>
+        <td>100000</td>
+        <td><a href="https://www.youtube.com/watch?v=yjRHZEUamCc">https://www.youtube.com/watch?v=yjRHZEUamCc</a></td>
+    </tr>
+    <tr>
+        <td>Top Gun 2</td>
+        <td>action</td>
+        <td>2022</td>
+        <td>3400000</td>
+        <td><a href="https://www.youtube.com/watch?v=giXco2jaZ_4">https://www.youtube.com/watch?v=giXco2jaZ_4</a></td>
+    </tr>
+    <tr>
+        <td>The dictator</td>
+        <td>comedy</td>
+        <td>2012</td>
+        <td>90000</td>
+        <td><a href="https://www.youtube.com/watch?v=cYplvwBvGA4">https://www.youtube.com/watch?v=cYplvwBvGA4</a></td>
+    </tr>
+</table>
+</body>
+</html>
+
+
+
+Title: Mission Impossible 7; Genre: action; Year of release: 2023; Number of likes: 140000; Trailer link: https://www.youtube.com/watch?v=2m1drlOZSDw
+
+Title: Top Gun 2; Genre: action; Year of release: 2022; Number of likes: 34000000; Trailer link: https://www.youtube.com/watch?v=giXco2jaZ_4
+
+Title: Hacksaw Ridge; Genre: thriller; Year of release: 2016; Number of likes: 165000; Trailer link: https://www.youtube.com/watch?v=RdjO0p4GJPA
+
+Title: John Wick 4; Genre: action; Year of release: 2023; Number of likes: 100000; Trailer link: https://www.youtube.com/watch?v=MeF5QeZ_LLI
+
+Title: Top Gun 2; Genre: action; Year of release: 2022; Number of likes: 34000000; Trailer link: https://www.youtube.com/watch?v=giXco2jaZ_4
+
+Title: Dunkirk; Genre: action; Year of release: 2017; Number of likes: 100000; Trailer link: https://www.youtube.com/watch?v=F-eMt3SrfFU
+
+Title: The dictator; Genre: comedy; Year of release: 2012; Number of likes: 90000; Trailer link: https://www.youtube.com/watch?v=cYplvwBvGA4
+
