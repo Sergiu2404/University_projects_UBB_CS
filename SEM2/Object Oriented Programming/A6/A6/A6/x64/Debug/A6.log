@@ -1,0 +1,5 @@
+﻿  AdministratorRepository.cpp
+  UI.cpp
+C:\Users\Sergiu\Desktop\OOP\A6\A6\A6\UI.cpp(271,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  A6.vcxproj -> C:\Users\Sergiu\Desktop\OOP\A6\A6\x64\Debug\A6.exe
