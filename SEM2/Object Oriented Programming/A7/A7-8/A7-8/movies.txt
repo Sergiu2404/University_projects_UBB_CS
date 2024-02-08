@@ -1,0 +1,7 @@
+Mission Impossible 7,action,2023,140000,https://www.youtube.com/watch?v=2m1drlOZSDw
+Top Gun 2,action,2022,3400000,https://www.youtube.com/watch?v=giXco2jaZ_4
+Hacksaw Ridge,thriller,2016,165000,https://www.youtube.com/watch?v=RdjO0p4GJPA
+Fast 10,action,2023,1200000,https://www.youtube.com/watch?v=MeF5QeZ_LLI
+John Wick 4,action,2023,100000,https://www.youtube.com/watch?v=yjRHZEUamCc
+Dunkirk,action,2017,100000,https://www.youtube.com/watch?v=F-eMt3SrfFU
+The dictator,comedy,2012,90000,https://www.youtube.com/watch?v=cYplvwBvGA4
