@@ -1,0 +1,21 @@
+[2023-05-03 08:40:26] [info] Start Program:
+Path:"C:\Users\Sergiu\Desktop\OOP\A6\A6\x64\Debug\A6.exe"
+Arguments:
+Working directory: "C:\Users\Sergiu\Desktop\OOP\A6\A6\A6\"
+Modules: Selected: C:\Users\Sergiu\Desktop\OOP\A6\A6\x64\Debug\A6.exe Excluded: 
+Sources: Selected: C:\Users\Sergiu\Desktop\OOP\A6\A6\A6 Excluded: UI.cpp Test.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Sergiu\AppData\Local\Temp\tqirkawe.1cz 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-05-03 08:40:26] [info] Module: C:\Users\Sergiu\Desktop\OOP\A6\A6\x64\Debug\A6.exe is selected because it matches selected pattern: C:\Users\Sergiu\Desktop\OOP\A6\A6\x64\Debug\A6.exe
+[2023-05-03 08:40:28] [info] ----------------------------------------------------
+[2023-05-03 08:40:28] [info] Coverage binary generated in file: C:\Users\Sergiu\AppData\Local\Temp\tqirkawe.1cz
+[2023-05-03 08:40:28] [info] ----------------------------------------------------
