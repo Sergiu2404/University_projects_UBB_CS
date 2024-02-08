@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.a7_gui.ExecutorController">
+    <children>
+        <VBox alignment="TOP_CENTER" style="-fx-background-color: #b2c8d8;">
+            <children>
+                <TextField fx:id="numberOfProgramStatesField" editable="false" prefHeight="22.0" prefWidth="300.0" promptText="Number of program states">
+                    <font>
+                        <Font name="Arial Black" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="5.0" left="75.0" right="75.0" top="5.0" />
+                    </VBox.margin>
+                </TextField>
+                <HBox alignment="TOP_CENTER">
+                    <children>
+                        <VBox alignment="TOP_CENTER">
+                            <children>
+                                <Label text="ProgramState IDs">
+                                    <font>
+                                        <Font name="Arial Black" size="12.0" />
+                                    </font>
+                                </Label>
+                                <ListView fx:id="programIdsListView" onMouseClicked="#switchProgramState" prefHeight="200.0" prefWidth="200.0" />
+                            </children>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER">
+                            <children>
+                                <Label text="Execution Stack">
+                                    <font>
+                                        <Font name="Arial Black" size="12.0" />
+                                    </font>
+                                </Label>
+                                <ListView fx:id="executionStackListView" prefHeight="200.0" prefWidth="200.0" />
+                            </children>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER">
+                            <HBox.margin>
+                                <Insets left="5.0" right="5.0" />
+                            </HBox.margin>
+                            <children>
+                                <Label text="Output">
+                                    <font>
+                                        <Font name="Arial Black" size="12.0" />
+                                    </font>
+                                </Label>
+                                <ListView fx:id="outputListView" prefHeight="200.0" prefWidth="200.0" />
+                            </children>
+                        </VBox>
+                    </children>
+                    <VBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                    </VBox.margin>
+                </HBox>
+                <HBox alignment="TOP_CENTER">
+                    <children>
+                        <VBox alignment="TOP_CENTER">
+                            <children>
+                                <Label text="Heap">
+                                    <font>
+                                        <Font name="Arial Black" size="12.0" />
+                                    </font>
+                                </Label>
+                                <TableView fx:id="heapTableView" prefHeight="200.0" prefWidth="200.0">
+                                    <columns>
+                                        <TableColumn fx:id="heapAddress" editable="false" prefWidth="101.20001375675201" text="Address" />
+                                        <TableColumn fx:id="heapValue" editable="false" prefWidth="97.99999237060547" text="Value" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER">
+                            <children>
+                                <Label text="Symbol Table">
+                                    <font>
+                                        <Font name="Arial Black" size="12.0" />
+                                    </font>
+                                </Label>
+                                <TableView fx:id="symbolTableView" prefHeight="200.0" prefWidth="200.0">
+                                    <columns>
+                                        <TableColumn fx:id="variableName" editable="false" prefWidth="99.20001524686813" text="Variable Name" />
+                                        <TableColumn fx:id="variableValue" editable="false" prefWidth="100.0" text="Value" />
+                                    </columns>
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin>
+                                </TableView>
+                            </children>
+                            <HBox.margin>
+                                <Insets left="5.0" right="5.0" />
+                            </HBox.margin>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER">
+                            <children>
+                                <Label text="Files">
+                                    <font>
+                                        <Font name="Arial Black" size="12.0" />
+                                    </font>
+                                </Label>
+                                <ListView fx:id="fileTableListView" prefHeight="200.0" prefWidth="200.0">
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin>
+                                </ListView>
+                            </children>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER">
+                            <children>
+                                <Label text="Countdown Latches Table">
+                                    <font>
+                                        <Font name="Arial Black" size="12.0" />
+                                    </font>
+                                </Label>
+                                <TableView fx:id="countDownLatchTableView" prefHeight="200.0" prefWidth="200.0">
+                                    <columns>
+                                        <TableColumn fx:id="latchAddress" editable="false" prefWidth="99.20001524686813" text="Latch address" />
+                                        <TableColumn fx:id="latchValue" editable="false" prefWidth="100.0" text="Latch values" />
+                                    </columns>
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin>
+                                </TableView>
+                            </children>
+                            <HBox.margin>
+                                <Insets left="5.0" right="5.0" />
+                            </HBox.margin>
+                        </VBox>
+                    </children>
+                    <VBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                    </VBox.margin>
+                </HBox>
+                <Button fx:id="runOneStepButton" alignment="TOP_CENTER" mnemonicParsing="false" onMouseClicked="#oneStep" prefHeight="31.0" prefWidth="102.0" style="-fx-background-color: #ffffff; -fx-border-radius: 12; -fx-background-radius: 12; -fx-border-color: #000000;" text="Run one step">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+    </children>
+</StackPane>
