@@ -1,0 +1,5 @@
+Sweets|Chocolate|3
+Drinks|water|6
+Drinks|change_juice|2
+Drinks|mud|4
+Dairy|Milk|1
