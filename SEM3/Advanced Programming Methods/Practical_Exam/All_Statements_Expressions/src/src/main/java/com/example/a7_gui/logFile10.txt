@@ -1,0 +1,361 @@
+[PROCESS ID]: 1
+[EXE STACK]: 
+(bool b|(int c|(b = true|(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c)))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+bool b
+(int c|(b = true|(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+bool b
+(int c|(b = true|(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int c|(b = true|(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c))))))
+[SYMBOL TABLE]: 
+b -> false
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int c|(b = true|(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c))))))
+[SYMBOL TABLE]: 
+b -> false
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int c
+(b = true|(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c)))))
+[SYMBOL TABLE]: 
+b -> false
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int c
+(b = true|(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c)))))
+[SYMBOL TABLE]: 
+b -> false
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(b = true|(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c)))))
+[SYMBOL TABLE]: 
+b -> false
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(b = true|(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c)))))
+[SYMBOL TABLE]: 
+b -> false
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+b = true
+(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c))))
+[SYMBOL TABLE]: 
+b -> false
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+b = true
+(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c))))
+[SYMBOL TABLE]: 
+b -> false
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c))))
+[SYMBOL TABLE]: 
+b -> true
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(c = (b) ? 100 : 200|(Print(c)|(c = (false) ? 100 : 200|Print(c))))
+[SYMBOL TABLE]: 
+b -> true
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = (b) ? 100 : 200
+(Print(c)|(c = (false) ? 100 : 200|Print(c)))
+[SYMBOL TABLE]: 
+b -> true
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = (b) ? 100 : 200
+(Print(c)|(c = (false) ? 100 : 200|Print(c)))
+[SYMBOL TABLE]: 
+b -> true
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+if(b){c = 100}else{c = 200}
+(Print(c)|(c = (false) ? 100 : 200|Print(c)))
+[SYMBOL TABLE]: 
+b -> true
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+if(b){c = 100}else{c = 200}
+(Print(c)|(c = (false) ? 100 : 200|Print(c)))
+[SYMBOL TABLE]: 
+b -> true
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = 100
+(Print(c)|(c = (false) ? 100 : 200|Print(c)))
+[SYMBOL TABLE]: 
+b -> true
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = 100
+(Print(c)|(c = (false) ? 100 : 200|Print(c)))
+[SYMBOL TABLE]: 
+b -> true
+c -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(c)|(c = (false) ? 100 : 200|Print(c)))
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(c)|(c = (false) ? 100 : 200|Print(c)))
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(c)
+(c = (false) ? 100 : 200|Print(c))
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(c)
+(c = (false) ? 100 : 200|Print(c))
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(c = (false) ? 100 : 200|Print(c))
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(c = (false) ? 100 : 200|Print(c))
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = (false) ? 100 : 200
+Print(c)
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = (false) ? 100 : 200
+Print(c)
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+if(false){c = 100}else{c = 200}
+Print(c)
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+if(false){c = 100}else{c = 200}
+Print(c)
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = 200
+Print(c)
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+c = 200
+Print(c)
+[SYMBOL TABLE]: 
+b -> true
+c -> 100
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(c)
+[SYMBOL TABLE]: 
+b -> true
+c -> 200
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(c)
+[SYMBOL TABLE]: 
+b -> true
+c -> 200
+[OUTPUT LIST]: 
+100
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+b -> true
+c -> 200
+[OUTPUT LIST]: 
+100
+200
+[FILE TABLE]:
+[HEAP STORAGE]:
+

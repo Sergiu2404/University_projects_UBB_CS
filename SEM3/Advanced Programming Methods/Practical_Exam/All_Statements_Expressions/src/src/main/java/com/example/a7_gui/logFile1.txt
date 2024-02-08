@@ -1,0 +1,91 @@
+[PROCESS ID]: 3
+[EXE STACK]: 
+(int v|(v = 2|Print(v)))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+int v
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+int v
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+(v = 2|Print(v))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+v = 2
+Print(v)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+v = 2
+Print(v)
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+Print(v)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+Print(v)
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+v -> 2
+[OUTPUT LIST]: 
+2
+[FILE TABLE]:
+[HEAP STORAGE]:
+
