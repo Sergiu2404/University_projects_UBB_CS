@@ -1,0 +1,22 @@
+EX 3/A8
+
+
+Console based app
+-2 entities(ex: students,discipline)
+-manage multiple entities(add,update,delete)
+-3rd entity that link the first 2 entities(grade)
+-search
+-statistics(what disicipline has the most failing students)
+
+UI=>service: logic=>3repos: data(for every class)
+
+-specifications,user input validation,tests
+-some generated items at startup
+
+!!pay attention when use delete, if delete student delete also the items linked to it
+
+
+BONUS
+-95% unittest code coverage(excepting ui code)
+-create graphical user interface (be able to run with both GUI and console)
+-unlimited undo/redo ( command design python )
