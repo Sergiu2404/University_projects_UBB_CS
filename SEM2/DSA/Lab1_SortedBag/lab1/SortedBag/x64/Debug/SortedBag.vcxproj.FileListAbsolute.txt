@@ -1,0 +1,2 @@
+C:\Users\Sergiu\Desktop\Semestrul2\Data Structures\lab1\SortedBag\x64\Debug\SortedBag.exe
+C:\Users\Sergiu\Desktop\Data Structures\lab1\lab1\SortedBag\x64\Debug\SortedBag.exe
