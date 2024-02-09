@@ -1,0 +1,8838 @@
+PROCESS ID:
+1
+EXE STACK: 
+Ref(int) v1
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int cnt
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+new(v1, 1)
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+createSemaphore(cnt, rHeap(v1))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))))
+(acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 2)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(rHeap(v1) - 1)
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+199
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+199
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+Ref(int) v1
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int cnt
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+new(v1, 1)
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+createSemaphore(cnt, rHeap(v1))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))))
+(acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 2)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(rHeap(v1) - 1)
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+199
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+199
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+Ref(int) v1
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int cnt
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+new(v1, 1)
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+createSemaphore(cnt, rHeap(v1))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))))
+(acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(rHeap(v1) - 1)
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 2)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+Ref(int) v1
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int cnt
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+new(v1, 1)
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+createSemaphore(cnt, rHeap(v1))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))))
+(acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(acquireSem(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(rHeap(v1) - 1)
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 2)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+9
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+Ref(int) v1
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int cnt | (new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int cnt
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(new(v1, 1) | (createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+new(v1, 1)
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(createSemaphore(cnt, rHeap(v1)) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+createSemaphore(cnt, rHeap(v1))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))))
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))))
+(acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(acquireSem(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(acquireSem(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquireSem(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(rHeap(v1) - 2)
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquireSem(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 2)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+Ref(int) v1
+(int cnt | (new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int cnt | (new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int cnt
+(new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+new(v1, 1)
+(createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+createNewSem(cnt, rHeap(v1))
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))))
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))))
+(acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(rHeap(v1) - 2)
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 2)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+Ref(int) v1
+(int cnt | (new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int cnt | (new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int cnt
+(new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+new(v1, 1)
+(createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+createNewSem(cnt, rHeap(v1))
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))))
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))))
+(acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(rHeap(v1) - 2)
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 2)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+Ref(int) v1
+(int cnt | (new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int cnt | (new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int cnt
+(new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+new(v1, 1)
+(createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+createNewSem(cnt, rHeap(v1))
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))))
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))))
+(acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(acquirePermit(cnt) | (print(rHeap(v1) - 2) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(rHeap(v1) - 2) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(rHeap(v1) - 2)
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 2)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+8
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+Ref(int) v1
+(int cnt | (new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int cnt | (new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int cnt
+(new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(new(v1, 1) | (createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+new(v1, 1)
+(createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (0, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(createNewSem(cnt, rHeap(v1)) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+createNewSem(cnt, rHeap(v1))
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 0
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))) | (fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))))
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))) | (acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+fork((acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))))
+(acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(acquirePermit(cnt) | (print(rHeap(v1) - 1) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(acquirePermit(cnt) | (wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 1
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+acquirePermit(cnt)
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [2])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+2
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 10) | (wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt))))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 10)
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 10
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(wHeap(v1, rHeap(v1) * 2) | (print(rHeap(v1)) | releasePermit(cnt)))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+wHeap(v1, rHeap(v1) * 2)
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 100
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+(print(rHeap(v1)) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+print(rHeap(v1))
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [3])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+acquirePermit(cnt)
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+3
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(rHeap(v1) - 1) | releasePermit(cnt))
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(rHeap(v1) - 1)
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+releasePermit(cnt)
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+199
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [1])
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+cnt -> 1
+v1 -> (1, int)
+
+OUTPUT LIST: 
+10
+200
+199
+
+FILE TABLE:
+
+HEAP STORAGE:
+1 -> 200
+
+SEMAPHORE TABLE: 
+1 -> (1, [])
+
+

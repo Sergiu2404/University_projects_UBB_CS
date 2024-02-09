@@ -1,0 +1,738 @@
+PROCESS ID:
+1
+EXE STACK: 
+int a
+(int b | (int c | (a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int b | (int c | (a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))))))
+
+SYMBOL TABLE: 
+a -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int b
+(int c | (a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))))))
+
+SYMBOL TABLE: 
+a -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int c | (a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))))))
+
+SYMBOL TABLE: 
+a -> 0
+b -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int c
+(a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))))
+
+SYMBOL TABLE: 
+a -> 0
+b -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))))
+
+SYMBOL TABLE: 
+a -> 0
+b -> 0
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+a = 1
+(b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))))
+
+SYMBOL TABLE: 
+a -> 0
+b -> 0
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 0
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+b = 2
+(c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 0
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+c = 5
+(switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) }
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+if(a * 10 == b * c){(print(a) | print(b))}else{if(a * 10 == 10){(print(100) | print(200))}else{print(300)}}
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(a) | print(b))
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(a)
+print(b)
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(b)
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+1
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+1
+2
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+1
+2
+300
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int a
+(int b | (int c | (a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))))))
+
+SYMBOL TABLE: 
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int b | (int c | (a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))))))
+
+SYMBOL TABLE: 
+a -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int b
+(int c | (a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))))))
+
+SYMBOL TABLE: 
+a -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(int c | (a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))))))
+
+SYMBOL TABLE: 
+a -> 0
+b -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+int c
+(a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))))
+
+SYMBOL TABLE: 
+a -> 0
+b -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(a = 1 | (b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))))
+
+SYMBOL TABLE: 
+a -> 0
+b -> 0
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+a = 1
+(b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))))
+
+SYMBOL TABLE: 
+a -> 0
+b -> 0
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(b = 2 | (c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 0
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+b = 2
+(c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 0
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(c = 5 | (switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300)))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+c = 5
+(switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 0
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) } | print(300))
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+switch(a * 10) { (case b * c: (print(a) | print(b))) (case 10: (print(100) | print(200))) (default case: print(300)) }
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+if(a * 10 == b * c){(print(a) | print(b))}else{if(a * 10 == 10){(print(100) | print(200))}else{print(300)}}
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+(print(a) | print(b))
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(a)
+print(b)
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(b)
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+1
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+print(300)
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+1
+2
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
+PROCESS ID:
+1
+EXE STACK: 
+
+SYMBOL TABLE: 
+a -> 1
+b -> 2
+c -> 5
+
+OUTPUT LIST: 
+1
+2
+300
+
+FILE TABLE:
+
+HEAP STORAGE:
+
+SEMAPHORE TABLE: 
+
+
