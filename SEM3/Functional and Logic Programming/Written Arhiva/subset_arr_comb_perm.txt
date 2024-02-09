@@ -1,0 +1,168 @@
+1. COMBINARI:
+
+comb([H|_],1,[H]).
+comb([_|T],K,C):-comb(T,K,C).
+comb([H|T],K,[H|C]):-K>1,K1 is K-1,comb(T,K1,C).
+
+saaaau pot inlocui ultima linie ca sa mi le dea cu elem in ord. crescatoare:
+comb([H|T],K,[H,H1|R]):- K>1,K1 is K-1, comb(T,N1,[H1|R]), H<H1.
+
+2. ARANJAMENTE:
+
+insereaza(E,L,[E|L]).
+insereaza(E,[H|T],[H|Rez]):-insereaza(E,T,Rez).
+
+aranj([H|_],1,[H]).
+aranj([_|T],K,R):-aranj(T,K,R).
+aranj([H|T],K,R):-
+	K>1,
+	K1 is K-1,
+	aranj(T,K1,R1),
+	insereaza(H,R1,R).
+
+3. SUBLISTE:
+
+subliste([],[]).
+subliste([_|T],Rez):-subliste(T,Rez).
+subliste([H|T],[H|Rez]):-subliste(T,Rez).
+
+4. PERMUTARI:
+
+insereaza(E,L,[E|L]).
+insereaza(E,[H|T],[H|Rez]):-insereaza(E,T,Rez).
+
+perm([], []).
+perm([E|T],P):-perm(T, L),insereaza(E,L,P).
+
+
+%SUBSETS
+%subsets of a list math model:
+%math model subsets(l1...ln) = [], if n=0
+			     = l1 U subsets(l2...ln), if n>0
+			     = subsets(l2...ln), if n>0
+subsets([],[]).
+subsets([H|T],R):-
+  subsets(T, R1),
+  R = [H|R1].
+subsets([_|T],R):-
+  subsets(T,R1),
+  R = R1.
+
+%math model: one_sol(L) = S, S = subset(L) and checkProperty(S) and nS >= 2
+%one_sol(L: list, R: list)
+%flow model(i,o)
+one_sol(L,R):-
+  subsets(L,R),
+  R = [_,_|_], %means there are at least 2 elems in the list (subsets of at least 2 elems)
+  checkProperty(R).
+
+
+
+
+
+
+%ARANGEMENTS of a list (taken of 3 elems)
+insert(L,E,[E|L]). %for inserting on every position inside the list
+insert([H|T],E,[H|R]):-
+    insert(T,E,R).
+
+
+% arr(l1l2...ln, k) = 
+% = l1, if k = 1
+% = arr(l1, l2...ln, k), if k >= 1
+% = insert(l1, arr(l2...ln, k - 1)), if k > 1
+
+arr([H|_],1,[H]). %same as combinations + uses an insert elem on each position of a list predicate
+arr([_|T],K,R):-
+    arr(T,K,R).
+arr([H|T],K,R1):-
+    K > 1, %case k is greater than 1
+    K1 is K - 1,
+    arr(T,K1,R),
+    insert(R,H,R1).
+
+allSols(L,K,R):-
+    findall(RPartial,arr(L,K,RPartial),R).
+
+
+
+
+
+
+%COMBINATIONS
+ex: predicate to generate combinations with k != 1 elements of a non-empty set whose
+elements are natural numbers, so that the sum of the elements in the combination = given S. 
+? combSum ([3, 2, 7, 5, 1, 6], 3, 9, C). /* flow model (i, i, i, o) – non-deterministic */
+/* k = 3, S = 9 */
+C = [2, 1, 6];
+C = [3, 5, 1].
+combSum ([H | _], 1, H, [H]). %base case => S is H and K is 1 => one elem in the set
+combSum ([_ | T], K, S, C) :-  %skip elem case
+	combSum (T, K, S, C). 
+combSum ([H | T], K, S, [H | C]) :-
+	K > 1,
+	S1 is S-H,  
+	S1 > 0, 
+	K1 is K-1,
+	combSum (T, K1, S1, C).
+
+
+
+
+%combinations of k elem of a non-empty set ex:
+% comb(l1l2...ln, k) = 
+% = l1, if k = 1 and n >= 1
+% = comb(l2...ln, k), if k > 1
+% = {l1} U comb(l2...ln, k-1), if k > 1
+
+comb([H | _], 1, [H]).
+comb([_ | T], K, C) :-
+	comb(T, K, C).
+comb([H | T], K, [H | C]) :-
+	K > 1, 
+	K1 is K-1, 
+	comb(T, K1, C). %comb of n choose k
+allsolutions(L, K, R) :-
+    findall(RPartial, comb(L, K, RPartial), R).
+
+combSum ([H | _], 1, H, [H]).
+combSum ([_ | T], K, S, C) :-
+	combSum (T, K, S, C). 
+combSum ([H | T], K, S, [H | C]) :-
+	K > 1,
+	S1 is S-H, 
+	S1 > 0, 
+	K1 is K-1,
+	combSum (T, K1, S1, C).
+
+
+
+
+%PERMUTATIONS PROLOG
+%predicate to insert elem in all pos in a list
+insert(E,L,[E|L]).
+insert(E,[H|T],[H|R]):-
+    insert(E,T,R).
+perm([], []).
+perm([E | T], P) :-
+	perm(T, L),
+	insert(E, L, P). % (i,i,o)
+
+
+
+
+
+
+%PERMUTATIONS LISP
+Ex: (permutari ‘(1 2 3)) → ((1 2 3) (1 3 2) (2 1 3) (2 3 1) (3 1 2) (3 2 1)) 
+(defun permutari (L) 
+ (cond 
+	((null (cdr L)) (list L))
+	(t (mapcan #'(lambda (e) 
+		(mapcar #'(lambda (p) (cons e p) ) 
+		(permutari (remove e L)) 
+	   ) ) 
+L 
+)) 
+ ) 
+)
