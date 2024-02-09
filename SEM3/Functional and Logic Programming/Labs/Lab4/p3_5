@@ -1,0 +1,39 @@
+% 5. Two integers, n and m are given. Write a predicate to determine all possible sequences of numbers
+%    from 1 to n, such that between any two numbers from consecutive positions, the absolute difference to be >= m.
+
+
+absDiff(A,B,R):-
+    A >= B,
+    R is A - B.
+absDiff(A,B,R):-
+    A < B,
+    R is B - A.
+
+
+checkAbsDiff([H1,H2],M):-
+    absDiff(H1,H2,R),
+    R >= M.
+checkAbsDiff([H1,H2|T],M):-
+    absDiff(H1,H2,R),
+    R >= M,
+    checkAbsDiff([H2|T],M).
+
+sequence(I,N,[]):-
+    I =:= N + 1.
+sequence(I,N,[I|R]):-
+    I =< N,
+    I1 is I + 1,
+    sequence(I1,N,R).
+sequence(I,N,R):-
+    I =< N,
+    I1 is I + 1,
+    sequence(I1, N, R).
+
+oneSol(N,M,R):-
+    sequence(1,N,R),
+    checkAbsDiff(R,M).
+
+allSols(N,M,R):-
+    findall(RPartial,oneSol(N,M,RPartial),R).
+%C:\Users\Sergiu\Desktop\SEM3\plf\lab4_bck\p3_5
+%C:\Users\Sergiu\Desktop\SEM3\plf\lab4_bck\p3_5
