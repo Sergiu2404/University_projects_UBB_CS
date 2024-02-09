@@ -1,0 +1,43 @@
+%C:\Users\Sergiu\Desktop\SEM3\plf\lab3_p2\p2_2.pl
+%define a predicate that merges 2 sorted lists of integer numbers and removes duplicate values
+
+% flow model merge(i,i,0)
+%math model merge = List2, if List1 empty
+%				  = List1 if List2 empty
+%				  = H1 U merge(Tail1, List2, Res) if H1 =< H2
+%				  = H2 U merge(List1, Tail2, Res) if H1 > H2
+%				   
+%flow model remove_dup(i,0)
+%math model remove_dup = [] if L is empty
+%					   = remove_dup(T, R) if H is found in the tail of the list
+%					   = H U remove_dup(T, R) if H is  not in the tail of the list
+
+
+
+merge([],L2,L2).
+merge(L1, [], L1).
+merge([H1|T1], [H2|T2], [H1|R]):-
+    H1 < H2,
+    merge(T1, [H2|T2], R).
+merge([H1|T1], [H2|T2], [H2|R]):-
+    H1 > H2,
+    merge([H1|T1], T2, R).
+merge([H1|T1], [H2|T2], R):-
+    H1 =:= H2,
+    merge([H1|T1], T2, R).
+
+
+remove_dup([], []).
+remove_dup([H|T], R):-
+    member(H, T),
+    remove_dup(T, R).
+remove_dup([H|T], [H|R]):-
+    \+ member(H, T),
+    remove_dup(T, R).
+    
+
+    
+main(L1, L2, RR):-
+    merge(L1, L2, R),
+    remove_dup(R,RR).
+    
