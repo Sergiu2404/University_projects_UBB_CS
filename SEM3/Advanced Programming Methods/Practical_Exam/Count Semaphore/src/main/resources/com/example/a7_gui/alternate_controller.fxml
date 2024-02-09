@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.a7_gui.AlternateController">
+  <children>
+    <VBox alignment="CENTER" style="-fx-background-color: #b2c8d8;">
+        <children>
+            <Button fx:id="displayButton" alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#displayProgram" prefHeight="42.0" prefWidth="232.0" style="-fx-border-color: #000000;" text="Display program" textAlignment="CENTER">
+            </Button>
+            <ListView fx:id="programsListView" prefHeight="356.0" prefWidth="525.0">
+            </ListView>
+        </children>
+    </VBox>
+  </children>
+</StackPane>
