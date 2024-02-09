@@ -1,0 +1,11 @@
+sequence_with_absolute_difference(Current, N, N, [Current], Current).
+sequence_with_absolute_difference(Current, N, M, [Current|Rest], Last) :-
+    Next is Current + 1,
+    sequence_with_absolute_difference(Next, N, M, Rest, Last).
+sequence_with_absolute_difference(Current, N, M, Rest, Last) :-
+    Next is Current + 1,
+    Next =< N,
+    sequence_with_absolute_difference(Next, N, M, Rest, Last).
+
+generate_sequences(N, M, Sequences) :-
+    sequence_with_absolute_difference(1, N, M, Sequences, N).
