@@ -1,0 +1,670 @@
+[PROCESS ID]: 2
+[EXE STACK]: 
+(int counter|while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)})
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+int counter
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+int counter
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a)))))
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a)))))
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 3
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Ref(int) a
+(New(a, counter)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Ref(int) a
+(New(a, counter)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(New(a, counter)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+a -> (0, int)
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(New(a, counter)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+a -> (0, int)
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+New(a, counter)
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (0, int)
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 5
+[EXE STACK]: 
+Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a)))))
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+New(a, counter)
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (0, int)
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 5
+[EXE STACK]: 
+Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a)))))
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (1, int)
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 5
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (1, int)
+counter -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> (1, int)
+counter -> 0
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Ref(int) a
+(New(a, counter)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Ref(int) a
+(New(a, counter)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+counter -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(New(a, counter)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+a -> (0, int)
+counter -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 0
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+(New(a, counter)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+a -> (0, int)
+counter -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+New(a, counter)
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (0, int)
+counter -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 7
+[EXE STACK]: 
+Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a)))))
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+New(a, counter)
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (0, int)
+counter -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 7
+[EXE STACK]: 
+Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a)))))
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 3
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (2, int)
+counter -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+
+[PROCESS ID]: 7
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+
+[PROCESS ID]: 8
+[EXE STACK]: 
+(Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 3
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (2, int)
+counter -> 1
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+
+[PROCESS ID]: 8
+[EXE STACK]: 
+(Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((Ref(int) a|(New(a, counter)|Print(ReadHeap(a))))))|counter = counter + 1)}
+[SYMBOL TABLE]: 
+counter -> 3
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+
+[PROCESS ID]: 6
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> (2, int)
+counter -> 1
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+
+[PROCESS ID]: 8
+[EXE STACK]: 
+Ref(int) a
+(New(a, counter)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+counter -> 2
+[OUTPUT LIST]: 
+0
+1
+[FILE TABLE]:
+[HEAP STORAGE]:
+2 -> 1
+

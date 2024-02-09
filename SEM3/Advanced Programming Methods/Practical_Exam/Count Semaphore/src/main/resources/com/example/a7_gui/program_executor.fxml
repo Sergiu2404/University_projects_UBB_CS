@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.a7_gui.ProgramExecutor">
+    <children>
+        <VBox alignment="TOP_CENTER" style="-fx-background-color: #b2c8d8;">
+            <children>
+                <Button fx:id="runOneStepButton" alignment="TOP_CENTER" mnemonicParsing="false" onMouseClicked="#oneStep" prefHeight="40.0" prefWidth="120.0" style=" -fx-border-color: #000000;" text="Run one step">
+                </Button>
+                <TextField fx:id="numberOfProgramStatesField" editable="false" promptText="Number of program states">
+                </TextField>
+                <HBox alignment="TOP_CENTER">
+                    <children>
+                        <VBox>
+                            <children>
+                                <Label text="Running Processes IDs">
+                                </Label>
+                                <ListView fx:id="programIdsListView" onMouseClicked="#switchProgramState" prefHeight="200.0" prefWidth="200.0" />
+                            </children>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="Count Semaphore table">
+                                </Label>
+                                <TableView fx:id="semaphoreTableView" prefHeight="200.0" prefWidth="200.0">
+                                    <columns>
+                                        <TableColumn fx:id="semaphoreAddressColumn" editable="false" prefWidth="99.20001524686813" text="Address" />
+                                        <TableColumn fx:id="semaphoreValueColumn" editable="false" prefWidth="100.0" text="Value" />
+                                        <TableColumn fx:id="semaphoreListColumn" editable="false" prefWidth="99.20001524686813" text="Values List" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="Execution Stack View">
+                                </Label>
+                                <ListView fx:id="executionStackListView" prefHeight="200.0" prefWidth="200.0" />
+                            </children>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="Output View">
+                                </Label>
+                                <ListView fx:id="outputListView" prefHeight="200.0" prefWidth="200.0" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="TOP_CENTER">
+                    <children>
+                        <VBox>
+                            <children>
+                                <Label text="Heap Memory View">
+                                </Label>
+                                <TableView fx:id="heapTableView" prefHeight="200.0" prefWidth="200.0">
+                                    <columns>
+                                        <TableColumn fx:id="heapAddress" editable="false"  text="Address" />
+                                        <TableColumn fx:id="heapValue" editable="false" text="Value" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="Defined Variables">
+                                </Label>
+                                <TableView fx:id="symbolTableView" prefHeight="200.0" prefWidth="200.0">
+                                    <columns>
+                                        <TableColumn fx:id="variableName" editable="false" prefWidth="99.20001524686813" text="Variable Name" />
+                                        <TableColumn fx:id="variableValue" editable="false" prefWidth="100.0" text="Value" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                            <HBox.margin>
+                                <Insets left="5.0" right="5.0" />
+                            </HBox.margin>
+                        </VBox>
+                        <VBox>
+                            <children>
+                                <Label text="Files">
+                                </Label>
+                                <ListView fx:id="fileTableListView" prefHeight="200.0" prefWidth="200.0">
+                                </ListView>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</StackPane>
