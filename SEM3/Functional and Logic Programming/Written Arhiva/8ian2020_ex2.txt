@@ -1,0 +1,118 @@
+1.1) avoid double recursive call (funcall F (car L))
+(defun fct(F L)
+  (cond
+	((null L) nil)
+	( (funcall F (car L)) (cons (funcall F (car L)) (fct F (cdr L))) )
+	( t nil )
+  )
+)
+SOL:
+(defun fct(F L)
+  (cond
+	((null L) nil)
+	( (lambda(li) (cons li (fct F (cdr L)))) (funcall F (car L)) )
+	( t nil )
+  )
+)
+
+
+1.2)avoid double recursive call f(T, S1):
+f([], -1).
+f([H|T], S):- H>0, f(T,S1), S1<H, !, S is H.
+f([_}T], S):- f(T,S1), S is S1.
+
+SOL:
+f([], -1).
+f([H|T], S):- H>0, f(T,S1), f_aux(H, S1, S).
+f([_|T], S):- f(T,S1), S is S1.
+
+f_aux(H, S1, S):- S1<H, !, S is H.
+f_aux(_, S, S). 
+
+f([], -1).
+f(List, Result) :-
+    f_aux(List, -1, Result).
+
+f_aux([], Acc, Acc).
+f_aux([H|T], Acc, Result) :-
+    H > 0,
+    Acc < H,  % Checking if Acc is less than H to maintain the logic
+    f_aux(T, H, Result).
+f_aux([_|T], Acc, Result) :-
+    f_aux(T, Acc, Result).
+
+
+1.3) give result of:
+(defun G(L)
+  (list (car L) (car L))
+)
+
+(setq Q 'G)
+(setq P Q)
+(write (funcall P'(a b c)))
+=> (a a) ;the first element of the list is doubled
+
+
+
+1.4)
+f([],0).
+f([H|T], S):- f(T,S1), S1 is S-H.
+f([1,2,3,4,5,6,7,8],R).
+% error because the last line (S1 is S - H) is not correct. It should be S is S1 - H, for calculating
+% the difference of all the elements that would be -36. Because of the tail recursion, this method is not working
+% and raises an error
+
+
+
+
+II) arrangements of k with the product P
+%insert elem on every pos of list predicate
+%insert(L, E) = E U L1...Ln
+	      = L1 U insert(L2...Ln, E)
+insert(L, E, [E|L]).
+insert([H|T], E, [H|R]):-
+  insert(T, E, R).
+
+%arr(L1...Ln, k) = L1, if k = 1
+		 = arr(L1...Ln), if k >= 1
+		 = insert(arr(L2...Ln, k-1), L1), if k > 1
+
+arr([H|_], 1, [H]).
+arr([H|T], K, R):- %case k >= 1
+	K >= 1,
+	K1 is K - 1,
+	arr(T, K1, R1),
+	insert(R1, H, R).
+arr([_|T], K, R):- %skip case, k strictly greater than 1
+	arr(T, K, R).
+
+%preciate for checking product
+%product(L1..Ln) = 1, if n = 0
+		 = L1 * product(L2...Ln) 
+product([], 1).
+product([H|T], R):- product(T, R1), R is R1 * H.
+
+one_sol(L, K, P, R):- arr(L, K, R), product(R, P).
+
+all_sol(L, K, P, R):-
+	findall(PS, one_sol(L, K, P, PS), R).
+
+
+III)
+%math model replace(L1...Ln, e, level) = null, if n = 0
+				= L U replace(L1...Ln, e, level), if atom(Li) and level % 2 == 0
+				= e, if atom(Li)
+				= replace(L, e, level) U ... U replace(L, e, level) otherwise (if elem of L is list)
+(defun replace(L e level)
+  (cond
+	( (null L) nil )
+	( ( and (atom L) (=  0 (mod level 2)) ) L )
+	( (atom L) e )
+	( (mapcan #'(lambda(Li) (replace Li e (+ level 1))
+		    L )
+	  ) 
+	)
+  )
+)
+
+

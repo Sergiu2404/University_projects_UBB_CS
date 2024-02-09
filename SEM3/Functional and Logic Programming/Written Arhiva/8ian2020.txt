@@ -1,0 +1,125 @@
+1.1)	Give a sol to avoid recursive call (f (car l1) l2)
+(defun f( l1 l2) 
+  (append (f (car l1) l2)
+  (cond
+    (null l1) (cdr l2))
+    (t (list (f (car l1) l2) (car l2)))
+  ) 
+)
+
+Sol:
+(defun f( l1 l2)
+  ((lambda (a)
+    (append a
+      (cond
+        (null l1) (cdr l2))
+        (t (list a (car l2)))
+      ) 
+  ) (f (car l1) l2) )
+)
+
+
+
+1.2)	Avoid double recursive call f(T,S1)
+f([],0).
+f([H|T], S):- f(T, S1), S1 < H, !, S is H.
+f([_|T], S):- f(T,S1), S is S1. %calculates the max
+SOL: replace it with aux function
+f([], 0).
+f([H|T], S) :- f(T,S1), f_aux(H, S1, S).
+f_aux(H, S1, S) :- S1 < H, !, S is H.
+f_aux(_, S, S). %for replacing S is S1
+
+
+
+1.3) Lisp function G is defined by (defun G(L) (mapcon #'List L)). what is the result of evaluating the form (apply #' append (mapcon #'G '(1 2))). Justify the answer:
+Sol:
+(apply #’append (mapcon #’G(1 2)))
+(1 2 2)
+; call G (1 2) takes the list and applies mapcon on it => takes list then the tail => ((1 2) (2))
+; append applied => (1 2 2)
+
+
+1.4)
+f([],[]).
+f([H|T], [H|S]):- f(T,S). %adds the elements to the list
+f([H|T], S):- H mod 2 =:= 0, f(T,S). %if elem is even, do not add it
+=> L = [1,2,3] because the second clause checked is the one that executes all the time, if we would have had the clauses in this order:
+f([],[]).
+f([H|T], S):- H mod 2 =:= 0, f(T,S).
+f([H|T], [H|S]):- f(T,S). 
+the even numbers would be eliminated, bc the numbers are checked first if they are even and eliminated if yes(if not the function enters 3rd clause and just adds element to the list)
+
+
+II)
+%abs difference of 2 numbers
+absDiff(A,B,R):-
+    A >= B,
+    R is A - B.
+absDiff(A,B,R):-
+    A < B,
+    R is B - A.
+
+%abs difference of each 2 cons numbers of a list given
+checkAbsDiff([H1,H2],M):-
+    absDiff(H1,H2,R),
+    R >= M.
+checkAbsDiff([H1,H2|T],M):-
+    absDiff(H1,H2,R),
+    R >= M,
+    checkAbsDiff([H2|T],M).
+
+
+% Predicate to check if absolute differences in a list satisfy the condition
+check_differences([]).
+check_differences([_]).
+check_differences([X,Y|T]) :-
+    checkAbsDiff(X, Y, Diff),
+    Diff =< 3,
+    check_differences([Y|T]).
+
+
+
+
+permute([], []).
+
+% Perm is a permutation of [X|L] if Perm1 is a permutation of L
+% and X is inserted at any position in Perm1 to form Perm.
+permute([X|L], Perm) :-
+    permute(L, Perm1),
+    insert(X, Perm1, Perm).
+
+% Insert an element X into a list L at any position to form Result.
+insert(X, L, [X|L]).
+insert(X, [H|T], [H|NewT]) :-
+    insert(X, T, NewT).
+
+
+% Predicate to generate permutations with specified absolute differences
+permutations_with_abs_diff(List, Result) :-
+    permute(List, Perm),
+    append(_, [Perm|_], PermutedList),
+    check_differences(PermutedList),
+    Result = PermutedList.
+
+
+
+
+
+III lisp function to remove numerical atoms divisible to 3
+(defun removeDiv3 (l)
+(cond
+  ( (null l) nil)
+  ( (and (numberp (car l)) (= (mod 3) 0) (removeDiv3 (cdr l)) )
+  ( (atom (car l)) (cons (car l) (removeDiv3 (cdr l))) )
+  ( (t (mapcar #’removeDiv3 (cdr l))) )
+)
+)
+OR
+(defun remove-divisible-by-3 (lst)
+  (mapcan #'(lambda (x) ;mapcan appends all the lists resulted from below
+              (if (and (numberp x) (= (mod x 3) 0))
+                  '()  ;if x is div by 3, return empty list
+                  (list x)))  ;if not(x%3==0) or not(number(x)), return x as a list
+          lst)) ;parameter on which we apply the mapcan
+
