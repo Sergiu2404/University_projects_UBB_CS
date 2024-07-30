@@ -1,0 +1,51 @@
+import pandas as pd
+import numpy as np
+from sklearn import preprocessing
+
+
+df = pd.read_csv('WA_Fn-UseC_-Telco-Customer-Churn.csv')
+
+num_data =  df.select_dtypes(include=[np.number]).columns.tolist()
+scaler = preprocessing.StandardScaler()
+df[num_data] = scaler.fit_transform(df[num_data])
+
+categorical_features = df.select_dtypes(exclude=[np.number]).columns.tolist()
+le = preprocessing.OrdinalEncoder()
+df[categorical_features] = le.fit_transform(df[categorical_features])
+    
+df
+
+
+
+#OR
+
+
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import preprocessing
+df=pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
+# Filtering numerical features
+X_num = df[df.select_dtypes(include=['int64', 'float64']).columns.tolist()]
+# Filtering categorical features
+X_cat = df[df.select_dtypes(include=['object']).columns.tolist()]
+std_scaler = preprocessing.StandardScaler()
+X_num_std = std_scaler.fit_transform(X_num)
+X_num_std
+std_scaler.mean_
+std_scaler.scale_
+print("mean:", X_num_std.mean(axis=0),", std:",  X_num_std.std(axis=0))
+min_max_scaler = preprocessing.MinMaxScaler()
+X_num_min_max = min_max_scaler.fit_transform(X_num)
+X_num_min_max
+min_max_scaler.scale_
+min_max_scaler.min_
+max_abs_scaler = preprocessing.MaxAbsScaler()
+X_num_max_abs = max_abs_scaler.fit_transform(X_num)
+X_num_max_abs
+max_abs_scaler.scale_
+X_num_norm = preprocessing.normalize(X_num, norm='l2')
+X_num_norm
+enc = preprocessing.OrdinalEncoder()
+enc.fit_transform(X_cat)

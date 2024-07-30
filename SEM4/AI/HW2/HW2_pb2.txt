@@ -1,0 +1,76 @@
+#exercise 2
+from sklearn.model_selection import train_test_split
+
+
+df = pd.read_csv("student_hours_vs_marks.csv")
+print(df.head())
+
+X = np.array(df['Hours'])
+y = np.array(df['Scores'])
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=0)
+
+# reshape the X list in order to have a two dimensional array
+# since we have only one feature the reshape looks like below: 
+X_train = X_train.reshape(-1, 1)
+X_test = X_test.reshape(-1, 1)
+
+# create a linear regression model and fit the model to the training data
+model = LinearRegression().fit(X_train, y_train)
+
+print(f"Linear Regression-Training set score: {model.score(X_train, y_train):.2f}")
+print(f"Linear Regression-Test set score: {model.score(X_test, y_test):.2f}")
+
+
+a = model.coef_[0] # we ahve one feature with index 0
+b = model.intercept_ # a scalar
+print(a, "* x +", b, "= y")
+
+pred = model.predict([[2.5]])
+print('Our model predicted that we get a 2.5 after {} hours '.format(pred[0]))
+fig_scat, ax_scat = plt.subplots(1,1, figsize=(10,6))
+x = X.T
+best_fit = b + a * (np.append(x, [2.5]))
+ax_scat.scatter(x, y, s=300, label='Training Data')
+ax_scat.plot(np.append(x,[2.5]), best_fit, ls='--', label='Best Fit Line')
+ax_scat.plot([2.5],pred, "ys", label="LinearRegression")
+ax_scat.set_xlabel(r'$x$')
+ax_scat.set_ylabel(r'$y$');
+
+
+pred = model.predict([[5.0]])
+print('Our model predicted that we get a 5.0 after {} hours'.format(pred[0]))
+fig_scat, ax_scat = plt.subplots(1,1, figsize=(10,6))
+x = X.T
+best_fit = b + a * (np.append(x, [5.0]))
+ax_scat.scatter(x, y, s=300, label='Training Data')
+ax_scat.plot(np.append(x,[5.0]), best_fit, ls='--', label='Best Fit Line')
+ax_scat.plot([5.0],pred, "ys", label="LinearRegression")
+ax_scat.set_xlabel(r'$x$')
+ax_scat.set_ylabel(r'$y$');
+
+
+pred = model.predict([[10.0]])
+print('Our model predicted that we get a 10.0 after {} hours'.format(pred[0]))
+fig_scat, ax_scat = plt.subplots(1,1, figsize=(10,6))
+x = X.T
+best_fit = b + a * (np.append(x, [10.0]))
+ax_scat.scatter(x, y, s=300, label='Training Data')
+ax_scat.plot(np.append(x,[10.0]), best_fit, ls='--', label='Best Fit Line')
+ax_scat.plot([10.0],pred, "ys", label="LinearRegression")
+ax_scat.set_xlabel(r'$x$')
+ax_scat.set_ylabel(r'$y$');
+
+
+X_pred = [[2.5], [5.0], [10.0]]
+y_pred = model.predict(X_new)
+
+
+pred = model.predict(X_pred)
+fig_scat, ax_scat = plt.subplots(1, 1, figsize=(10,6))
+x = X.T
+best_fit = b + a * (np.append(x, X_pred))
+ax_scat.scatter(x, y, s=150, label='Training Data')
+ax_scat.plot(np.append(x, X_pred), best_fit, ls='--', label='Best Fit Line')
+ax_scat.plot(X_pred, pred, "ys", label="LinearRegression")
+ax_scat.set_xlabel(r'$x$')
+ax_scat.set_ylabel(r'$y$');

@@ -1,0 +1,198 @@
+--dirty read
+----reading of uncommitted data bc of not aquiring any locks
+
+BEGIN TRANSACTION
+UPDATE Variety SET varietyDescription='desc' WHERE varietyId=3
+WAITFOR DELAY '00:00:10'
+ROLLBACK TRANSACTION
+
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+BEGIN TRAN
+SELECT * FROM Variety
+WAITFOR DELAY '00:00:15'
+SELECT * FROM Variety
+COMMIT TRAN
+
+GO
+--non-repeatable reads
+---transaction reads the same row TWICE and gets different values
+----becuase shared locks are not kept until final of the execution, so 2nd select reads wrong data
+
+BEGIN TRAN
+WAITFOR DELAY '00:00:05'
+UPDATE Variety SET varietyDescription='desc' 
+WHERE varietyId=3
+COMMIT TRAN
+
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED
+BEGIN TRAN
+SELECT * FROM Variety
+WAITFOR DELAY '00:00:05'
+SELECT * FROM Variety
+COMMIT TRAN
+
+---phantom read
+---When the same 2 queries are executed but the rows retrieved are different
+GO
+BEGIN TRAN
+WAITFOR DELAY '00:00:05'
+INSERT INTO Variety(varietyId,varietyName,varietyDescription) 
+VALUES (4,'phantom','phantom')
+COMMIT TRAN
+
+GO
+SET TRANSACTION ISOLATION LEVEL REPEATABLE READ
+BEGIN TRAN
+SELECT * FROM Variety
+WAITFOR DELAY '00:00:05'
+SELECT * FROM Variety
+COMMIT TRAN
+
+--deadlock
+GO
+BEGIN TRAN
+UPDATE Variety SET varietyDescription='dd' WHERE varietyId=3
+WAITFOR DELAY '00:00:10'
+UPDATE Producer SET producerName='dead' WHERE producerId=3
+COMMIT TRAN
+
+GO
+BEGIN TRAN
+UPDATE Producer SET producerName='dead' WHERE producerId=3
+WAITFOR DELAY '00:00:10'
+UPDATE Variety SET varietyDescription='dd' WHERE varietyId=3
+COMMIT TRAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--dirty read
+--reading of uncommitted data bc of not aquiring any locks
+--file 1:
+begin transaction
+update TeamMember set role='dirty read' where id=1
+waitfor delay '00:00:10'
+rollback transaction
+
+--file 2:
+set transaction isolation level read uncommitted
+
+begin tran
+select * from TeamMember
+waitfor delay '00:00:15'
+select * from TeamMember
+commit tran
+
+
+
+--non-repeatable reads
+--becuase shared locks are not kept until final of the execution, so 2nd select reads wrong data
+--file 1:
+BEGIN TRAN
+WAITFOR DELAY '00:00:05'
+UPDATE TeamMember SET role='unrepeatable read' 
+WHERE id=1
+COMMIT TRAN
+
+--to return to initial value
+UPDATE TeamMember SET role='teamleader1' where role='unrepeatable read' 
+
+
+--file 2:
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED
+BEGIN TRAN
+SELECT * FROM TeamMember
+WAITFOR DELAY '00:00:05'
+SELECT * FROM TeamMember
+COMMIT TRAN
+
+
+
+--phantom read
+---When the same 2 queries are executed but the rows retrieved are different
+--bc are aquired and kept until the end of the execution only for objects, not for sets of objects
+GO
+BEGIN TRAN
+WAITFOR DELAY '00:00:05'
+INSERT INTO TeamMember(name, role, teamId) 
+VALUES ('phantom', 'phantom', '1')
+COMMIT TRAN
+
+delete from TeamMember where name='phantom'
+
+
+
+
+--deadlock
+--when for instance 2 or more transactions wait for each other and no one proceeds further
+GO
+BEGIN TRAN
+UPDATE TeamMember SET role='deadlock' WHERE id=1
+WAITFOR DELAY '00:00:10'
+UPDATE ProjectTeams SET name='deadlock this execution' WHERE id=1
+COMMIT TRAN
+
+GO
+BEGIN TRAN
+UPDATE ProjectTeams SET name='deadlock this execution' WHERE id=1
+WAITFOR DELAY '00:00:10'
+UPDATE TeamMember SET role='deadlock' WHERE id=1
+COMMIT TRAN
+
+--transaction 2 should print some error after you wait some time
+
+
+
+
+
+--SNAPSHOT
+--significantly increases the concurrent transaction (different form serializable bc uses tempDB for versioning)
+--so does not aquire locks
+--In serializable, bc T1 does its execution, until it is done, T2 can not access T1's data
+
+
+---USE SNAPSHOT
+--ex of using serializable
+--T1
+set transaction isolation level serializable
+
+begin transaction
+update TeamMember set role='we will need snapshot' where id = '1'
+
+--execute this only after executing T2
+commit transaction
+
+
+--T2
+set transaction isolation level serializable
+begin transaction
+select role from teamMember;  ---this will not execute until we commit
+
+
+--to return to initial value (for testing again)
+UPDATE TeamMember SET role='teamleader1' where role='we will need snapshot'
+
+
+--SO WE NEED TO ENABLE SNAPSHOT ISOLATION LEVEL ON OUR DB:
+--for T2, execute only once this: 
+alter database db_name
+set allow_snapshot_isolation on
+
+--then execute this before selecting the items:
+set transaction isolation level snapshot
+select role from teamMember; --transaction T2 not blocked anymore, 
+--reads the value that was in the table before T1 started
