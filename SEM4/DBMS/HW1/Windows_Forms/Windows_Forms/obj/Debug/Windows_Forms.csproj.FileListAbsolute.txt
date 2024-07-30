@@ -1,0 +1,11 @@
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\bin\Debug\Windows_Forms.exe.config
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\bin\Debug\Windows_Forms.exe
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\bin\Debug\Windows_Forms.pdb
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\obj\Debug\Windows_Forms.csproj.AssemblyReference.cache
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\obj\Debug\Windows_Forms.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\obj\Debug\Windows_Forms.Form1.resources
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\obj\Debug\Windows_Forms.Properties.Resources.resources
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\obj\Debug\Windows_Forms.csproj.GenerateResource.cache
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\obj\Debug\Windows_Forms.csproj.CoreCompileInputs.cache
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\obj\Debug\Windows_Forms.exe
+C:\Users\Sergiu\Desktop\Uni_projects\SEM4\dbms\HW1\Windows_Forms\Windows_Forms\obj\Debug\Windows_Forms.pdb
