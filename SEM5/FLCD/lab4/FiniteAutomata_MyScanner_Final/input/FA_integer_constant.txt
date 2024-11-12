@@ -1,0 +1,35 @@
+A;B;C;D;
+A
++;-;0;1;2;3;4;5;6;7;8;9;
+B;D;
+A 0 B
+A + C
+A - C
+C 1 D
+C 2 D
+C 3 D
+C 4 D
+C 5 D
+C 6 D
+C 7 D
+C 8 D
+C 9 D
+A 1 D
+A 2 D
+A 3 D
+A 4 D
+A 5 D
+A 6 D
+A 7 D
+A 8 D
+A 9 D
+D 0 D
+D 1 D
+D 2 D
+D 3 D
+D 4 D
+D 5 D
+D 6 D
+D 7 D
+D 8 D
+D 9 D

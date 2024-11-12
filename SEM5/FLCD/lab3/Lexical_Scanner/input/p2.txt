@@ -1,0 +1,34 @@
+start
+    float a;
+    float b;
+    float c;
+    float discriminant;
+    float root1;
+    float root2;
+
+    read(a);
+    read(b);
+    read(c);
+
+    discriminant takes (b * b) - (4 * a * c);
+
+    if (discriminant smaller 0) 
+    {
+        write("No real roots");
+    }
+    elif (discriminant is 0) 
+    {
+        root1 takes - b / (2 * a);
+        write("One real root: ");
+        write(root1);
+    }
+    else
+    {
+        root1 takes (- b + sqrt(discriminant)) / (2 * a);
+        root2 takes (- b - sqrt(discriminant)) / (2 * a);
+        write("The root or roots are: ");
+        write(root1);
+        write(" and ");
+        write(root2);
+    };
+end

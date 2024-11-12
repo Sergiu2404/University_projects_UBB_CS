@@ -1,0 +1,17 @@
+int a;
+int b;
+int c;
+int max;
+
+a takes 11
+read ( b );
+read ( c );
+
+if (b greaterEq max) {
+    max takes b;
+}
+elif(c greater max) {
+	max takes c;
+}
+
+write ('string not correct')

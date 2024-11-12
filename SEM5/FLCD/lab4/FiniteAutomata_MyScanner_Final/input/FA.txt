@@ -1,0 +1,9 @@
+A;B;C;D;E;
+A
+a;b;c;d;
+D;
+A a A
+A b B
+B c C
+C c C
+C d D

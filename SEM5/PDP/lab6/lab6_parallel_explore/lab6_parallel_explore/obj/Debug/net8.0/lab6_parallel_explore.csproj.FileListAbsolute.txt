@@ -1,0 +1,15 @@
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\bin\Debug\net8.0\lab6_parallel_explore.exe
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\bin\Debug\net8.0\lab6_parallel_explore.deps.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\bin\Debug\net8.0\lab6_parallel_explore.runtimeconfig.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\bin\Debug\net8.0\lab6_parallel_explore.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\bin\Debug\net8.0\lab6_parallel_explore.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\lab6_parallel_explore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\lab6_parallel_explore.AssemblyInfoInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\lab6_parallel_explore.AssemblyInfo.cs
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\lab6_parallel_explore.csproj.CoreCompileInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\lab6_parallel_explore.sourcelink.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\lab6_parallel_explore.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\refint\lab6_parallel_explore.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\lab6_parallel_explore.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\lab6_parallel_explore.genruntimeconfig.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab6\lab6_parallel_explore\lab6_parallel_explore\obj\Debug\net8.0\ref\lab6_parallel_explore.dll

@@ -1,0 +1,446 @@
+Studiu de caz pe date inițiale:  Efectuarea experimentelor pe un set de 
+date mai mic cu scopul de a ilustra metodologia si potențialul abordării. Folosit in 
+articole/rapoarte pentru a descrie cu exemple concrete abordarea originala. 
+Presupune creare/colectare de date, implementarea codului aferent abordării 
+pentru a putea rula experimentele pe acest set inițial de date, validare/colectare 
+de date care arata eficienta abordării propuse (metrici, evidente empirice, 
+explicații/interpretări de la experți). De predat: Cod aferent experimentării si un 
+capitol: „studiu de caz” in raportul de cercetare. Da mi un fel de cod in python, cu toate fucntionalitatile mergeuite (as input are some datasets with historical prices, that have to be proccessed and some news short article which is previously checked using a model if the article is fake news, than if the news are fake throw a message for the user, if are real predict the price based on the historical prices datasets and patterns and on the emotion of the real news )
+
+
+
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, accuracy_score
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+from transformers import pipeline  # For sentiment analysis
+from sklearn.ensemble import RandomForestClassifier  # Example for fake news detection
+
+# ----- Step 1: Load and Process Data -----
+# Load historical price data and news data
+historical_prices = pd.read_csv('historical_prices.csv')
+news_data = pd.read_csv('news_data.csv')
+
+# Preprocess historical price data
+historical_prices['Date'] = pd.to_datetime(historical_prices['Date'])
+historical_prices.set_index('Date', inplace=True)
+
+# Preprocess news data
+news_data['Date'] = pd.to_datetime(news_data['Date'])
+news_data.set_index('Date', inplace=True)
+
+# ----- Step 2: Fake News Detection -----
+# Mock model: Example for fake news detection using RandomForestClassifier
+def is_fake_news(text):
+    # Here, we assume you have a pre-trained classifier for fake news detection
+    # Example: if text contains certain patterns or keywords, classify as fake
+    # Replace this with a real model in production
+    fake_news_model = RandomForestClassifier()
+    fake_news_model.fit(...)  # Train with a dataset (e.g., LIAR or Fake News Corpus)
+
+    prediction = fake_news_model.predict([text])
+    return prediction[0]  # Return 1 for fake, 0 for real
+
+# ----- Step 3: Sentiment Analysis -----
+sentiment_analyzer = pipeline("sentiment-analysis")
+
+def analyze_sentiment(text):
+    result = sentiment_analyzer(text)[0]
+    return result['label'], result['score']  # Label can be "POSITIVE", "NEGATIVE", or "NEUTRAL"
+
+# ----- Step 4: LSTM Model for Stock Price Prediction -----
+def create_lstm_model(input_shape):
+    model = Sequential()
+    model.add(LSTM(units=50, return_sequences=True, input_shape=input_shape))
+    model.add(LSTM(units=50))
+    model.add(Dense(units=1))  # Single output for price prediction
+    model.compile(optimizer='adam', loss='mean_squared_error')
+    return model
+
+# ----- Step 5: Data Preparation for LSTM -----
+def prepare_data(data, window_size):
+    X = []
+    y = []
+    for i in range(window_size, len(data)):
+        X.append(data[i - window_size:i, 0])
+        y.append(data[i, 0])
+    return np.array(X), np.array(y)
+
+# Set window size for LSTM (sequence length)
+window_size = 60
+price_data = historical_prices['Close'].values  # Example with close prices
+price_data = price_data.reshape(-1, 1)
+X, y = prepare_data(price_data, window_size)
+
+# Split data for training and testing
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+# Reshape for LSTM input
+X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], 1))
+X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
+
+# Train LSTM model
+lstm_model = create_lstm_model((X_train.shape[1], 1))
+lstm_model.fit(X_train, y_train, epochs=5, batch_size=32)  # Reduced epochs for initial test
+
+# ----- Step 6: Run Experiment and Predictions -----
+for idx, row in news_data.iterrows():
+    article_text = row['Article']
+    
+    # Check if the news is fake
+    if is_fake_news(article_text):
+        print(f"[ALERT] Fake news detected for article dated {idx}. Ignoring this article.")
+        continue  # Skip to the next article if this one is fake
+
+    # Perform sentiment analysis on real news
+    sentiment, confidence = analyze_sentiment(article_text)
+    
+    # Append sentiment score as a feature (for a more complex model, integrate with historical price data)
+    sentiment_score = 1 if sentiment == 'POSITIVE' else -1 if sentiment == 'NEGATIVE' else 0
+    
+    # Make a stock price prediction based on historical data + sentiment
+    latest_data = np.append(price_data[-window_size:], sentiment_score)  # Add sentiment as feature
+    latest_data = latest_data.reshape(1, window_size + 1, 1)  # Adjust shape for input
+    
+    # Predict future price
+    predicted_price = lstm_model.predict(latest_data)
+    print(f"Predicted stock price based on real news dated {idx} ({sentiment} sentiment): {predicted_price[0][0]}")
+
+# ----- Step 7: Evaluate Model -----
+# Predict on test set to evaluate performance
+predictions = lstm_model.predict(X_test)
+mse = mean_squared_error(y_test, predictions)
+print(f"Mean Squared Error on test set: {mse}")
+
+
+
+Încărcarea și preprocesarea datelor:
+
+Datele istorice sunt prelucrate pentru a se adapta inputului LSTM.
+Știrile sunt preprocesate și trecute prin verificarea știrilor false.
+Detectarea știrilor false:
+
+În acest exemplu, o funcție is_fake_news simulează un model de detecție a știrilor false. În practică, ar trebui să antrenezi un model specializat.
+Analiza sentimentului:
+
+Se folosește un pipeline NLP pre-antrenat pentru a obține scoruri de sentiment din textul articolelor reale.
+Model LSTM pentru predicția prețului:
+
+Se creează și antrenează un model LSTM care poate prezice prețul acțiunilor pe baza secvențelor istorice de prețuri. În acest caz, sentimentul este folosit ca o caracteristică suplimentară.
+Rularea experimentului și predicția:
+
+Codul procesează articolele, detectează știrile false și, pentru articolele reale, preia scorul de sentiment și face o predicție de preț pe baza datelor istorice și a sentimentului din știri.
+Evaluarea performanței:
+
+Codul evaluează performanța modelului pe un set de date de test folosind MSE pentru a valida acuratețea.
+
+
+Model for detecting fake news: import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import numpy as np
+
+# ----- Step 1: Load Fake News Dataset -----
+# Assuming you have a CSV file 'fake_news_dataset.csv' with columns 'text' and 'label'
+# where 'text' is the article and 'label' is 1 for fake and 0 for real.
+data = pd.read_csv('fake_news_dataset.csv')
+
+# Check for missing values and handle if necessary
+data.dropna(inplace=True)
+
+# Split the data into features (X) and labels (y)
+X = data['text']  # News article text
+y = data['label']  # 1 for fake news, 0 for real news
+
+# ----- Step 2: Split Data into Training and Test Sets -----
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# ----- Step 3: Text Vectorization with TF-IDF -----
+# Convert text to numerical data using TF-IDF
+vectorizer = TfidfVectorizer(max_features=5000)  # Limit features for faster processing
+X_train_tfidf = vectorizer.fit_transform(X_train)
+X_test_tfidf = vectorizer.transform(X_test)
+
+# ----- Step 4: Train Fake News Detection Model -----
+# Use a simple Logistic Regression for binary classification
+classifier = LogisticRegression()
+classifier.fit(X_train_tfidf, y_train)
+
+# ----- Step 5: Evaluate the Model -----
+# Predict on the test set
+y_pred = classifier.predict(X_test_tfidf)
+
+# Calculate accuracy and other metrics
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Model Accuracy: {accuracy * 100:.2f}%")
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred, target_names=["Real", "Fake"]))
+print("\nConfusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
+# ----- Step 6: Define a Function to Detect Fake News -----
+def detect_fake_news(article_text):
+    # Transform the input article using the same vectorizer
+    article_tfidf = vectorizer.transform([article_text])
+    prediction = classifier.predict(article_tfidf)
+    
+    if prediction[0] == 1:
+        print("The article is likely fake news.")
+    else:
+        print("The article is likely real news.")
+
+# ----- Step 7: Test the Model with a New Article -----
+test_article = "The economy is going to crash due to unexpected events, say experts."
+detect_fake_news(test_article)
+
+
+
+
+
+
+FinBERT (mostly based on English) and also mBERT for multilingual
+prediction based on news: from transformers import BertTokenizer, BertForSequenceClassification, pipeline
+import torch
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report
+import numpy as np
+
+# Step 1: Load FinBERT Model and Tokenizer
+# Load the pre-trained FinBERT model for financial sentiment analysis
+tokenizer = BertTokenizer.from_pretrained('yiyanghkust/finbert-tone')
+model = BertForSequenceClassification.from_pretrained('yiyanghkust/finbert-tone')
+
+# Create a sentiment analysis pipeline using FinBERT
+finbert_pipeline = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
+
+# Step 2: Sample Data (News articles with labels for stock movement prediction)
+data = [
+    {"text": "Company announces record-breaking earnings, stock expected to rise.", "label": 1},  # Stock is expected to rise
+    {"text": "Market uncertainty and negative earnings forecasts lead to stock decline.", "label": 0},  # Stock is expected to decline
+    {"text": "Strong economic forecast could boost company’s growth prospects.", "label": 1},
+    {"text": "Company's major product fails, leading to a significant drop in stock price.", "label": 0},
+    {"text": "Strong quarterly performance and promising future outlook lead to stock price rise.", "label": 1}
+]
+
+# Step 3: Extract sentiment (positive, negative) from the news articles using FinBERT
+texts = [item['text'] for item in data]
+labels = [item['label'] for item in data]
+
+# Get the sentiment prediction (labels: POSITIVE, NEGATIVE)
+sentiment_features = []
+for text in texts:
+    sentiment = finbert_pipeline(text)
+    sentiment_score = 1 if sentiment[0]['label'] == 'POSITIVE' else 0
+    sentiment_features.append([sentiment_score])
+
+# Convert to numpy arrays
+X = np.array(sentiment_features)
+y = np.array(labels)
+
+# Step 4: Train a Logistic Regression model
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Step 5: Model training using Logistic Regression
+model = LogisticRegression()
+model.fit(X_train, y_train)
+
+# Step 6: Evaluate the model
+y_pred = model.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("Classification Report:\n", classification_report(y_test, y_pred))
+
+# Step 7: Predict if stock price will rise based on new article input
+def predict_stock_price_rise(article_text):
+    sentiment = finbert_pipeline(article_text)
+    sentiment_score = 1 if sentiment[0]['label'] == 'POSITIVE' else 0
+    # Predict using logistic regression model
+    prediction = model.predict([[sentiment_score]])
+    
+    if prediction == 1:
+        return "Stock price is likely to rise based on this news article."
+    else:
+        return "Stock price is unlikely to rise based on this news article."
+
+# Test the function with a new article
+new_article = "The company reports a major new product launch expected to significantly increase revenue."
+print(predict_stock_price_rise(new_article))
+
+
+
+
+
+
+Long Short Term Memory historical data predicition: import yfinance as yf
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+from sklearn.model_selection import train_test_split
+
+# Step 1: Load Historical Stock Price Data (Example: Apple)
+stock_data = yf.download('AAPL', start='2010-01-01', end='2023-01-01')
+
+# Step 2: Preprocess the Data (Normalize it)
+# We'll only use the 'Close' price for prediction
+stock_data = stock_data[['Close']]
+
+# Normalize the 'Close' prices using Min-Max scaling
+scaler = MinMaxScaler(feature_range=(0, 1))
+scaled_data = scaler.fit_transform(stock_data)
+
+# Step 3: Create Dataset for LSTM (Sliding Window for Time Series)
+def create_dataset(data, time_step=60):
+    X, y = [], []
+    for i in range(time_step, len(data)):
+        X.append(data[i-time_step:i, 0])  # previous `time_step` prices
+        y.append(data[i, 0])  # next day's price
+    return np.array(X), np.array(y)
+
+# Create dataset for LSTM
+time_step = 60
+X, y = create_dataset(scaled_data, time_step)
+X = X.reshape(X.shape[0], X.shape[1], 1)  # Reshape for LSTM [samples, time_steps, features]
+
+# Split into train and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+
+# Step 4: Build LSTM Model
+model = Sequential()
+model.add(LSTM(units=50, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+model.add(LSTM(units=50, return_sequences=False))
+model.add(Dense(units=1))  # Output layer to predict the stock price
+
+# Compile the model
+model.compile(optimizer='adam', loss='mean_squared_error')
+
+# Step 5: Train the LSTM Model
+history = model.fit(X_train, y_train, epochs=10, batch_size=32, validation_data=(X_test, y_test), verbose=1)
+
+# Step 6: Make Predictions on Test Data
+predicted_stock_price = model.predict(X_test)
+
+# Inverse the normalization to get the original stock prices
+predicted_stock_price = scaler.inverse_transform(predicted_stock_price)
+y_test_actual = scaler.inverse_transform(y_test.reshape(-1, 1))
+
+# Step 7: Plot the results
+plt.figure(figsize=(14, 8))
+plt.plot(y_test_actual, color='blue', label='Actual Stock Price')
+plt.plot(predicted_stock_price, color='red', label='Predicted Stock Price')
+plt.title('Stock Price Prediction Using LSTM')
+plt.xlabel('Time')
+plt.ylabel('Stock Price')
+plt.legend()
+plt.show()
+
+# Step 8: Predict the next day's stock price (Example: last available data)
+last_60_days = scaled_data[-60:].reshape(1, -1)
+last_60_days = last_60_days.reshape((last_60_days.shape[0], last_60_days.shape[1], 1))
+
+next_day_predicted_price = model.predict(last_60_days)
+next_day_predicted_price = scaler.inverse_transform(next_day_predicted_price)
+
+print(f"Predicted stock price for the next day: ${next_day_predicted_price[0][0]:.2f}")
+
+
+
+
+
+
+
+
+
+LSTM integrated together with patterns recognition and using Financial Indicators:
+
+import yfinance as yf
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+from sklearn.model_selection import train_test_split
+import talib
+
+# Step 1: Load Historical Stock Price Data (Example: Apple)
+stock_data = yf.download('AAPL', start='2010-01-01', end='2023-01-01')
+
+# Step 2: Calculate Technical Indicators (Patterns)
+# Moving Average (MA), Relative Strength Index (RSI), and MACD
+stock_data['MA50'] = stock_data['Close'].rolling(window=50).mean()  # 50-period moving average
+stock_data['MA200'] = stock_data['Close'].rolling(window=200).mean()  # 200-period moving average
+stock_data['RSI'] = talib.RSI(stock_data['Close'], timeperiod=14)  # 14-period RSI
+stock_data['MACD'], stock_data['MACD_signal'], _ = talib.MACD(stock_data['Close'], fastperiod=12, slowperiod=26, signalperiod=9)  # MACD
+
+# Drop any NaN values resulting from the moving averages and RSI calculation
+stock_data = stock_data.dropna()
+
+# Step 3: Preprocess the Data (Normalize it)
+# We will now use the 'Close', 'MA50', 'MA200', 'RSI', and 'MACD' columns as features
+features = ['Close', 'MA50', 'MA200', 'RSI', 'MACD']
+stock_data = stock_data[features]
+
+# Normalize the data using MinMaxScaler
+scaler = MinMaxScaler(feature_range=(0, 1))
+scaled_data = scaler.fit_transform(stock_data)
+
+# Step 4: Create Dataset for LSTM (Sliding Window for Time Series)
+def create_dataset(data, time_step=60):
+    X, y = [], []
+    for i in range(time_step, len(data)):
+        X.append(data[i-time_step:i])  # previous `time_step` prices and indicators
+        y.append(data[i, 0])  # next day's price (Close price)
+    return np.array(X), np.array(y)
+
+# Create dataset for LSTM
+time_step = 60
+X, y = create_dataset(scaled_data, time_step)
+X = X.reshape(X.shape[0], X.shape[1], X.shape[2])  # Reshape for LSTM [samples, time_steps, features]
+
+# Step 5: Split into Train and Test Data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+
+# Step 6: Build the LSTM Model
+model = Sequential()
+model.add(LSTM(units=50, return_sequences=True, input_shape=(X_train.shape[1], X_train.shape[2])))
+model.add(LSTM(units=50, return_sequences=False))
+model.add(Dense(units=1))  # Output layer to predict the stock price
+
+# Compile the model
+model.compile(optimizer='adam', loss='mean_squared_error')
+
+# Step 7: Train the LSTM Model
+history = model.fit(X_train, y_train, epochs=10, batch_size=32, validation_data=(X_test, y_test), verbose=1)
+
+# Step 8: Make Predictions on Test Data
+predicted_stock_price = model.predict(X_test)
+
+# Inverse the normalization to get the original stock prices
+predicted_stock_price = scaler.inverse_transform(np.concatenate((predicted_stock_price, np.zeros((predicted_stock_price.shape[0], scaled_data.shape[1]-1))), axis=1))[:, 0]
+y_test_actual = scaler.inverse_transform(np.concatenate((y_test.reshape(-1, 1), np.zeros((y_test.shape[0], scaled_data.shape[1]-1))), axis=1))[:, 0]
+
+# Step 9: Plot the Results
+plt.figure(figsize=(14, 8))
+plt.plot(y_test_actual, color='blue', label='Actual Stock Price')
+plt.plot(predicted_stock_price, color='red', label='Predicted Stock Price')
+plt.title('Stock Price Prediction Using LSTM with Technical Indicators')
+plt.xlabel('Time')
+plt.ylabel('Stock Price')
+plt.legend()
+plt.show()
+
+# Step 10: Predict the next day's stock price (Example: last available data)
+last_60_days = scaled_data[-60:].reshape(1, -1, len(features))  # reshape for 60 time steps, each with multiple features
+
+next_day_predicted_price = model.predict(last_60_days)
+next_day_predicted_price = scaler.inverse_transform(np.concatenate((next_day_predicted_price, np.zeros((next_day_predicted_price.shape[0], scaled_data.shape[1]-1))), axis=1))[:, 0]
+
+print(f"Predicted stock price for the next day: ${next_day_predicted_price[0]:.2f}")

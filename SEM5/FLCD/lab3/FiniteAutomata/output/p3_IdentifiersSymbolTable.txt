@@ -1,0 +1,1 @@
+HashTable { elements=[[n], [sum], [], [], [smallerEq], [i, current_number], [takes], [], [], []], capacity=10, count=6 }

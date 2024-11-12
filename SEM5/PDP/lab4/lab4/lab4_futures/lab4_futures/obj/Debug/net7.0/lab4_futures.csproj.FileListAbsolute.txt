@@ -1,0 +1,15 @@
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\lab4_futures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\lab4_futures.AssemblyInfoInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\lab4_futures.AssemblyInfo.cs
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\lab4_futures.csproj.CoreCompileInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\lab4_futures.sourcelink.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\bin\Debug\net7.0\lab4_futures.exe
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\bin\Debug\net7.0\lab4_futures.deps.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\bin\Debug\net7.0\lab4_futures.runtimeconfig.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\bin\Debug\net7.0\lab4_futures.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\bin\Debug\net7.0\lab4_futures.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\lab4_futures.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\refint\lab4_futures.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\lab4_futures.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\lab4_futures.genruntimeconfig.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab4\lab4\lab4_futures\lab4_futures\obj\Debug\net7.0\ref\lab4_futures.dll

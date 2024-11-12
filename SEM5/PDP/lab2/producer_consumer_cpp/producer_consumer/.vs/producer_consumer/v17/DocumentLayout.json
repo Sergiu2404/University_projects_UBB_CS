@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72010768-5A74-45E6-99E8-75B2AA6A4B49}|producer_consumer\\producer_consumer.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\producer_consumer\\producer_consumer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72010768-5A74-45E6-99E8-75B2AA6A4B49}|producer_consumer\\producer_consumer.vcxproj|solutionrelative:producer_consumer\\producer_consumer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72010768-5A74-45E6-99E8-75B2AA6A4B49}|producer_consumer\\producer_consumer.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\producer_consumer\\Buffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72010768-5A74-45E6-99E8-75B2AA6A4B49}|producer_consumer\\producer_consumer.vcxproj|solutionrelative:producer_consumer\\Buffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72010768-5A74-45E6-99E8-75B2AA6A4B49}|producer_consumer\\producer_consumer.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\producer_consumer\\Buffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72010768-5A74-45E6-99E8-75B2AA6A4B49}|producer_consumer\\producer_consumer.vcxproj|solutionrelative:producer_consumer\\Buffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Buffer.cpp",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\producer_consumer\\Buffer.cpp",
+              "RelativeDocumentMoniker": "producer_consumer\\Buffer.cpp",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\producer_consumer\\Buffer.cpp",
+              "RelativeToolTip": "producer_consumer\\Buffer.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-27T11:14:11.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Buffer.h",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\producer_consumer\\Buffer.h",
+              "RelativeDocumentMoniker": "producer_consumer\\Buffer.h",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\producer_consumer\\Buffer.h",
+              "RelativeToolTip": "producer_consumer\\Buffer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-27T11:09:38.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "producer_consumer.cpp",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\producer_consumer\\producer_consumer.cpp",
+              "RelativeDocumentMoniker": "producer_consumer\\producer_consumer.cpp",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab2\\producer_consumer_cpp\\producer_consumer\\producer_consumer\\producer_consumer.cpp",
+              "RelativeToolTip": "producer_consumer\\producer_consumer.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-27T09:59:18.759Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

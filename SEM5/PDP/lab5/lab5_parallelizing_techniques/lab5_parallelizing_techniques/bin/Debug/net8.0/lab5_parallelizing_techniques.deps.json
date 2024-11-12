@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "lab5_parallelizing_techniques/1.0.0": {
+        "runtime": {
+          "lab5_parallelizing_techniques.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab5_parallelizing_techniques/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

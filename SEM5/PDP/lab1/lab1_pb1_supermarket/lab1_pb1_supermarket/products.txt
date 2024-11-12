@@ -1,0 +1,13 @@
+12
+apple 100 50
+banana 150 30
+chocolate_bar 200 75
+milk 300 40
+bread 250 25
+pear 200 20
+peach 100 40
+yoghurt 300 10
+juice 400 20
+coke 350 5
+orange 150 40
+kiwi 180 50

@@ -1,0 +1,15 @@
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\bin\Debug\net8.0\lab7_MPI_programming.exe
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\bin\Debug\net8.0\lab7_MPI_programming.deps.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\bin\Debug\net8.0\lab7_MPI_programming.runtimeconfig.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\bin\Debug\net8.0\lab7_MPI_programming.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\bin\Debug\net8.0\lab7_MPI_programming.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\lab7_MPI_programming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\lab7_MPI_programming.AssemblyInfoInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\lab7_MPI_programming.AssemblyInfo.cs
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\lab7_MPI_programming.csproj.CoreCompileInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\lab7_MPI_programming.sourcelink.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\lab7_MPI_programming.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\refint\lab7_MPI_programming.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\lab7_MPI_programming.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\lab7_MPI_programming.genruntimeconfig.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab7\lab7_MPI_programming\lab7_MPI_programming\obj\Debug\net8.0\ref\lab7_MPI_programming.dll

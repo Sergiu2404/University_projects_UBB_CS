@@ -1,0 +1,30 @@
+start
+    #comment error
+    int nr1;
+    int nr2
+    # semicolon missing
+    int nr3;
+    int maximum;
+    string text;
+    int nr4;
+
+    nr4 takes 0123 # error no numbers starting with 0
+
+    read (nr1); # error here
+    read (nr2);
+    read (nr3);
+
+    maximum takes nr1;
+
+    if (nr2 greaterE maximum) # no greaterE relational expression exists
+    {
+        maximum takes nr2;
+    # closing bracket missing before elif
+    elif (nr3 greaterEq maximum)
+    {
+        maximum takes nr3;
+    };
+
+    write ("max is ");
+    write (maximum);
+end

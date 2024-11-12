@@ -1,0 +1,34 @@
+Expense Tracker
+
+
+1) Description
+  "Expense Trackers" is an intuitive mobile app deisgned to help individuals and especiallly families keep track of their financial spending. 
+  Users are able to log their expenses and income sources and monitor their spending habits. The app allows users to add new financiar logs, update and remove them, offering an overall view of where their money is going.
+  The main purpose of this app is to help people reach their goals easier.
+
+2) Domain Details: 
+Expense fields
+	-ID: an unique identifier for each income entry. (Type: String)
+	-Type: spending / receiving (Tyoe: String)
+	-Amount: the amount of money associated with the entry. It must be positive. (Type: Double)
+	-Category: the category of the log, such as "Salary", "Investments", "OLX", "Gym", "Food". (Type: String)
+	-Date: the date when the entry was made. (Type: String)
+	-Note: any additional note or maybe a short description of the finanical log. (Type: String)
+
+3) The CRUD operations:
+	-Create: Users can add a new financial entry by providing the type (spending or receiving), amount, category, date, and any additional notes (or just empty notes). The ID is generated automatically.
+	-Read: Users can view a list of their financial entries along with their fields details for each specific entry.
+	-Update: Users can modify the type, amount, category, date, and notes of an existing financial entry using its ID. ID is unchangeable.
+	-Delete: Users can remove an existing financial entry from their records using the specific ID.
+
+4) Persistence Details
+	-DB: All CRUD operations are persisted on alocal database such that the app remains functional all the time.
+	-Server: Create, Update, and Delete operations are also saved on a server, ensuring data is accessible from anywhere. Read operation will also be implemented on the server to retrieve data from the database, ensuring that users can access their financial entries from any device.
+
+5) Details on what is happening when the device is offline:
+	-offline support for create, update, delete
+	-When the device is ofline, the app continues to work
+by relying on the local database. Users can still add, view, update, or delete their financial entries,
+as all operations are saved locally. Once the device is back online, any changes made while offline are
+automatically synchronized with the server, ensuring that the data stays up-to-date across all devices.
+This allows users to manage their finances without any interruption

@@ -1,0 +1,1 @@
+HashTable { elements=[[], [], [], [nr1, text], [nr2], [nr3], [maximum], [], [], []], size=10, count=5 }
