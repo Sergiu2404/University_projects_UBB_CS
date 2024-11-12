@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\entities\\supermarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|solutionrelative:lab1_pb1_supermarket\\entities\\supermarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|solutionrelative:lab1_pb1_supermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|solutionrelative:lab1_pb1_supermarket\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\entities\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|solutionrelative:lab1_pb1_supermarket\\entities\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\products.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|solutionrelative:lab1_pb1_supermarket\\products.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\supermarket_documentation.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F0040FB4-ABD6-4F55-9266-E2F017FA2FF4}|lab1_pb1_supermarket\\lab1_pb1_supermarket.csproj|solutionrelative:lab1_pb1_supermarket\\supermarket_documentation.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "supermarket_documentation.txt",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\supermarket_documentation.txt",
+              "RelativeDocumentMoniker": "lab1_pb1_supermarket\\supermarket_documentation.txt",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\supermarket_documentation.txt",
+              "RelativeToolTip": "lab1_pb1_supermarket\\supermarket_documentation.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-21T13:38:57.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\entities\\Bill.cs",
+              "RelativeDocumentMoniker": "lab1_pb1_supermarket\\entities\\Bill.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\entities\\Bill.cs",
+              "RelativeToolTip": "lab1_pb1_supermarket\\entities\\Bill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T10:15:20.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\entities\\Product.cs",
+              "RelativeDocumentMoniker": "lab1_pb1_supermarket\\entities\\Product.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\entities\\Product.cs",
+              "RelativeToolTip": "lab1_pb1_supermarket\\entities\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T10:06:07.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "products.txt",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\products.txt",
+              "RelativeDocumentMoniker": "lab1_pb1_supermarket\\products.txt",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\products.txt",
+              "RelativeToolTip": "lab1_pb1_supermarket\\products.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-13T11:47:00.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\Program.cs",
+              "RelativeDocumentMoniker": "lab1_pb1_supermarket\\Program.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\Program.cs",
+              "RelativeToolTip": "lab1_pb1_supermarket\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T10:04:16.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Supermarket.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\entities\\Supermarket.cs",
+              "RelativeDocumentMoniker": "lab1_pb1_supermarket\\entities\\Supermarket.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab1\\lab1_pb1_supermarket\\lab1_pb1_supermarket\\entities\\Supermarket.cs",
+              "RelativeToolTip": "lab1_pb1_supermarket\\entities\\Supermarket.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T11:23:34.631Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\bin\Debug\net8.0\lab1_pb1_supermarket.exe
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\bin\Debug\net8.0\lab1_pb1_supermarket.deps.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\bin\Debug\net8.0\lab1_pb1_supermarket.runtimeconfig.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\bin\Debug\net8.0\lab1_pb1_supermarket.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\bin\Debug\net8.0\lab1_pb1_supermarket.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\lab1_pb1_supermarket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\lab1_pb1_supermarket.AssemblyInfoInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\lab1_pb1_supermarket.AssemblyInfo.cs
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\lab1_pb1_supermarket.csproj.CoreCompileInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\lab1_pb1_supermarket.sourcelink.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\lab1_pb1_supermarket.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\refint\lab1_pb1_supermarket.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\lab1_pb1_supermarket.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\lab1_pb1_supermarket.genruntimeconfig.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab1\lab1_pb1_supermarket\lab1_pb1_supermarket\obj\Debug\net8.0\ref\lab1_pb1_supermarket.dll

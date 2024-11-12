@@ -1,0 +1,9 @@
+Constants HashTable: 6 - ["max is: "]
+8 - [11]
+
+Identifiers HashTable: 6 - [max]
+7 - [a]
+8 - [b]
+9 - [c]
+
+

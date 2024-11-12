@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "lab8_distributed_protocols/1.0.0": {
+        "runtime": {
+          "lab8_distributed_protocols.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab8_distributed_protocols/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

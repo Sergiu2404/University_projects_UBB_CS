@@ -1,0 +1,5 @@
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\VirtualReality\EllipsoidRayTracer\EllipsoidRayTracer\obj\Debug\net8.0\EllipsoidRayTracer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\VirtualReality\EllipsoidRayTracer\EllipsoidRayTracer\obj\Debug\net8.0\EllipsoidRayTracer.AssemblyInfoInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\VirtualReality\EllipsoidRayTracer\EllipsoidRayTracer\obj\Debug\net8.0\EllipsoidRayTracer.AssemblyInfo.cs
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\VirtualReality\EllipsoidRayTracer\EllipsoidRayTracer\obj\Debug\net8.0\EllipsoidRayTracer.csproj.CoreCompileInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\VirtualReality\EllipsoidRayTracer\EllipsoidRayTracer\obj\Debug\net8.0\EllipsoidRayTracer.sourcelink.json

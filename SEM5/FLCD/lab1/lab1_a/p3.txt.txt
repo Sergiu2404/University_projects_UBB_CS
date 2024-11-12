@@ -1,0 +1,33 @@
+# Compute sum of n numbers
+# Rules:
+# = represented with "takes"
+# > represented with "greater"
+# < - represented with "smaller"
+# >= - represented with "greaterEq"
+# <= - represented with "smallerEq"
+# == - is
+# != - isNot
+
+
+
+start
+    int n;
+    int i;
+    int current_number;
+    int sum;
+    sum takes 0;
+
+    read(n);
+
+    i takes 1;
+
+    while (i smallerEq n)
+    {
+        read(current_number);
+        sum takes sum + current_number;
+        i takes i + 1;
+    };
+
+    write("sum is ");
+    write(sum);
+end

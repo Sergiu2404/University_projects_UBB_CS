@@ -1,0 +1,36 @@
+# Compute maximum of 3 numbers
+# Rules:
+# = represented with "takes"
+# > represented with "greater"
+# < - represented with "smaller"
+# >= - represented with "greaterEq"
+# <= - represented with "smallerEq"
+# == - is
+# != - isNot
+
+
+start
+    int nr1;
+    int nr2;
+    int nr3;
+    int maximum;
+    string text;
+
+    read (nr1);
+    read (nr2);
+    read (nr3);
+
+    maximum takes nr1;
+
+    if (nr2 greaterEq maximum)
+    {
+        maximum takes nr2;
+    }
+    elif (nr3 greaterEq maximum)
+    {
+        maximum takes nr3;
+    };
+
+    write ("max is ");
+    write (maximum);
+end

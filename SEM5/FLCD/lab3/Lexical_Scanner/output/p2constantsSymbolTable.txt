@@ -1,0 +1,1 @@
+HashTable { elements=[[2], ["The root or roots are: "], [4], [], ["One real root: "], [], [], [], [0, "No real roots"], [" and "]], size=10, count=7 }

@@ -1,0 +1,15 @@
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\bin\Debug\net8.0\lab3_parallelTasks.exe
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\bin\Debug\net8.0\lab3_parallelTasks.deps.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\bin\Debug\net8.0\lab3_parallelTasks.runtimeconfig.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\bin\Debug\net8.0\lab3_parallelTasks.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\bin\Debug\net8.0\lab3_parallelTasks.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\lab3_parallelTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\lab3_parallelTasks.AssemblyInfoInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\lab3_parallelTasks.AssemblyInfo.cs
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\lab3_parallelTasks.csproj.CoreCompileInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\lab3_parallelTasks.sourcelink.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\lab3_parallelTasks.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\refint\lab3_parallelTasks.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\lab3_parallelTasks.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\lab3_parallelTasks.genruntimeconfig.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab3\lab3_parallelTasks\lab3_parallelTasks\obj\Debug\net8.0\ref\lab3_parallelTasks.dll

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{235CE852-F45F-4B34-B3DB-8614D2EEE784}|lab2_SDA_linkedList\\lab2_SDA_linkedList.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\lab2_SDA_linkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{235CE852-F45F-4B34-B3DB-8614D2EEE784}|lab2_SDA_linkedList\\lab2_SDA_linkedList.vcxproj|solutionrelative:lab2_SDA_linkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{235CE852-F45F-4B34-B3DB-8614D2EEE784}|lab2_SDA_linkedList\\lab2_SDA_linkedList.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\lab2_SDA_linkedList\\ShortTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{235CE852-F45F-4B34-B3DB-8614D2EEE784}|lab2_SDA_linkedList\\lab2_SDA_linkedList.vcxproj|solutionrelative:lab2_SDA_linkedList\\ShortTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{235CE852-F45F-4B34-B3DB-8614D2EEE784}|lab2_SDA_linkedList\\lab2_SDA_linkedList.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\lab2_SDA_linkedList\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{235CE852-F45F-4B34-B3DB-8614D2EEE784}|lab2_SDA_linkedList\\lab2_SDA_linkedList.vcxproj|solutionrelative:lab2_SDA_linkedList\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\lab2_SDA_linkedList\\LinkedList.cpp",
+              "RelativeDocumentMoniker": "lab2_SDA_linkedList\\LinkedList.cpp",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\lab2_SDA_linkedList\\LinkedList.cpp",
+              "RelativeToolTip": "lab2_SDA_linkedList\\LinkedList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-22T14:13:29.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShortTest.cpp",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\lab2_SDA_linkedList\\ShortTest.cpp",
+              "RelativeDocumentMoniker": "lab2_SDA_linkedList\\ShortTest.cpp",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\lab2_SDA_linkedList\\ShortTest.cpp",
+              "RelativeToolTip": "lab2_SDA_linkedList\\ShortTest.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-22T14:13:23.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.cpp",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\lab2_SDA_linkedList\\App.cpp",
+              "RelativeDocumentMoniker": "lab2_SDA_linkedList\\App.cpp",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM2\\DSA\\Lab2_MultiMap\\lab2_SDA_linkedList\\lab2_SDA_linkedList\\App.cpp",
+              "RelativeToolTip": "lab2_SDA_linkedList\\App.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-22T14:11:39.036Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\lab2_ST_cpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|solutionrelative:lab2_ST_cpp\\lab2_ST_cpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\Pair.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|solutionrelative:lab2_ST_cpp\\Pair.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\HashTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|solutionrelative:lab2_ST_cpp\\HashTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\SymbolTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|solutionrelative:lab2_ST_cpp\\SymbolTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\HashTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|solutionrelative:lab2_ST_cpp\\HashTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\SymbolTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|solutionrelative:lab2_ST_cpp\\SymbolTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\Pair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A79F4A39-CAA9-4995-8B12-EC4DFB0EC904}|lab2_ST_cpp\\lab2_ST_cpp.vcxproj|solutionrelative:lab2_ST_cpp\\Pair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SymbolTable.cpp",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\SymbolTable.cpp",
+              "RelativeDocumentMoniker": "lab2_ST_cpp\\SymbolTable.cpp",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\SymbolTable.cpp",
+              "RelativeToolTip": "lab2_ST_cpp\\SymbolTable.cpp",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-14T13:22:46.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SymbolTable.h",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\SymbolTable.h",
+              "RelativeDocumentMoniker": "lab2_ST_cpp\\SymbolTable.h",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\SymbolTable.h",
+              "RelativeToolTip": "lab2_ST_cpp\\SymbolTable.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T13:21:30.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lab2_ST_cpp.cpp",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\lab2_ST_cpp.cpp",
+              "RelativeDocumentMoniker": "lab2_ST_cpp\\lab2_ST_cpp.cpp",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\lab2_ST_cpp.cpp*",
+              "RelativeToolTip": "lab2_ST_cpp\\lab2_ST_cpp.cpp*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-14T12:32:19.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HashTable.cpp",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\HashTable.cpp",
+              "RelativeDocumentMoniker": "lab2_ST_cpp\\HashTable.cpp",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\HashTable.cpp*",
+              "RelativeToolTip": "lab2_ST_cpp\\HashTable.cpp*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-14T12:55:53.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HashTable.h",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\HashTable.h",
+              "RelativeDocumentMoniker": "lab2_ST_cpp\\HashTable.h",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\HashTable.h",
+              "RelativeToolTip": "lab2_ST_cpp\\HashTable.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T12:40:39.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pair.h",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\Pair.h",
+              "RelativeDocumentMoniker": "lab2_ST_cpp\\Pair.h",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\Pair.h",
+              "RelativeToolTip": "lab2_ST_cpp\\Pair.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T12:32:58.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pair.cpp",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\Pair.cpp",
+              "RelativeDocumentMoniker": "lab2_ST_cpp\\Pair.cpp",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\FLCD\\lab2\\lab2_ST_cpp\\lab2_ST_cpp\\Pair.cpp*",
+              "RelativeToolTip": "lab2_ST_cpp\\Pair.cpp*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-14T12:35:41.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

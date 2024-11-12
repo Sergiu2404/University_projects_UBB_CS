@@ -1,0 +1,51 @@
+
+Documentation for Supermarket System:
+
+1. Min program file
+     - Creates a Supermarket instantation with the products read form file.
+     - Generates random bills with GenerateRandomBills().
+     - Uses threading to process bills in parallel. For each thread, the number of bills to be processed is split evenly across the threads.
+     - After all threads have finished, it performs an integrity check using `Supermarket.CheckEverything()`.
+
+   - ProcessBills():
+     - Receives a list of bills and processes them by calling Supermarket.ProcessBill().
+     - The method runs inside a thread and prints information about which thread is processing which bill.
+   
+   - LoadProductsFromFile():
+     - Reads product details (name, quantity, price) from a file, returning a list of products
+
+2. Supermarket
+   - Tracks product sales and manages bills.
+   - Fields:
+     - `products`: A list of Product objects, representing the available products in the supermarket.
+     - `consumedBills`: A list that stores bills after they have been processed.
+     - `money`: The total money accumulated from product sales.
+     - `checkMutex`: A mutex used for thread synchronization to ensure that bills are processed without conflicts between threads.
+   
+   - ProcessBill():
+     - This method processes a given bill by deducting product quantities, recording the sold quantities, and adding to the total revenue.
+     - A mutex lock is used to ensure that only one thread can modify the supermarket’s state at a time.
+   
+   - CheckEverything():
+     - This method performs a check on the supermarket’s inventory after all bills have been processed.
+     - It checks if the sold quantities match, calculates the total money from sold products, and compares it with the recorded money.
+     - Prints detailed information about each product: sold, remaining, sold quantity, and money generated.
+     - If any inconsistency found between the data, prints data inconsistency.
+
+3. Product
+   - This class represents a product in the supermarket.
+   - Fields:
+     - `Name`: The product name.
+     - `Quantity`: The total available quantity.
+     - `Price`: The price.
+     - `SoldQuantity`: The number of units sold.
+   
+   - ToString():
+     - A string representation of the product.
+
+4. Bill
+   - A bill in the supermarket, which contains a list of products.
+   
+   - GenerateRandomBills():
+     - Generates a list of random bills. Each bill has 1 to 5 randomly selected products, and each product has a random quantity between 1 and 5.
+     - The method takes the list of products and the number of bills to generate.

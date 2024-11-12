@@ -1,0 +1,19 @@
+int a;
+int b;
+int c;
+int max;
+
+a takes 11
+read ( b );
+read ( c );
+
+if (b greaterEq max) {
+    max takes b;
+}
+elif(c greaterEq max) {
+	max takes c;
+}
+write ("max is: ")
+write ( max );
+
+

@@ -1,0 +1,15 @@
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\bin\Debug\net8.0\lab5_parallelizing_techniques.exe
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\bin\Debug\net8.0\lab5_parallelizing_techniques.deps.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\bin\Debug\net8.0\lab5_parallelizing_techniques.runtimeconfig.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\bin\Debug\net8.0\lab5_parallelizing_techniques.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\bin\Debug\net8.0\lab5_parallelizing_techniques.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\lab5_parallelizing_techniques.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\lab5_parallelizing_techniques.AssemblyInfoInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\lab5_parallelizing_techniques.AssemblyInfo.cs
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\lab5_parallelizing_techniques.csproj.CoreCompileInputs.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\lab5_parallelizing_techniques.sourcelink.json
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\lab5_parallelizing_techniques.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\refint\lab5_parallelizing_techniques.dll
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\lab5_parallelizing_techniques.pdb
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\lab5_parallelizing_techniques.genruntimeconfig.cache
+C:\Users\SergiuGoian\Desktop\University_projects_UBB_CS\SEM5\PDP\lab5\lab5_parallelizing_techniques\lab5_parallelizing_techniques\obj\Debug\net8.0\ref\lab5_parallelizing_techniques.dll
