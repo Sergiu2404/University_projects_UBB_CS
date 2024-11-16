@@ -51,6 +51,10 @@ public class FiniteAutomaton {
         return formatTransitions();
     }
 
+    public String toBNF() {
+        return generateBNF();
+    }
+
     @Override
     public String toString() {
         return formatAutomatonDetails();
@@ -105,9 +109,22 @@ public class FiniteAutomaton {
     }
 
     private boolean checkDeterminism() {
-        for (Set<String> transitions : transitionMap.values()) {
-            if (transitions.size() > 1) return false;
+        for (Map.Entry<Pair<String, String>, Set<String>> entry : transitionMap.entrySet()) {
+            Pair<String, String> stateSymbolPair = entry.getKey();
+            Set<String> targetStates = entry.getValue();
+            if (stateSymbolPair.getValue().equals("") || stateSymbolPair.getValue().equals("ε")) {
+                System.out.println("Non-deterministic transition detected: Epsilon (ε) transition from state '" +
+                        stateSymbolPair.getKey() + "' to states " + targetStates);
+                return false;
+            }
+            if (targetStates.size() > 1) {
+                System.out.println("Non-deterministic transition detected: State '" +
+                        stateSymbolPair.getKey() + "' has multiple transitions for symbol '" +
+                        stateSymbolPair.getValue() + "'.");
+                return false;
+            }
         }
+        //System.out.println("The finite automaton is deterministic.");
         return true;
     }
 
@@ -144,5 +161,41 @@ public class FiniteAutomaton {
                 ", transitionMap=" + transitionMap +
                 ", deterministic=" + deterministic +
                 '}';
+    }
+
+    private String generateBNF() {
+        StringBuilder bnf = new StringBuilder();
+
+        // BNF for states
+        bnf.append("<states> ::= ");
+        bnf.append(String.join(" | ", allStates)).append("\n");
+
+        // BNF for alphabet
+        bnf.append("<alphabet> ::= ");
+        bnf.append(String.join(" | ", symbols)).append("\n");
+
+        // BNF for transitions
+        bnf.append("<transition> ::= ");
+        for (Map.Entry<Pair<String, String>, Set<String>> entry : transitionMap.entrySet()) {
+            Pair<String, String> stateSymbol = entry.getKey();
+            Set<String> destinations = entry.getValue();
+            for (String destination : destinations) {
+                bnf.append("<").append(stateSymbol.getKey()).append("> ")
+                        .append("<").append(stateSymbol.getValue()).append("> ")
+                        .append("<").append(destination).append("> | ");
+            }
+        }
+        // Remove the last " | " and add a newline
+        bnf.setLength(bnf.length() - 3);
+        bnf.append("\n");
+
+        // BNF for start state
+        bnf.append("<start_state> ::= ").append(startState).append("\n");
+
+        // BNF for accept states
+        bnf.append("<accept_states> ::= ");
+        bnf.append(String.join(" | ", acceptStates)).append("\n");
+
+        return bnf.toString();
     }
 }

@@ -38,14 +38,15 @@ public class Main {
         System.out.println("4. Transitions.");
         System.out.println("5. Initial state.");
         System.out.println("6. Is it deterministic?");
-        System.out.println("7. Give a sequence to check if it is accepted by the FA: ");
-        System.out.println("0. Return to the main menu");
+        System.out.println("7. Give a sequence to check if it is accepted by the FA.");
+        System.out.println("8. Generate BNF representation.");
+        System.out.println("0. Return to the main menu.");
         System.out.println("============================================================");
     }
 
+
     private static void optionsForDFA() {
         FiniteAutomaton finiteAutomaton = new FiniteAutomaton("input/FA.txt");
-
         Scanner scanner = new Scanner(System.in);
         int option = -1;
 
@@ -53,7 +54,6 @@ public class Main {
             printMenu();
             System.out.print("Your option: ");
 
-            // Try-catch block to handle non-integer inputs
             try {
                 option = scanner.nextInt();
                 scanner.nextLine(); // clear buffer after integer input
@@ -98,8 +98,13 @@ public class Main {
                         } else if (finiteAutomaton.acceptsSequence(sequence)) {
                             System.out.println("Sequence is valid");
                         } else {
-                            System.out.println("Sequence is not valid");
+                            System.out.println("Sequence is not valid.");
                         }
+                        break;
+
+                    case 8: // New case for generating BNF
+                        System.out.println("BNF Representation of the Finite Automaton: ");
+                        System.out.println(finiteAutomaton.toBNF());
                         break;
 
                     case 0:
@@ -116,6 +121,7 @@ public class Main {
             }
         } while (option != 0);
     }
+
 
     public static void runScanner() {
         run("input/p1.txt");

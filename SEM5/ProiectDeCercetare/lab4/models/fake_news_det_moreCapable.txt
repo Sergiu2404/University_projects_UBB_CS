@@ -1,0 +1,121 @@
+# Import necessary libraries
+import pandas as pd
+import torch
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, accuracy_score
+from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
+from transformers import RobertaTokenizer, RobertaForSequenceClassification  # If you prefer RoBERTa
+from torch.utils.data import Dataset
+
+# Load the datasets
+# Adjust the paths below to point to the locations of your Fake and True CSV files
+data_fake = pd.read_csv('path_to/Fake.csv')
+data_true = pd.read_csv('path_to/True.csv')
+
+# Label data: "0" for fake, "1" for true news
+data_fake["class"] = 0
+data_true["class"] = 1
+
+# Combine the datasets and reset index for convenience
+data = pd.concat([data_fake[['text', 'class']], data_true[['text', 'class']]], axis=0).reset_index(drop=True)
+
+# Split into train and test sets
+# Here, we use 80% for training and 20% for testing
+train_texts, test_texts, train_labels, test_labels = train_test_split(
+    data['text'].tolist(), data['class'].tolist(), test_size=0.2, random_state=42
+)
+
+# Initialize tokenizer - Choose BERT or RoBERTa
+# Uncomment one of the following lines, depending on whether you want to use BERT or RoBERTa
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')    # BERT
+# tokenizer = RobertaTokenizer.from_pretrained('roberta-base')    # RoBERTa (if preferred)
+
+# Tokenize the text data for BERT/RoBERTa model requirements
+train_encodings = tokenizer(train_texts, truncation=True, padding=True, max_length=512)
+test_encodings = tokenizer(test_texts, truncation=True, padding=True, max_length=512)
+
+# Define a custom dataset class
+# This will allow the Trainer to handle our tokenized data and labels
+class NewsDataset(Dataset):
+    def __init__(self, encodings, labels):
+        self.encodings = encodings
+        self.labels = labels
+
+    def __getitem__(self, idx):
+        # Returns tokenized input IDs, attention masks, and the label at index idx
+        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
+        item['labels'] = torch.tensor(self.labels[idx])
+        return item
+
+    def __len__(self):
+        return len(self.labels)
+
+# Create datasets for training and testing
+train_dataset = NewsDataset(train_encodings, train_labels)
+test_dataset = NewsDataset(test_encodings, test_labels)
+
+# Load the BERT model for sequence classification (binary classification)
+# For RoBERTa, use RobertaForSequenceClassification instead
+model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)
+# model = RobertaForSequenceClassification.from_pretrained('roberta-base', num_labels=2)  # Uncomment if using RoBERTa
+
+# Define training arguments for the Trainer API
+training_args = TrainingArguments(
+    output_dir='./results',                # Directory to save model and checkpoints
+    num_train_epochs=3,                    # Number of epochs (adjust based on dataset size)
+    per_device_train_batch_size=8,         # Batch size per device during training
+    per_device_eval_batch_size=16,         # Batch size for evaluation
+    warmup_steps=500,                      # Number of warmup steps for learning rate scheduler
+    weight_decay=0.01,                     # Strength of weight decay
+    logging_dir='./logs',                  # Directory for storing logs
+    logging_steps=10,
+    evaluation_strategy="epoch",           # Evaluate after each epoch
+)
+
+# Initialize the Trainer with our model, training arguments, datasets, and metrics
+# Trainer API simplifies model training and evaluation
+def compute_metrics(pred):
+    # Function to compute evaluation metrics, such as accuracy
+    labels = pred.label_ids
+    preds = pred.predictions.argmax(-1)
+    acc = accuracy_score(labels, preds)
+    return {"accuracy": acc}
+
+trainer = Trainer(
+    model=model,                          # Model to train
+    args=training_args,                   # Training arguments (see above)
+    train_dataset=train_dataset,          # Training dataset
+    eval_dataset=test_dataset,            # Evaluation dataset
+    compute_metrics=compute_metrics       # Metrics function for evaluation
+)
+
+# Train the model
+trainer.train()
+
+# Evaluate the model on the test dataset
+eval_results = trainer.evaluate()
+
+# Print the final accuracy on the test set
+print(f"Accuracy on test set: {eval_results['eval_accuracy']:.2f}")
+
+# Print classification report for more detailed performance metrics
+# Get predictions and labels from the Trainer's test predictions
+preds_output = trainer.predict(test_dataset)
+preds = preds_output.predictions.argmax(-1)
+print(classification_report(test_labels, preds, target_names=["Fake", "Not Fake"]))
+
+# Define a function for single-text predictions
+def predict_news(text):
+    # Tokenize input text
+    encoding = tokenizer(text, truncation=True, padding=True, max_length=512, return_tensors="pt")
+    # Perform prediction
+    with torch.no_grad():
+        outputs = model(**encoding)
+    # Get the predicted label (0 = Fake, 1 = Not Fake)
+    pred = outputs.logits.argmax(dim=1).item()
+    label = "Not Fake" if pred == 1 else "Fake"
+    return label
+
+# Test the prediction function with a sample input
+sample_text = "The government announced a breakthrough policy to tackle the economic crisis today."
+print(f"Prediction for the sample text: {predict_news(sample_text)}")
