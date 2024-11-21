@@ -33,6 +33,7 @@ import com.example.expense_tracker.ui.theme.Expense_trackerTheme
 
 
 class MainActivity : ComponentActivity() {
+    // create new instance of a view model
     private val expenseViewModel: ExpenseViewModel by viewModels()
 
     private val updateExpenseLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
@@ -40,7 +41,22 @@ class MainActivity : ComponentActivity() {
         if (result.resultCode == Activity.RESULT_OK) {
             println("does not arrive here")
             val updatedExpense = result.data?.getParcelableExtra<Expense>("updatedExpense")
-            updatedExpense?.let { expenseViewModel.updateExpense(it) }
+            if (updatedExpense != null) {
+                expenseViewModel.updateExpense(updatedExpense)
+            }
+
+        }
+    }
+
+    private val addExpenseLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+        //println("does not enter here")
+        if (result.resultCode == Activity.RESULT_OK) {
+            //println("does not arrive here")
+            val newExpense = result.data?.getParcelableExtra<Expense>("newExpense")
+            if (newExpense != null) {
+                expenseViewModel.addExpense(newExpense)
+            }
+
         }
     }
 
@@ -50,10 +66,9 @@ class MainActivity : ComponentActivity() {
 
         setContent {
 
-            val expense = intent.getParcelableExtra<Expense>("expense")
-            expense?.let {
-                expenseViewModel.addExpense(it)
-            }
+//            val expense = intent.getParcelableExtra<Expense>("expense")
+//            if(expense != null)
+//                expenseViewModel.addExpense(expense)
             MainScreen(expenseViewModel)
         }
     }
@@ -67,6 +82,12 @@ class MainActivity : ComponentActivity() {
         }
         //startActivity(intent)
         updateExpenseLauncher.launch(intent)
+    }
+
+    fun startAddExpenseActivity() {
+        val intent = Intent(this, AddExpenseActivity::class.java)
+        //startActivity(intent)
+        addExpenseLauncher.launch(intent)
     }
 
 }
@@ -149,8 +170,12 @@ fun AddExpenseButton(expenseViewModel: ExpenseViewModel) {
             color = Color.Black,
             modifier = Modifier
                 .clickable {
-                    val intent = Intent(context, AddExpenseActivity::class.java)
-                    context.startActivity(intent)
+                    if (context is MainActivity) {
+                        context.startAddExpenseActivity()
+                        //println("enetered startViewAct")
+                    }
+//                    val intent = Intent(context, AddExpenseActivity::class.java)
+//                    context.startActivity(intent)
                 }
                 .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
                 .padding(vertical = 8.dp, horizontal = 16.dp)
@@ -171,7 +196,7 @@ fun ExpenseList(expenses: List<Expense>, expenseViewModel: ExpenseViewModel) {
 
 @Composable
 fun ExpenseItem(expense: Expense, expenseViewModel: ExpenseViewModel) {
-    val openDialog = remember { mutableStateOf(false) }
+    val openDialog = remember { mutableStateOf(false) } //remember stores states through recompositions
     val showConfirmDeleteDialog = remember { mutableStateOf(false) }
 
     Column(

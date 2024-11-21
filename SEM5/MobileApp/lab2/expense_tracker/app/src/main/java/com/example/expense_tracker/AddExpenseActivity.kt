@@ -29,7 +29,7 @@ class AddExpenseActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             AddExpenseScreen() {
-                finish()
+                //finish()
             }
         }
     }
@@ -102,10 +102,6 @@ fun AddExpenseScreen(onFinish: () -> Unit) {
                     )
                 )
 
-                Spacer(modifier = Modifier.height(8.dp))
-
-                // Type Field (SPENDING / RECEIVING)
-
 
                 Spacer(modifier = Modifier.height(8.dp))
 
@@ -113,7 +109,6 @@ fun AddExpenseScreen(onFinish: () -> Unit) {
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.spacedBy(16.dp)
                 ) {
-                    // SPENDING Radio Button
                     Row(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
@@ -124,7 +119,6 @@ fun AddExpenseScreen(onFinish: () -> Unit) {
                         Text("SPENDING", modifier = Modifier.padding(start = 8.dp))
                     }
 
-                    // RECEIVING Radio Button
                     Row(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
@@ -137,7 +131,6 @@ fun AddExpenseScreen(onFinish: () -> Unit) {
                 }
 
 
-                // Notes Field
                 BasicTextFieldWithLabel(
                     label = "Notes",
                     value = notes,
@@ -149,7 +142,6 @@ fun AddExpenseScreen(onFinish: () -> Unit) {
 
                 Spacer(modifier = Modifier.height(16.dp))
 
-                // Error message if validation fails
                 if (errorMessage.isNotEmpty()) {
                     Text(
                         text = errorMessage,
@@ -182,10 +174,18 @@ fun AddExpenseScreen(onFinish: () -> Unit) {
 
                             errorMessage = ""
 
-                            val intent = Intent(context, MainActivity::class.java)
-                            intent.putExtra("expense", expense)  // Sending the expense as an extra
-                            context.startActivity(intent)
-                            (context as Activity).finish()
+//                            val intent = Intent(context, MainActivity::class.java)
+//                            intent.putExtra("newExpense", expense)  // Sending the expense as an extra
+//                            context.startActivity(intent)
+//                            (context as Activity).finish()
+
+                            val resultIntent = Intent().apply{
+                                putExtra("newExpense", expense)
+                            }
+
+                            // Set the result and finish
+                            (context as? Activity)?.setResult(Activity.RESULT_OK, resultIntent)
+                            (context as? Activity)?.finish()
                         }
                     },
                     modifier = Modifier.fillMaxWidth(),

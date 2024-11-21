@@ -40,7 +40,7 @@ data class Expense(
             return Expense(parcel)
         }
 
-        override fun newArray(size: Int): Array<Expense?> { // array of expense objects of specified size
+        override fun newArray(size: Int): Array<Expense?> {
             return arrayOfNulls(size)
         }
     }

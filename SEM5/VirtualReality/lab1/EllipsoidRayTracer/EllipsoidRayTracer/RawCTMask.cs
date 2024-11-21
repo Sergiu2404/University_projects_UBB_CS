@@ -71,14 +71,16 @@ public class RawCtMask: Geometry
 
         //multiply the bounding box bounds by the inverse of the direction vector components)
 
+
+
         Vector inverseDirection = new Vector(1.0 / ray.Dx.X, 1.0 / ray.Dx.Y, 1.0 / ray.Dx.Z);
 
         // calc inters distances for each axis
-        double tMinX = (_v0.X - ray.X0.X) * inverseDirection.X;
+        double tMinX = (_v0.X - ray.X0.X) * inverseDirection.X; //calculate t for the first bounding box
         double tMinY = (_v0.Y - ray.X0.Y) * inverseDirection.Y;
         double tMinZ = (_v0.Z - ray.X0.Z) * inverseDirection.Z;
 
-        double tMaxX = (_v1.X - ray.X0.X) * inverseDirection.X;
+        double tMaxX = (_v1.X - ray.X0.X) * inverseDirection.X; //calculate t for the end of the bounding box
         double tMaxY = (_v1.Y - ray.X0.Y) * inverseDirection.Y;
         double tMaxZ = (_v1.Z - ray.X0.Z) * inverseDirection.Z;
 
@@ -86,8 +88,6 @@ public class RawCtMask: Geometry
         double intersectionMin = Math.Max(Math.Max(Math.Min(tMinX, tMaxX), Math.Min(tMinY, tMaxY)), Math.Min(tMinZ, tMaxZ));
         double intersectionMax = Math.Min(Math.Min(Math.Max(tMinX, tMaxX), Math.Max(tMinY, tMaxY)), Math.Max(tMinZ, tMaxZ));
 
-        // no valid inters
-        if (intersectionMax < Math.Max(intersectionMin, 0.0)) return Intersection.NONE;
 
         // intersection dist to the bounds defined by minDistance and maxDistance
         double startIntersection = Math.Max(intersectionMin, minDistance);
@@ -122,15 +122,12 @@ public class RawCtMask: Geometry
                 // acucmulate color considering alpha transparency and previous color
                 accumulatedColor += pointColor * pointColor.Alpha * lastTransparency;
                 lastTransparency *= (1 - pointColor.Alpha);
-
-                if (lastTransparency < 0) break; // stop If the transparency is low
             }
         }
 
         if (firstIntersectionDistance < 0) return Intersection.NONE;
 
         return new Intersection(true, foundFirstIntersection, this, ray, firstIntersectionDistance, surfaceNormal, Material.FromColor(accumulatedColor), accumulatedColor);
-        return Intersection.NONE;
     }
 
 

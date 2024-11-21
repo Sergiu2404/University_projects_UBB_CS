@@ -44,13 +44,13 @@ namespace rt
         private bool IsLit(Vector point, Light light)
         {
             // TODO: ADD CODE HERE
-            const double minDistance = 0.1;
+            const double minDistance = 1;  // ?? de ce pentru 0 e neclar
             var rayToLight = new Line(point, light.Position);
             var lightDistance = (point - light.Position).Length();
 
             foreach (var geometry in geometries)
             {
-                if (geometry is RawCtMask) continue; // Skip RawCtMask objects (could be for custom masks)
+                if (geometry is RawCtMask) continue;
 
                 var intersection = geometry.GetIntersection(rayToLight, minDistance, lightDistance);
 
