@@ -7,27 +7,24 @@
       "RelativeMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|solutionrelative:lab4_futures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4\\lab4_futures\\lab4_futures\\httpdownloaderasyncawait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|solutionrelative:lab4_futures\\httpdownloaderasyncawait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4\\lab4_futures\\lab4_futures\\taskmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|solutionrelative:lab4_futures\\taskmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4\\lab4_futures\\lab4_futures\\asyncawaittasksmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|solutionrelative:lab4_futures\\asyncawaittasksmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4\\lab4_futures\\lab4_futures\\directcallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|solutionrelative:lab4_futures\\directcallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4\\lab4_futures\\lab4_futures\\httputils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|solutionrelative:lab4_futures\\httputils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4\\lab4_futures\\lab4_futures\\httpdownloadercallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|solutionrelative:lab4_futures\\httpdownloadercallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4\\lab4_futures\\lab4_futures\\httpdownloadertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|solutionrelative:lab4_futures\\httpdownloadertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4\\lab4_futures\\lab4_futures\\stateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53D6B8E8-7A4E-43F9-A236-9512DD9FCD8E}|lab4_futures\\lab4_futures.csproj|solutionrelative:lab4_futures\\stateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SergiuGoian\\AppData\\Local\\Temp\\.vsdbgsrc\\a278e12a37f3e0d3baf7b0b196fae83fa2a665db4de490be167b76ec8ba8b3e3\\TaskFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,13 +38,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HttpUtils.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\HttpUtils.cs",
               "RelativeDocumentMoniker": "lab4_futures\\HttpUtils.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\HttpUtils.cs",
               "RelativeToolTip": "lab4_futures\\HttpUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T16:58:15.138Z",
               "EditorCaption": ""
@@ -60,7 +57,7 @@
               "RelativeDocumentMoniker": "lab4_futures\\StateObject.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\StateObject.cs",
               "RelativeToolTip": "lab4_futures\\StateObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T16:56:41.324Z",
               "EditorCaption": ""
@@ -73,33 +70,33 @@
               "RelativeDocumentMoniker": "lab4_futures\\Program.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\Program.cs*",
               "RelativeToolTip": "lab4_futures\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T16:26:38.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HttpDownloaderAsyncAwait.cs",
-              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\HttpDownloaderAsyncAwait.cs",
-              "RelativeDocumentMoniker": "lab4_futures\\HttpDownloaderAsyncAwait.cs",
-              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\HttpDownloaderAsyncAwait.cs",
-              "RelativeToolTip": "lab4_futures\\HttpDownloaderAsyncAwait.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAjwCkAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AsyncAwaitTasksMechanism.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\AsyncAwaitTasksMechanism.cs",
+              "RelativeDocumentMoniker": "lab4_futures\\AsyncAwaitTasksMechanism.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\AsyncAwaitTasksMechanism.cs",
+              "RelativeToolTip": "lab4_futures\\AsyncAwaitTasksMechanism.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T16:28:20.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HttpDownloaderTask.cs",
-              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\HttpDownloaderTask.cs",
-              "RelativeDocumentMoniker": "lab4_futures\\HttpDownloaderTask.cs",
-              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\HttpDownloaderTask.cs",
-              "RelativeToolTip": "lab4_futures\\HttpDownloaderTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TaskMechanism.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\TaskMechanism.cs",
+              "RelativeDocumentMoniker": "lab4_futures\\TaskMechanism.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\TaskMechanism.cs",
+              "RelativeToolTip": "lab4_futures\\TaskMechanism.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T16:28:31.687Z",
               "EditorCaption": ""
@@ -107,28 +104,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HttpDownloaderCallback.cs",
-              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\HttpDownloaderCallback.cs",
-              "RelativeDocumentMoniker": "lab4_futures\\HttpDownloaderCallback.cs",
-              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\HttpDownloaderCallback.cs",
-              "RelativeToolTip": "lab4_futures\\HttpDownloaderCallback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "DirectCallBack.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\DirectCallBack.cs",
+              "RelativeDocumentMoniker": "lab4_futures\\DirectCallBack.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4\\lab4_futures\\lab4_futures\\DirectCallBack.cs",
+              "RelativeToolTip": "lab4_futures\\DirectCallBack.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAYwK8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T16:28:26.844Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TaskFactory.cs",
-              "DocumentMoniker": "C:\\Users\\SergiuGoian\\AppData\\Local\\Temp\\.vsdbgsrc\\a278e12a37f3e0d3baf7b0b196fae83fa2a665db4de490be167b76ec8ba8b3e3\\TaskFactory.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\a278e12a37f3e0d3baf7b0b196fae83fa2a665db4de490be167b76ec8ba8b3e3\\TaskFactory.cs",
-              "ToolTip": "C:\\Users\\SergiuGoian\\AppData\\Local\\Temp\\.vsdbgsrc\\a278e12a37f3e0d3baf7b0b196fae83fa2a665db4de490be167b76ec8ba8b3e3\\TaskFactory.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\a278e12a37f3e0d3baf7b0b196fae83fa2a665db4de490be167b76ec8ba8b3e3\\TaskFactory.cs [Read Only]",
-              "ViewState": "AgIAAI0BAAAAAAAAAAArwJMBAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:37:15.163Z",
-              "EditorCaption": " [Read Only]"
             }
           ]
         }

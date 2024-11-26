@@ -16,7 +16,7 @@ namespace lab4_futures_continuations
         public static Tuple<string, string> parseURL(string url)
         {
             var hostInfo = url.Split('/')[0];
-            var link = string.Join("/", url.Split('/').Skip(1).ToArray());
+            var link = string.Join("/", url.Split('/').Skip(1).ToArray()); //extract link
 
             return new Tuple<string, string>(hostInfo, link);
         }
@@ -30,14 +30,14 @@ namespace lab4_futures_continuations
 
         public static string getResponseBody(string responseContent)
         {
-            var responseParts = responseContent.Split(new[] { "\r\n\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+            var responseParts = responseContent.Split(new[] { "\r\n\r\n" }, StringSplitOptions.RemoveEmptyEntries); //\r\n\r\n boundary between header and body
 
             return responseParts.Length > 1 ? responseParts[1] : "";
         }
 
         public static bool responseHeaderFullyObtained(string responseContent)
         {
-            return responseContent.Contains("\r\n\r\n");
+            return responseContent.Contains("\r\n\r\n"); //check if header is fully present by looking at \r\n\r\n
         }
 
         public static int getContentLength(string responseContent)

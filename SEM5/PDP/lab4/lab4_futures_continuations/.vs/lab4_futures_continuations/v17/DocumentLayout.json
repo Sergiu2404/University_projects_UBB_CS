@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4_futures_continuations\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20AEFA63-B47D-4E6A-ACD1-2E1A39C60EEF}|lab4_futures_continuations\\lab4_futures_continuations.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4_futures_continuations\\lab4_futures_continuations\\httpdownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20AEFA63-B47D-4E6A-ACD1-2E1A39C60EEF}|lab4_futures_continuations\\lab4_futures_continuations.csproj|solutionrelative:lab4_futures_continuations\\httpdownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20AEFA63-B47D-4E6A-ACD1-2E1A39C60EEF}|lab4_futures_continuations\\lab4_futures_continuations.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4_futures_continuations\\lab4_futures_continuations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20AEFA63-B47D-4E6A-ACD1-2E1A39C60EEF}|lab4_futures_continuations\\lab4_futures_continuations.csproj|solutionrelative:lab4_futures_continuations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AEFA63-B47D-4E6A-ACD1-2E1A39C60EEF}|lab4_futures_continuations\\lab4_futures_continuations.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4_futures_continuations\\lab4_futures_continuations\\httpdownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AEFA63-B47D-4E6A-ACD1-2E1A39C60EEF}|lab4_futures_continuations\\lab4_futures_continuations.csproj|solutionrelative:lab4_futures_continuations\\httpdownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20AEFA63-B47D-4E6A-ACD1-2E1A39C60EEF}|lab4_futures_continuations\\lab4_futures_continuations.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab4\\lab4_futures_continuations\\lab4_futures_continuations\\sockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -50,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4_futures_continuations\\lab4_futures_continuations\\Program.cs",
               "RelativeDocumentMoniker": "lab4_futures_continuations\\Program.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4_futures_continuations\\lab4_futures_continuations\\Program.cs",
               "RelativeToolTip": "lab4_futures_continuations\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T17:20:23.987Z",
               "EditorCaption": ""
@@ -87,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HttpDownloader.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4_futures_continuations\\lab4_futures_continuations\\HttpDownloader.cs",
               "RelativeDocumentMoniker": "lab4_futures_continuations\\HttpDownloader.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab4\\lab4_futures_continuations\\lab4_futures_continuations\\HttpDownloader.cs",
               "RelativeToolTip": "lab4_futures_continuations\\HttpDownloader.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAA9wBIAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T17:51:20.119Z",
               "EditorCaption": ""

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace lab4_futures_continuations
 {
-    internal class TaskMechanism
+    public class TaskMechanism
     {
 
         private static List<string> HOSTS;
@@ -44,7 +44,6 @@ namespace lab4_futures_continuations
             // create the TCP/IP socket
             var client = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 
-            // create a state containing the connection information
             var state = new StateObject
             {
                 workSocket = client,
@@ -54,6 +53,7 @@ namespace lab4_futures_continuations
                 clientID = id
             };
 
+            //task created for hhandling the connection
             Task connectTask = Connect(state);
             state.connectDone.WaitOne();
 
@@ -108,6 +108,7 @@ namespace lab4_futures_continuations
 
         private static Task Receive(StateObject state)
         {
+            //task for receiving data
             return Task.Factory.StartNew(() =>
             {
                 state.workSocket.BeginReceive(state.receiveBuffer, 0, StateObject.BUFFER_SIZE, 0,
@@ -120,16 +121,15 @@ namespace lab4_futures_continuations
             try
             {
                 // Retrieve the state object and the client socket 
-                // from the asynchronous state object.
+                // from the asynchronous state object
                 StateObject state = (StateObject)ar.AsyncState;
                 Socket client = state.workSocket;
 
-                // Read data from the remote device.
+                // Read data from the remote device
                 int bytesRead = client.EndReceive(ar);
 
                 if (bytesRead > 0)
                 {
-                    // There might be more data, so store the data received so far.
                     state.responseContent.Append(Encoding.ASCII.GetString(state.receiveBuffer, 0, bytesRead));
 
 
@@ -143,7 +143,6 @@ namespace lab4_futures_continuations
                     else
                     {
                         // The header response has been fully obtained
-                        // Now we get the body
 
                         var responseBody = HttpUtils.getResponseBody(state.responseContent.ToString());
 
@@ -167,8 +166,6 @@ namespace lab4_futures_continuations
 
                             // Signal that all bytes have been received
                             state.receiveDone.Set();
-
-
                         }
 
                     }
@@ -193,6 +190,7 @@ namespace lab4_futures_continuations
 
         private static Task Send(StateObject state, String data)
         {
+            //task for sending data
             return Task.Factory.StartNew(() =>
             {
                 // Convert the string data to byte data using ASCII encoding.
@@ -210,14 +208,13 @@ namespace lab4_futures_continuations
         {
             try
             {
-                // Retrieve the socket from the state object.
                 StateObject state = (StateObject)ar.AsyncState;
 
-                // Complete sending the data to the remote device.
+                // Complete sending the data to the remote device
                 int bytesSent = state.workSocket.EndSend(ar);
                 Console.WriteLine("{0} - Sent {1} bytes to server.", state.clientID, bytesSent);
 
-                // Signal that all bytes have been sent.
+                // Signal that all bytes have been sent
                 state.sendDone.Set();
             }
             catch (Exception e)
