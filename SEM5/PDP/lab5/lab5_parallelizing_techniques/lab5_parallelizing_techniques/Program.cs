@@ -6,6 +6,7 @@ class Program
     {
         var poly1 = new Polynomial(new List<double> { 1, 2, 3 }); // 1 + 2x + 3x^2
         var poly2 = new Polynomial(new List<double> { 4, 5 });    // 4 + 5x
+        // => 4 + 8x + 12x^2 + 5x + 10x^2 + 15x^3
 
         // Sequential Multiplication
         var watch = Stopwatch.StartNew();

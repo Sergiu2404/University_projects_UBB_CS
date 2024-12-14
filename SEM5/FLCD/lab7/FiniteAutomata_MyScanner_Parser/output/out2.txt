@@ -1,0 +1,63 @@
+Errors in input file:
+Line 1: Invalid token format: int at position <-1,-1>
+Line 2: Invalid token format: a at position <7,0>
+Line 3: Invalid token format: ; at position <-1,-1>
+Line 4: Invalid token format: int at position <-1,-1>
+Line 5: Invalid token format: b at position <8,0>
+Line 6: Invalid token format: ; at position <-1,-1>
+Line 7: Invalid token format: int at position <-1,-1>
+Line 8: Invalid token format: c at position <9,0>
+Line 9: Invalid token format: ; at position <-1,-1>
+Line 10: Invalid token format: int at position <-1,-1>
+Line 11: Invalid token format: max at position <6,0>
+Line 12: Invalid token format: ; at position <-1,-1>
+Line 13: Invalid token format: a at position <7,0>
+Line 14: Invalid token format: takes at position <-1,-1>
+Line 15: Invalid token format: 11 at position <8,0>
+Line 16: Invalid token format: read at position <-1,-1>
+Line 17: Invalid token format: ( at position <-1,-1>
+Line 18: Invalid token format: b at position <8,0>
+Line 19: Invalid token format: ) at position <-1,-1>
+Line 20: Invalid token format: ; at position <-1,-1>
+Line 21: Invalid token format: read at position <-1,-1>
+Line 22: Invalid token format: ( at position <-1,-1>
+Line 23: Invalid token format: c at position <9,0>
+Line 24: Invalid token format: ) at position <-1,-1>
+Line 25: Invalid token format: ; at position <-1,-1>
+Line 26: Invalid token format: if at position <-1,-1>
+Line 27: Invalid token format: ( at position <-1,-1>
+Line 28: Invalid token format: b at position <8,0>
+Line 29: Invalid token format: greaterEq at position <-1,-1>
+Line 30: Invalid token format: max at position <6,0>
+Line 31: Invalid token format: ) at position <-1,-1>
+Line 32: Invalid token format: { at position <-1,-1>
+Line 33: Invalid token format: max at position <6,0>
+Line 34: Invalid token format: takes at position <-1,-1>
+Line 35: Invalid token format: b at position <8,0>
+Line 36: Invalid token format: ; at position <-1,-1>
+Line 37: Invalid token format: } at position <-1,-1>
+Line 38: Invalid token format: elif at position <-1,-1>
+Line 39: Invalid token format: ( at position <-1,-1>
+Line 40: Invalid token format: c at position <9,0>
+Line 41: Invalid token format: greaterEq at position <-1,-1>
+Line 42: Invalid token format: max at position <6,0>
+Line 43: Invalid token format: ) at position <-1,-1>
+Line 44: Invalid token format: { at position <-1,-1>
+Line 45: Invalid token format: max at position <6,0>
+Line 46: Invalid token format: takes at position <-1,-1>
+Line 47: Invalid token format: c at position <9,0>
+Line 48: Invalid token format: ; at position <-1,-1>
+Line 49: Invalid token format: } at position <-1,-1>
+Line 50: Invalid token format: write at position <-1,-1>
+Line 51: Invalid token format: ( at position <-1,-1>
+Line 52: Invalid token format: "max is: " at position <6,0>
+Line 53: Invalid token format: ) at position <-1,-1>
+Line 54: Invalid token format: write at position <-1,-1>
+Line 55: Invalid token format: ( at position <-1,-1>
+Line 56: Invalid token format: max at position <6,0>
+Line 57: Invalid token format: ) at position <-1,-1>
+Line 58: Invalid token format: ; at position <-1,-1>
+Line 59: Invalid token format: 
+
+Sequence not accepted.
+Error during parsing: invalid token or syntax mismatch.

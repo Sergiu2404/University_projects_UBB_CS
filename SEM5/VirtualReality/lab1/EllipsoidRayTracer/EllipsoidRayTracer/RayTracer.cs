@@ -44,7 +44,7 @@ namespace rt
         private bool IsLit(Vector point, Light light)
         {
             // TODO: ADD CODE HERE
-            const double minDistance = 1;  // ?? de ce pentru 0 e neclar
+            const double minDistance = 1;  // ?? why for 0 not all pixels are rendered but for 0.001 are
             var rayToLight = new Line(point, light.Position);
             var lightDistance = (point - light.Position).Length();
 
@@ -56,7 +56,7 @@ namespace rt
 
                 if (intersection.Visible)
                 {
-                    return false; // If any other object is blocking the light, the point is not illuminated
+                    return false;
                 }
             }
 
@@ -83,7 +83,7 @@ namespace rt
 
         public void Render(Camera camera, int width, int height, string filename, double scaleFactor = 1.0)
         {
-            var backgroundColor = new Color(0.2, 0.2, 0.2, 1.0);
+            var backgroundColor = new Color(0, 0, 0, 1.0);
             var viewPlaneDirection = (camera.Up ^ camera.Direction).Normalize(); // Perpendicular vector to the camera direction
 
             var image = new Image(width, height);
@@ -91,11 +91,11 @@ namespace rt
 
             for (var xPixel = 0; xPixel < width; xPixel++)
             {
-                var horizontalOffset = ImageToViewPlane(xPixel, width, camera.ViewPlaneWidth); // every pixel on the width
+                var horizontalOffset = ImageToViewPlane(xPixel, width, camera.ViewPlaneWidth);
 
                 for (var yPixel = 0; yPixel < height; yPixel++)
                 {
-                    var verticalOffset = ImageToViewPlane(yPixel, height, camera.ViewPlaneHeight); // every pixel on the height
+                    var verticalOffset = ImageToViewPlane(yPixel, height, camera.ViewPlaneHeight);
 
                     // direction vector for the ray from the camera through the current pixel
                     var rayDirection = camera.Position + viewPlaneCenter + viewPlaneDirection * horizontalOffset + camera.Up * verticalOffset;
@@ -115,30 +115,30 @@ namespace rt
                     var pixelColor = new Color();
                     var intersectionPoint = intersection.Position;
                     var viewDirection = (camera.Position - intersectionPoint).Normalize(); // dir from the camera to the intersection
-                    var normalVector = intersection.Normal; // calculate normal to the intersection point
+                    var normalVector = intersection.Normal;
 
                     foreach (var lightSource in lights)
                     {
-                        var lightingColor = material.Ambient * lightSource.Ambient; // ambient lighting
+                        var lightingColor = material.Ambient * lightSource.Ambient;
 
-                        if (IsLit(intersectionPoint, lightSource)) // check if the inters is luminated by current light
+                        if (IsLit(intersectionPoint, lightSource))
                         {
                             var lightDirection = (lightSource.Position - intersectionPoint).Normalize(); // dir form point to light
                             var reflectionDirection = (normalVector * (normalVector * lightDirection) * 2 - lightDirection).Normalize(); // dir of reflection
                             var diffuseFactor = normalVector * lightDirection; // diffuse (how much light hits the surface)
-                            var specularFactor = viewDirection * reflectionDirection; // specular (shininess reflection)
+                            var specularFactor = viewDirection * reflectionDirection; // specular
 
                             if (diffuseFactor > 0)
                             {
-                                lightingColor += material.Diffuse * lightSource.Diffuse * diffuseFactor; // difudse lighting
+                                lightingColor += material.Diffuse * lightSource.Diffuse * diffuseFactor;
                             }
 
                             if (specularFactor > 0)
                             {
-                                lightingColor += material.Specular * lightSource.Specular * Math.Pow(specularFactor, material.Shininess); // secular lighting
+                                lightingColor += material.Specular * lightSource.Specular * Math.Pow(specularFactor, material.Shininess);
                             }
 
-                            lightingColor *= lightSource.Intensity; // intensitiy applied
+                            lightingColor *= lightSource.Intensity;
                         }
 
                         pixelColor += lightingColor; // Accumulate the light from all lights

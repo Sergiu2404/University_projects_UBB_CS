@@ -1,0 +1,22 @@
+program statement statement_list compound_statement expression term factor iostmt simple_type array_declaration declaration assignment_statement if_statement while_statement return_statement for_statement for_header condition relation
+start ; { } + - * / ) ( read write IDENTIFIER CONST array [ ] takes if else while return for int string char smaller smallerEq is isNot greaterEq greater
+program
+program -> start compound_statement
+statement -> declaration | assignment_statement | if_statement | while_statement | return_statement | for_statement | iostmt
+statement_list -> statement | statement ; statement_list
+compound_statement -> { statement_list }
+expression -> expression + term | expression - term | term
+term -> term * factor | term / factor | factor
+factor -> ( expression ) | IDENTIFIER | CONST
+iostmt -> read ( IDENTIFIER ) | write ( IDENTIFIER ) | write ( CONST )
+simple_type -> int | string | char
+array_declaration -> array simple_type IDENTIFIER [ ]
+declaration -> simple_type IDENTIFIER | array_declaration
+assignment_statement -> IDENTIFIER = expression
+if_statement -> if ( condition ) compound_statement | if ( condition ) compound_statement else compound_statement | if ( condition ) compound_statement elif ( condition ) compound_statement | if ( condition ) compound_statement elif ( condition ) compound_statement else compound_statement
+while_statement -> while ( condition ) compound_statement
+return_statement -> return expression
+for_statement -> for for_header compound_statement
+for_header -> ( int assignment_statement ; condition ; assignment_statement )
+condition -> expression relation expression
+relation -> smaller | smallerEq | is | isNot | greaterEq | greater

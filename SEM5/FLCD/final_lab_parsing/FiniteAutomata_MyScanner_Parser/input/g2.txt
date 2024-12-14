@@ -1,0 +1,21 @@
+program statement_list compound_statement statement simple_statement structure_statement declaration primitive_declaration array_declaration simple_type assignment_statement if_statement while_statement read_statement write_statement term relation condition
+start ; { } + - * / ) ( read write IDENTIFIER CONST array [ ] takes if elif else while int string char smaller smallerEq is isNot greaterEq greater ,
+program
+program -> start compound_statement
+statement_list -> statement | statement statement_list
+compound_statement -> { statement_list }
+statement -> simple_statement ; | structure_statement
+simple_statement -> declaration | assignment_statement | read_statement | write_statement
+structure_statement -> compound_statement | if_statement | while_statement
+declaration -> primitive_declaration | array_declaration
+primitive_declaration -> simple_type IDENTIFIER
+array_declaration -> array simple_type IDENTIFIER [ ]
+simple_type -> int | string | char
+assignment_statement -> IDENTIFIER takes term
+if_statement -> if ( condition ) { statement } else { statement }
+while_statement -> while ( condition ) compound_statement
+read_statement -> read ( IDENTIFIER )
+write_statement -> write ( IDENTIFIER ) | write ( CONST )
+term -> IDENTIFIER | CONST
+relation -> smaller | smallerEq | is | isNot | greaterEq | greater
+condition -> term relation term

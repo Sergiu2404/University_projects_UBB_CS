@@ -5,9 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create a directed graph
         var graph = new Graph();
-        graph.AddEdge(0, 1);
         graph.AddEdge(1, 2);
         graph.AddEdge(2, 0);
         graph.AddEdge(0, 3);

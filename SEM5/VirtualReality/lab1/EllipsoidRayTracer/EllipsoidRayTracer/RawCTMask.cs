@@ -64,71 +64,67 @@ public class RawCtMask: Geometry
 
     public override Intersection GetIntersection(Line ray, double minDistance, double maxDistance)
     {
-        //acummulating color: c01 = c0*a0 + c1 * a1 * (1 - a0);  a01 = a0 + a1 * (1 - a0)
-        // intersection: mX + nY + pZ = q;  at + b = X;  ct + d = Y; et + f = Z and substitute each X, Y, Z inside mX + nY + pZ = q
-        // interseciotn is the first voxel that does not have0 oppacity
-        //inv direction for faster inters calculation(avoid repeatedly dividing by the direction comp during inters calc and instead
-
-        //multiply the bounding box bounds by the inverse of the direction vector components)
-
-
-
-        Vector inverseDirection = new Vector(1.0 / ray.Dx.X, 1.0 / ray.Dx.Y, 1.0 / ray.Dx.Z);
-
-        // calc inters distances for each axis
-        double tMinX = (_v0.X - ray.X0.X) * inverseDirection.X; //calculate t for the first bounding box
-        double tMinY = (_v0.Y - ray.X0.Y) * inverseDirection.Y;
-        double tMinZ = (_v0.Z - ray.X0.Z) * inverseDirection.Z;
-
-        double tMaxX = (_v1.X - ray.X0.X) * inverseDirection.X; //calculate t for the end of the bounding box
-        double tMaxY = (_v1.Y - ray.X0.Y) * inverseDirection.Y;
-        double tMaxZ = (_v1.Z - ray.X0.Z) * inverseDirection.Z;
-
-        // calculate overall tMin and tMax based on individual axes
-        double intersectionMin = Math.Max(Math.Max(Math.Min(tMinX, tMaxX), Math.Min(tMinY, tMaxY)), Math.Min(tMinZ, tMaxZ));
-        double intersectionMax = Math.Min(Math.Min(Math.Max(tMinX, tMaxX), Math.Max(tMinY, tMaxY)), Math.Max(tMinZ, tMaxZ));
-
-
-        // intersection dist to the bounds defined by minDistance and maxDistance
-        double startIntersection = Math.Max(intersectionMin, minDistance);
-        double endIntersection = Math.Min(intersectionMax, maxDistance);
-
-        if (startIntersection > endIntersection) return Intersection.NONE;
-
-        // step size, normal, color accumulation, and transparency handling
-        double stepSize = _scale; //step size for traversing the volume along the ray
+        // Step size, normal, color accumulation, and transparency handling
+        double stepSize = _scale;
         double firstIntersectionDistance = -1;
         Vector surfaceNormal = new Vector(0, 0, 0);
         Color accumulatedColor = Color.NONE;
         double lastTransparency = 1.0;
         bool foundFirstIntersection = false;
 
-        // iterate through the ray from start to end, accumulating color and transparency
+        Vector inverseDirection = new Vector(1.0 / ray.Dx.X, 1.0 / ray.Dx.Y, 1.0 / ray.Dx.Z);
+
+        // Calculate intersection distances along each axis (X, Y, Z)
+        double tMinX = (_v0.X - ray.X0.X) * inverseDirection.X;
+        double tMinY = (_v0.Y - ray.X0.Y) * inverseDirection.Y;
+        double tMinZ = (_v0.Z - ray.X0.Z) * inverseDirection.Z;
+
+        double tMaxX = (_v1.X - ray.X0.X) * inverseDirection.X;
+        double tMaxY = (_v1.Y - ray.X0.Y) * inverseDirection.Y;
+        double tMaxZ = (_v1.Z - ray.X0.Z) * inverseDirection.Z;
+
+        double[] tMin = { tMinX, tMinY, tMinZ };
+        double[] tMax = { tMaxX, tMaxY, tMaxZ };
+
+        double intersectionMin = Math.Max(Math.Max(Math.Min(tMin[0], tMax[0]), Math.Min(tMin[1], tMax[1])), Math.Min(tMin[2], tMax[2]));
+        double intersectionMax = Math.Min(Math.Min(Math.Max(tMin[0], tMax[0]), Math.Max(tMin[1], tMax[1])), Math.Max(tMin[2], tMax[2]));
+
+        double startIntersection = Math.Max(intersectionMin, minDistance);
+        double endIntersection = Math.Min(intersectionMax, maxDistance);
+
+
+        // If there is no valid intersection, return none
+        if (startIntersection > endIntersection) return Intersection.NONE;
+
+        // Iterate through the ray from start to end, accumulating color and transparency
         for (double t = startIntersection; t <= endIntersection; t += stepSize)
         {
             Vector pointOnRay = ray.CoordinateToPosition(t);
             Color pointColor = GetColor(pointOnRay);
 
-            // first non-transparent voxel (alpha > 0) to find the actual interseciton with the nut
+            // Check for the first non-transparent voxel (alpha > 0)
             if (pointColor.Alpha > 0)
             {
                 if (!foundFirstIntersection)
                 {
                     firstIntersectionDistance = t;
-                    surfaceNormal = GetNormal(pointOnRay); // normal at the point
+                    surfaceNormal = GetNormal(pointOnRay);
                     foundFirstIntersection = true;
                 }
 
-                // acucmulate color considering alpha transparency and previous color
+                // Accumulate color and update transparency
                 accumulatedColor += pointColor * pointColor.Alpha * lastTransparency;
                 lastTransparency *= (1 - pointColor.Alpha);
             }
         }
 
+        // If no intersection was found, return none
         if (firstIntersectionDistance < 0) return Intersection.NONE;
 
+        // Return the final intersection details
         return new Intersection(true, foundFirstIntersection, this, ray, firstIntersectionDistance, surfaceNormal, Material.FromColor(accumulatedColor), accumulatedColor);
     }
+
 
 
 

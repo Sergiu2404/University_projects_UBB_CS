@@ -1,0 +1,27 @@
+A AS B C CM D E F I N O P R SL SS RL ST STS T W Y YY ZZ X
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 29 28 30 31 32 33 34 35 36 37 38 39 40 41 42 43
+P
+P -> 5 D 43 C 27
+D -> R ZZ
+ZZ -> 25 D | ε
+CM -> 19 0 D 20
+R -> 0 24 Y | CM
+YY -> 16 | 17 | 18
+A -> 7 34 1 35 8 YY
+Y -> YY | A
+C -> 3 SL 4
+SL -> ST X
+X -> 25 SL | ε
+ST -> SS | STS
+SS -> AS | O
+AS -> 0 42 E
+E -> T 28 E | T 30 F | 32 E 33 | 1 | 0
+T -> F 30 T | 32 E 33 | 1 | 0
+F -> 32 E 33 | 0
+O -> B 32 0 33
+B -> 14 | 15
+STS -> C | I | W
+I -> 9 N 10 ST 11 ST
+W -> 12 N 13 ST
+N -> E RL E
+RL -> 36 | 37 | 38 | 39 | 40 | 41

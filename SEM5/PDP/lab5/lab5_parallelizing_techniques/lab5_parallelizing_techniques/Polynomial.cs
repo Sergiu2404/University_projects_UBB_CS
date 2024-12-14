@@ -13,6 +13,10 @@ public class Polynomial
         this.coefficients = coefficients;
     }
 
+    public Polynomial() {
+        this.coefficients = new List<double> { };
+    }
+
     public Polynomial SimpleMultiply(Polynomial other)
     {
         var result = new double[this.coefficients.Count + other.coefficients.Count - 1];
@@ -27,78 +31,85 @@ public class Polynomial
     public Polynomial ParallelMultiply(Polynomial other)
     {
         var result = new double[this.coefficients.Count + other.coefficients.Count - 1];
+        object lockObj = new object(); // Lock object for thread safety
 
-        int totalTasks = this.coefficients.Count * other.coefficients.Count;
-        int taskSize = (int)Math.Ceiling(totalTasks / (double)Environment.ProcessorCount);
-        var tasks = new List<Task>();
-
-        for (int i = 0; i < totalTasks; i += taskSize)
+        Parallel.For(0, this.coefficients.Count, i => //creates a thread pool
         {
-            tasks.Add(Task.Run(() =>
+            for (int j = 0; j < other.coefficients.Count; j++)
             {
-                for (int index = i; index < Math.Min(i + taskSize, totalTasks); index++)
+                lock (lockObj)
                 {
-                    int firstCoord = index / other.coefficients.Count;
-                    int secondCoord = index % other.coefficients.Count;
-                    result[firstCoord + secondCoord] += this.coefficients[firstCoord] * other.coefficients[secondCoord];
+                    result[i + j] += this.coefficients[i] * other.coefficients[j];
                 }
-            }));
-        }
+            }
+        });
 
-        Task.WaitAll(tasks.ToArray());
         return new Polynomial(result.ToList());
     }
 
+
     public Polynomial Karatsuba(Polynomial other)
     {
-        // Check for empty polynomials
-        if (this.coefficients.Count == 0 || other.coefficients.Count == 0)
-            return new Polynomial(new List<double> { 0 });
+        int maxSize = Math.Max(this.coefficients.Count, other.coefficients.Count);
 
-        int n = this.coefficients.Count + other.coefficients.Count - 1;
-
-        // Handle base case for single coefficient
-        if (n == 1)
+        // straight forward multiplicaiton if one coef for each term
+        if (maxSize == 1)
             return new Polynomial(new List<double> { this.coefficients[0] * other.coefficients[0] });
 
-        // Calculate the midpoint for splitting
-        int halfSize = (int)Math.Ceiling(Math.Max(this.coefficients.Count, other.coefficients.Count) / 2.0);
+        int newSize = (int)Math.Pow(2, Math.Ceiling(Math.Log(maxSize, 2)));
+        var aCoeffs = this.coefficients.Concat(Enumerable.Repeat(0.0, newSize - this.coefficients.Count)).ToList();
+        var bCoeffs = other.coefficients.Concat(Enumerable.Repeat(0.0, newSize - other.coefficients.Count)).ToList();
 
-        // Split the coefficients
-        var a = new Polynomial(this.coefficients.Take(halfSize).ToList());
-        var b = new Polynomial(this.coefficients.Skip(halfSize).ToList());
-        var c = new Polynomial(other.coefficients.Take(halfSize).ToList());
-        var d = new Polynomial(other.coefficients.Skip(halfSize).ToList());
+        int half = newSize / 2;
+        var aLow = new Polynomial(aCoeffs.Take(half).ToList());
+        var aHigh = new Polynomial(aCoeffs.Skip(half).ToList());
+        var bLow = new Polynomial(bCoeffs.Take(half).ToList());
+        var bHigh = new Polynomial(bCoeffs.Skip(half).ToList());
 
-        // Recursively apply the Karatsuba algorithm
-        var ac = a.Karatsuba(c);
-        var bd = b.Karatsuba(d);
-        var ab_cd = a.Plus(b).Karatsuba(c.Plus(d)).Minus(ac).Minus(bd);
+        var ac = aHigh.Karatsuba(bHigh); //prod of high degree polys
+        var bd = aLow.Karatsuba(bLow); //prod of low degree polys
+        var ab_cd = aHigh.Plus(aLow).Karatsuba(bHigh.Plus(bLow)).Minus(ac).Minus(bd); //(a+b)(c+d) - ac - bd
 
-        // Combine the results
-        return ac.Shift(2 * (halfSize - 1)).Plus(ab_cd.Shift(halfSize - 1)).Plus(bd);
+        // combine result shifting, shifting needed because each part of the prod corresponds to different powers of x
+        return ac.Shift(2 * half).Plus(ab_cd.Shift(half)).Plus(bd);
     }
+
 
 
 
     public Polynomial ParallelKaratsuba(Polynomial other)
     {
-        int n = this.coefficients.Count + other.coefficients.Count - 1;
-        if (n <= 1) return new Polynomial(new List<double> { this.coefficients[0] * other.coefficients[0] });
+        int maxSize = Math.Max(this.coefficients.Count, other.coefficients.Count);
 
-        int halfSize = n / 2;
-        var a = new Polynomial(this.coefficients.Take(halfSize).ToList());
-        var b = new Polynomial(this.coefficients.Skip(halfSize).ToList());
-        var c = new Polynomial(other.coefficients.Take(halfSize).ToList());
-        var d = new Polynomial(other.coefficients.Skip(halfSize).ToList());
+        // Base case: single-term polynomial multiplication
+        if (maxSize == 1)
+            return new Polynomial(new List<double> { this.coefficients[0] * other.coefficients[0] });
 
-        var ac = Task.Run(() => a.Karatsuba(c));
-        var bd = Task.Run(() => b.Karatsuba(d));
-        var ab_cd = Task.Run(() => a.Plus(b).Karatsuba(c.Plus(d)).Minus(ac.Result).Minus(bd.Result));
+        int newSize = (int)Math.Pow(2, Math.Ceiling(Math.Log(maxSize, 2)));
+        var aCoeffs = this.coefficients.Concat(Enumerable.Repeat(0.0, newSize - this.coefficients.Count)).ToList();
+        var bCoeffs = other.coefficients.Concat(Enumerable.Repeat(0.0, newSize - other.coefficients.Count)).ToList();
 
-        Task.WaitAll(ac, bd, ab_cd);
-        return ac.Result.Shift(2 * halfSize).Plus(ab_cd.Result.Shift(halfSize)).Plus(bd.Result);
+        int half = newSize / 2;
+        var aLow = new Polynomial(aCoeffs.Take(half).ToList());
+        var aHigh = new Polynomial(aCoeffs.Skip(half).ToList());
+        var bLow = new Polynomial(bCoeffs.Take(half).ToList());
+        var bHigh = new Polynomial(bCoeffs.Skip(half).ToList());
+
+        var taskAC = Task.Run(() => aHigh.Karatsuba(bHigh));
+        var taskBD = Task.Run(() => aLow.Karatsuba(bLow));
+        var taskABCD = Task.Run(() => 
+            aHigh.Plus(aLow).Karatsuba(bHigh.Plus(bLow))
+                 .Minus(taskAC.Result)
+                 .Minus(taskBD.Result));
+
+        Task.WaitAll(taskAC, taskBD, taskABCD);
+
+        // Combine results
+        return taskAC.Result.Shift(2 * half)
+               .Plus(taskABCD.Result.Shift(half))
+               .Plus(taskBD.Result);
     }
+
 
     private Polynomial Shift(int positions)
     {
@@ -139,6 +150,30 @@ public class Polynomial
 
     public override string ToString()
     {
-        return string.Join(", ", coefficients);
+        var terms = new List<string>();
+
+        for (int i = coefficients.Count - 1; i >= 0; i--)
+        {
+            if (coefficients[i] == 0)
+                continue; // Skip zero coefficients
+
+            string term = coefficients[i].ToString();
+
+            if (i > 0)
+            {
+                term += " * x";
+
+                if (i > 1)
+                {
+                    term += "^" + i;
+                }
+            }
+
+            terms.Add(term);
+        }
+
+        return string.Join(" + ", terms);
     }
+
+
 }

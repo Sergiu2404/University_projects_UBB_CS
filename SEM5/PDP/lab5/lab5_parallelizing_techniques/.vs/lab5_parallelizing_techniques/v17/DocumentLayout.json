@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab5\\lab5_parallelizing_techniques\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7108A0FA-C5B8-45FB-BA1B-3A6A81E1DC36}|lab5_parallelizing_techniques\\lab5_parallelizing_techniques.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab5\\lab5_parallelizing_techniques\\lab5_parallelizing_techniques\\polynomial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7108A0FA-C5B8-45FB-BA1B-3A6A81E1DC36}|lab5_parallelizing_techniques\\lab5_parallelizing_techniques.csproj|solutionrelative:lab5_parallelizing_techniques\\polynomial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7108A0FA-C5B8-45FB-BA1B-3A6A81E1DC36}|lab5_parallelizing_techniques\\lab5_parallelizing_techniques.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab5\\lab5_parallelizing_techniques\\lab5_parallelizing_techniques\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7108A0FA-C5B8-45FB-BA1B-3A6A81E1DC36}|lab5_parallelizing_techniques\\lab5_parallelizing_techniques.csproj|solutionrelative:lab5_parallelizing_techniques\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7108A0FA-C5B8-45FB-BA1B-3A6A81E1DC36}|lab5_parallelizing_techniques\\lab5_parallelizing_techniques.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab5\\lab5_parallelizing_techniques\\lab5_parallelizing_techniques\\polynomial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7108A0FA-C5B8-45FB-BA1B-3A6A81E1DC36}|lab5_parallelizing_techniques\\lab5_parallelizing_techniques.csproj|solutionrelative:lab5_parallelizing_techniques\\polynomial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7108A0FA-C5B8-45FB-BA1B-3A6A81E1DC36}|lab5_parallelizing_techniques\\lab5_parallelizing_techniques.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab5\\lab5_parallelizing_techniques\\lab5_parallelizing_techniques\\bigint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -34,31 +34,30 @@
               "RelativeToolTip": "lab5_parallelizing_techniques\\BigInt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:34:04.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T19:34:04.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Polynomial.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab5\\lab5_parallelizing_techniques\\lab5_parallelizing_techniques\\Polynomial.cs",
               "RelativeDocumentMoniker": "lab5_parallelizing_techniques\\Polynomial.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab5\\lab5_parallelizing_techniques\\lab5_parallelizing_techniques\\Polynomial.cs",
               "RelativeToolTip": "lab5_parallelizing_techniques\\Polynomial.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAuwH0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T19:23:06.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab5\\lab5_parallelizing_techniques\\lab5_parallelizing_techniques\\Program.cs",
               "RelativeDocumentMoniker": "lab5_parallelizing_techniques\\Program.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab5\\lab5_parallelizing_techniques\\lab5_parallelizing_techniques\\Program.cs",
               "RelativeToolTip": "lab5_parallelizing_techniques\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T18:21:00.507Z",
               "EditorCaption": ""

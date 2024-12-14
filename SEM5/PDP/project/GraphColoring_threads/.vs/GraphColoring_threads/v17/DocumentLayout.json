@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\project\\graphcoloring_threads\\graphcoloring_threads\\programmpi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|solutionrelative:graphcoloring_threads\\programmpi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\project\\graphcoloring_threads\\graphcoloring_threads\\graph_coloring\\graphcoloring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|solutionrelative:graphcoloring_threads\\graph_coloring\\graphcoloring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\project\\graphcoloring_threads\\graphcoloring_threads\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|solutionrelative:graphcoloring_threads\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\project\\graphcoloring_threads\\graphcoloring_threads\\utils\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|solutionrelative:graphcoloring_threads\\utils\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\project\\graphcoloring_threads\\graphcoloring_threads\\utils\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|solutionrelative:graphcoloring_threads\\utils\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\project\\graphcoloring_threads\\graphcoloring_threads\\entities\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|solutionrelative:graphcoloring_threads\\entities\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\project\\graphcoloring_threads\\graphcoloring_threads\\graph_coloring\\graphcoloringfuture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|solutionrelative:graphcoloring_threads\\graph_coloring\\graphcoloringfuture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\project\\graphcoloring_threads\\graphcoloring_threads\\programfuture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|solutionrelative:graphcoloring_threads\\programfuture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\project\\graphcoloring_threads\\graphcoloring_threads\\graphcoloring_threads.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DEA4A324-808F-4891-B0C2-C25D351FE180}|GraphColoring_threads\\GraphColoring_threads.csproj|solutionrelative:graphcoloring_threads\\graphcoloring_threads.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\utils\\Node.cs",
+              "RelativeDocumentMoniker": "GraphColoring_threads\\utils\\Node.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\utils\\Node.cs",
+              "RelativeToolTip": "GraphColoring_threads\\utils\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:48:30.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\utils\\Graph.cs",
+              "RelativeDocumentMoniker": "GraphColoring_threads\\utils\\Graph.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\utils\\Graph.cs",
+              "RelativeToolTip": "GraphColoring_threads\\utils\\Graph.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:48:19.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Colors.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\entities\\Colors.cs",
+              "RelativeDocumentMoniker": "GraphColoring_threads\\entities\\Colors.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\entities\\Colors.cs",
+              "RelativeToolTip": "GraphColoring_threads\\entities\\Colors.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:12:08.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProgramFuture.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\ProgramFuture.cs",
+              "RelativeDocumentMoniker": "GraphColoring_threads\\ProgramFuture.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\ProgramFuture.cs",
+              "RelativeToolTip": "GraphColoring_threads\\ProgramFuture.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:05:45.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgramMPI.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\ProgramMPI.cs",
+              "RelativeDocumentMoniker": "GraphColoring_threads\\ProgramMPI.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\ProgramMPI.cs",
+              "RelativeToolTip": "GraphColoring_threads\\ProgramMPI.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:06:03.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GraphColoringFuture.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\graph_coloring\\GraphColoringFuture.cs",
+              "RelativeDocumentMoniker": "GraphColoring_threads\\graph_coloring\\GraphColoringFuture.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\graph_coloring\\GraphColoringFuture.cs",
+              "RelativeToolTip": "GraphColoring_threads\\graph_coloring\\GraphColoringFuture.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:05:24.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GraphColoring.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\graph_coloring\\GraphColoring.cs",
+              "RelativeDocumentMoniker": "GraphColoring_threads\\graph_coloring\\GraphColoring.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\graph_coloring\\GraphColoring.cs",
+              "RelativeToolTip": "GraphColoring_threads\\graph_coloring\\GraphColoring.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAuwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:05:07.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GraphColoring_threads.csproj",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
+              "RelativeDocumentMoniker": "GraphColoring_threads\\GraphColoring_threads.csproj",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
+              "RelativeToolTip": "GraphColoring_threads\\GraphColoring_threads.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-11T13:04:01.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\Program.cs",
+              "RelativeDocumentMoniker": "GraphColoring_threads\\Program.cs",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\Program.cs",
+              "RelativeToolTip": "GraphColoring_threads\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA1wCgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:03:27.345Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

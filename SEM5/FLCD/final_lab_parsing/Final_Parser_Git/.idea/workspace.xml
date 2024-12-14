@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8100f422-4032-4601-a1cb-35c0187fa332" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../PublicKeyCryptography/quiz3/quizC/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/macos/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/macos/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/windows/runner/runner.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MobileApp/lab4_db/expense_tracker_db/windows/runner/runner.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/FileContentIndex/01a0cf75-e37c-4dad-b774-526ec3a45600.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/FileContentIndex/793e1cf8-6535-40d0-90e3-ad044917e3e2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/FileContentIndex/9279386a-731f-427b-83c7-d2e8123ab313.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/.vs/lab5_parallelizing_techniques/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/Polynomial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/Polynomial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/bin/Debug/net8.0/lab5_parallelizing_techniques.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/bin/Debug/net8.0/lab5_parallelizing_techniques.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/bin/Debug/net8.0/lab5_parallelizing_techniques.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/bin/Debug/net8.0/lab5_parallelizing_techniques.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/bin/Debug/net8.0/lab5_parallelizing_techniques.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/bin/Debug/net8.0/lab5_parallelizing_techniques.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/lab5_parallelizing_techniques.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/ref/lab5_parallelizing_techniques.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/ref/lab5_parallelizing_techniques.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/refint/lab5_parallelizing_techniques.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab5/lab5_parallelizing_techniques/lab5_parallelizing_techniques/obj/Debug/net8.0/refint/lab5_parallelizing_techniques.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/FileContentIndex/439a2571-8454-4236-9f6d-029ccbadd30b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/FileContentIndex/4ea489ce-1c5a-45cf-80c5-17b2fa6043fb.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/FileContentIndex/960dd972-85f3-4360-a067-72c917740d95.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/.vs/lab6_parallel_explore/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/HamiltonianCycleFinder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/HamiltonianCycleFinder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/bin/Debug/net8.0/lab6_parallel_explore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/bin/Debug/net8.0/lab6_parallel_explore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/bin/Debug/net8.0/lab6_parallel_explore.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/bin/Debug/net8.0/lab6_parallel_explore.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/bin/Debug/net8.0/lab6_parallel_explore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/bin/Debug/net8.0/lab6_parallel_explore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/lab6_parallel_explore.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/ref/lab6_parallel_explore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/ref/lab6_parallel_explore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/refint/lab6_parallel_explore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab6/lab6_parallel_explore/lab6_parallel_explore/obj/Debug/net8.0/refint/lab6_parallel_explore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/ProjectEvaluation/lab7_mpi_programming.metadata.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/ProjectEvaluation/lab7_mpi_programming.projects.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/ProjectEvaluation/lab7_mpi_programming.strings.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/lab7_MPI_programming/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/lab7_MPI_programming/FileContentIndex/3960628b-cb8a-4ebe-9086-81b824b0e12e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/lab7_MPI_programming/FileContentIndex/e62b6c68-5419-421c-843f-f3935061351c.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/lab7_MPI_programming/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/lab7_MPI_programming/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/lab7_MPI_programming/v17/DocumentLayout.backup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/.vs/lab7_MPI_programming/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/Polynomial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/bin/Debug/net8.0/lab7_MPI_programming.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/bin/Debug/net8.0/lab7_MPI_programming.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/bin/Debug/net8.0/lab7_MPI_programming.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/bin/Debug/net8.0/lab7_MPI_programming.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/bin/Debug/net8.0/lab7_MPI_programming.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/lab7_MPI_programming.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/lab7_MPI_programming.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/ref/lab7_MPI_programming.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/Debug/net8.0/refint/lab7_MPI_programming.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/lab7_MPI_programming.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/lab7_MPI_programming.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/lab7_MPI_programming.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab7/lab7_MPI_programming/lab7_MPI_programming/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/.vs/lab8_distributed_protocols/FileContentIndex/74a24ee7-1699-4397-bca3-bbaa4531bf2e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/.vs/lab8_distributed_protocols/FileContentIndex/b355b861-adf4-4610-9f78-f6ce31a01e0b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/.vs/lab8_distributed_protocols/FileContentIndex/c735d688-d664-46d7-be39-a07fe7bce302.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/.vs/lab8_distributed_protocols/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/.vs/lab8_distributed_protocols/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/.vs/lab8_distributed_protocols/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/.vs/lab8_distributed_protocols/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/.vs/lab8_distributed_protocols/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/.vs/lab8_distributed_protocols/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/lab8_distributed_protocols/obj/Debug/net8.0/lab8_distributed_protocols.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/lab8_distributed_protocols/obj/Debug/net8.0/lab8_distributed_protocols.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/lab8_distributed_protocols/obj/Debug/net8.0/lab8_distributed_protocols.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PDP/lab8/lab8_distributed_protocols/lab8_distributed_protocols/obj/Debug/net8.0/lab8_distributed_protocols.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProiectDeCercetare/lab4/lab5_8.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProiectDeCercetare/lab4/lab5_8.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProiectDeCercetare/lab4/models/news_sentiment_based_price_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProiectDeCercetare/lab4/models/news_sentiment_based_price_prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/FileContentIndex/25f1f05e-21f6-47cd-9e25-dd01874b7ced.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/FileContentIndex/2d5ef5f2-e0df-4b83-83cf-ab54c9e4c6dd.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/FileContentIndex/c09c6f29-0df8-4151-8158-034d063008a2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/FileContentIndex/c932ce24-d791-45bd-b101-cf1c9a7c418b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/FileContentIndex/f4b94192-7e4a-4e4e-aa9f-bb58fbf88e18.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/.vs/ray-tracer/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/Ellipsoid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/Ellipsoid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/RawCTMask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/RawCTMask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/RayTracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/RayTracer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Debug/net7.0/ray-tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Debug/net7.0/ray-tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Debug/net7.0/ray-tracer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Debug/net7.0/ray-tracer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Debug/net7.0/ray-tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Debug/net7.0/ray-tracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Release/net7.0/ray-tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Release/net7.0/ray-tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Release/net7.0/ray-tracer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Release/net7.0/ray-tracer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Release/net7.0/ray-tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/bin/Release/net7.0/ray-tracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/001.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/001.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/002.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/002.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/003.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/004.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/004.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/005.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/005.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/006.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/006.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/007.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/007.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/008.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/008.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/009.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/010.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/011.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/011.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/012.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/013.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/013.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/014.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/014.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/015.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/015.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/016.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/016.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/017.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/017.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/018.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/018.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/019.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/019.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/020.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/020.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/021.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/021.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/022.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/022.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/023.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/023.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/030.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/042.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/044.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/045.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/047.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/050.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/054.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/056.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/058.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/060.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/061.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/062.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/063.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/064.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/065.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/066.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/067.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/068.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/069.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/070.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/071.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/073.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/074.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/075.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/076.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/077.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/078.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/079.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/080.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/081.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/082.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/083.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/084.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/085.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/086.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/088.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/089.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/frames/090.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ray-tracer.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ref/ray-tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/ref/ray-tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/refint/ray-tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Debug/net7.0/refint/ray-tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ray-tracer.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ref/ray-tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/ref/ray-tracer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/refint/ray-tracer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../VirtualReality/lab1/EllipsoidRayTracer/EllipsoidRayTracer/obj/Release/net7.0/refint/ray-tracer.dll" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.59153247">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/grammar.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/controller/Program.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="347">
+                  <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#parse#0;class#Program#0" />
+                    <element signature="method#displayPiProductions#0;class#Program#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ui/UI.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="782">
+                  <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#start#0;class#UI#0" />
+                    <element signature="method#displaySet#0;class#UI#0" />
+                    <element signature="method#fileMenuGrammar#0;class#UI#0" />
+                    <element signature="method#promptForNonTerminal#0;class#UI#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/model/Parser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="765">
+                  <caret line="193" selection-start-line="193" selection-end-line="193" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#generateFirstSet#0;class#Parser#0" />
+                    <element signature="method#firstOf#0;class#Parser#0" />
+                    <element signature="method#generateFollowSet#0;class#Parser#0" />
+                    <element signature="method#followOf#0;class#Parser#0" />
+                    <element signature="method#followOperation#0;class#Parser#0" />
+                    <element signature="method#createParseTable#0;class#Parser#0" />
+                    <element signature="method#parseSource#0;class#Parser#0" />
+                    <element signature="method#numberingProductions#0;class#Parser#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/codification.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="731">
+                  <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/model/Scanner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1360">
+                  <caret line="91" column="95" selection-start-line="91" selection-start-column="95" selection-end-line="91" selection-end-column="95" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/data/source.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/parser.examples">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="7480">
+                  <caret line="440" selection-start-line="440" selection-end-line="440" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>isGrammarRightLinear</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/parser/utils/Delta.java" />
+        <option value="$PROJECT_DIR$/src/parser/utils/Grammar.java" />
+        <option value="$PROJECT_DIR$/src/parser/utils/Production.java" />
+        <option value="$PROJECT_DIR$/src/parser/parser_utils/Pair.java" />
+        <option value="$PROJECT_DIR$/src/parser/parser_utils/LLParser.java" />
+        <option value="$PROJECT_DIR$/src/parser/parser_utils/ParseTable.java" />
+        <option value="$PROJECT_DIR$/src/parser/controller/Program.java" />
+        <option value="$PROJECT_DIR$/src/parser/controller/GrammarController.java" />
+        <option value="$PROJECT_DIR$/src/parser/controller/ParserController.java" />
+        <option value="$PROJECT_DIR$/src/parser/ui/UI.java" />
+        <option value="$PROJECT_DIR$/src/utils/Grammar.java" />
+        <option value="$PROJECT_DIR$/src/utils/Production.java" />
+        <option value="$PROJECT_DIR$/src/controller/GrammarController.java" />
+        <option value="$PROJECT_DIR$/src/controller/ParserController.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/model/Production.java" />
+        <option value="$PROJECT_DIR$/src/model/LL1.java" />
+        <option value="$PROJECT_DIR$/src/model/Grammar.java" />
+        <option value="$PROJECT_DIR$/src/controller/Program.java" />
+        <option value="$PROJECT_DIR$/src/ui/UI.java" />
+        <option value="$PROJECT_DIR$/data/parser.examples" />
+        <option value="$PROJECT_DIR$/data/grammar.txt" />
+        <option value="$PROJECT_DIR$/src/model/Parser.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectId" id="2pWbehnI11Ohb5Y9Z7XwKt4cSdT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab4-LL(1)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4-LL(1)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab4-LL(1)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4-LL(1)" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab4-LL(1)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4-LL(1)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab4-LL(1)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4-LL(1)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab4-LL(1)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4-LL(1)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SergiuGoian/Desktop/University_projects_UBB_CS/SEM5/FLCD/final_lab_parsing/Final_Parser_Git",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab4-LL(1)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8100f422-4032-4601-a1cb-35c0187fa332" name="Default Changelist" comment="" />
+      <created>1544705836408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544705836408</updated>
+      <workItem from="1544705839168" duration="1107000" />
+      <workItem from="1544784262290" duration="739000" />
+      <workItem from="1545310797843" duration="16639000" />
+      <workItem from="1545560489364" duration="2470000" />
+      <workItem from="1546515571632" duration="658000" />
+      <workItem from="1732884877035" duration="2516000" />
+      <workItem from="1732894312618" duration="400000" />
+      <workItem from="1732997056523" duration="855000" />
+      <workItem from="1733046762870" duration="50000" />
+      <workItem from="1734082899735" duration="227000" />
+      <workItem from="1734089588400" duration="452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21701000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.10607676" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38741258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.043624163" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53426576" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.565035" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/Parser.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="grammar.getProductionsContainingNonterminal(nonTerminal)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>grammar.getProductionsContainingNonterminal(nonTerminal)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/parser/e.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/utils/Delta.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/utils/Grammar.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/utils/Production.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/ui/UI.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/parser_utils/Pair.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/parser_utils/LLParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/parser_utils/ParseTable.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/controller/GrammarController.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/controller/ParserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/controller/Program.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/GrammarController.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/ParserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/LL1.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Production.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../Context-free grammars">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Grammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/grammar.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#start#0;class#UI#0" />
+            <element signature="method#displaySet#0;class#UI#0" />
+            <element signature="method#fileMenuGrammar#0;class#UI#0" />
+            <element signature="method#promptForNonTerminal#0;class#UI#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#generateFirstSet#0;class#Parser#0" />
+            <element signature="method#firstOf#0;class#Parser#0" />
+            <element signature="method#generateFollowSet#0;class#Parser#0" />
+            <element signature="method#followOf#0;class#Parser#0" />
+            <element signature="method#followOperation#0;class#Parser#0" />
+            <element signature="method#createParseTable#0;class#Parser#0" />
+            <element signature="method#parseSource#0;class#Parser#0" />
+            <element signature="method#numberingProductions#0;class#Parser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#parse#0;class#Program#0" />
+            <element signature="method#displayPiProductions#0;class#Program#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/codification.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="91" column="95" selection-start-line="91" selection-start-column="95" selection-end-line="91" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/parser.examples">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7480">
+          <caret line="440" selection-start-line="440" selection-end-line="440" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/source.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

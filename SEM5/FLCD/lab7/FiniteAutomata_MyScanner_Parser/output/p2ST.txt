@@ -1,0 +1,8 @@
+Constants HashTable: 3 - [5]
+8 - [0]
+9 - [1]
+
+Identifiers HashTable: 0 - [n, x]
+1 - [sum]
+
+

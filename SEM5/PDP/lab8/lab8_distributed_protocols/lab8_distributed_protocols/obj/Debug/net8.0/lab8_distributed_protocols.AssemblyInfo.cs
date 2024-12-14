@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab8_distributed_protocols")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e98d9cbf5f4332d268239df88c23c29b59b4fbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+266e495273c1bc1bd8af1f6ec655ce48a179d530")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab8_distributed_protocols")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab8_distributed_protocols")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

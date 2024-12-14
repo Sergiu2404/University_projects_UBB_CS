@@ -49,7 +49,7 @@ def predict_stock_prices(ticker, sentiment):
     # Apply linear regression
     model = LinearRegression()
     model.fit(X, y)
-    future_days = np.array([len(stock_data) + i for i in range(1, 6)]).reshape(-1, 1)  # Predict next 5 days
+    future_days = np.array([len(stock_data) + i for i in range(1, 6)]).reshape(-1, 1)
     predicted_prices = model.predict(future_days)
 
     # Adjust predictions based on sentiment

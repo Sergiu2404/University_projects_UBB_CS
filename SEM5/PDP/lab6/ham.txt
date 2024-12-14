@@ -1,0 +1,71 @@
+using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace lab6_parallel_explore
+{
+    public class HamiltonianCycleFinder
+    {
+        private readonly Graph graph;
+        private readonly int startVertex;
+        private readonly ConcurrentBag<List<int>> cyclesFound;
+
+        public HamiltonianCycleFinder(Graph graph, int startVertex)
+        {
+            this.graph = graph;
+            this.startVertex = startVertex;
+            cyclesFound = new ConcurrentBag<List<int>>();
+        }
+
+        public List<int> FindHamiltonianCycle()
+        {
+            // parallel exploration
+            List<Task> tasks = new List<Task>();
+            var initialNeighbors = graph.GetNeighbors(startVertex);
+
+            foreach (var neighbor in initialNeighbors)
+            {
+                tasks.Add(Task.Run(() => ExploreFromNeighbor(neighbor)));
+            }
+
+            //wait for completion
+            Task.WaitAll(tasks.ToArray());
+
+            return cyclesFound.FirstOrDefault();
+        }
+
+        private void ExploreFromNeighbor(int neighbor)
+        {
+            List<int> path = new List<int> { startVertex, neighbor };
+            HashSet<int> visited = new HashSet<int> { startVertex, neighbor };
+
+            Backtrack(path, visited);
+        }
+
+        private void Backtrack(List<int> path, HashSet<int> visited)
+        {
+            if (path.Count == graph.GetVertices().Count())
+            {
+                // if edge back to the starting vertex
+                if (graph.GetNeighbors(path.Last()).Contains(startVertex))
+                {
+                    path.Add(startVertex); // complete cycle
+                    cyclesFound.Add(new List<int>(path));
+                }
+                return;
+            }
+
+            var neighbors = graph.GetNeighbors(path.Last());
+
+            foreach (var neighbor in neighbors.Where(n => !visited.Contains(n)))
+            {
+                var newPath = new List<int>(path) { neighbor };
+                var newVisited = new HashSet<int>(visited) { neighbor };
+
+                Backtrack(newPath, newVisited);
+            }
+        }
+    }
+}

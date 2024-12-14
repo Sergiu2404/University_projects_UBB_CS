@@ -1,0 +1,21 @@
+Sequence accepted.
+Derivation Steps:
+Step 1: S
+Step 2: A A
+Step 3: a A b A
+Step 4: a ... b A
+
+Parsing Tree (Father-Sibling Table):
+Node		Parent		Sibling
+--------------------------------------------
+S              null           null           
+A              S              null           
+a              A              null           
+A              A              null           
+...            A              null           
+b              A              null           
+A              S              null           
+a              A              null           
+A              A              null           
+...            A              null           
+b              A              null           

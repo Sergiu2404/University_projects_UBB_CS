@@ -26,7 +26,7 @@ namespace rt
 
         public override Intersection GetIntersection(Line ray, double minDistance, double maxDistance)
         {
-            // Transform ray direction and the ray origin to ellipsoid local coords system (scaled them based on semi-axes of the ellipsoid)
+            // to ellipsoid local coords system (scaled them based on semi-axes of the ellipsoid)
             Vector normalizedRayDirection = new Vector(ray.Dx.X / SemiAxesLength.X, ray.Dx.Y / SemiAxesLength.Y, ray.Dx.Z / SemiAxesLength.Z);
             Vector rayOriginToCenter = new Vector((ray.X0 - Center).X / SemiAxesLength.X, (ray.X0 - Center).Y / SemiAxesLength.Y, (ray.X0 - Center).Z / SemiAxesLength.Z);
 
@@ -38,7 +38,6 @@ namespace rt
             // calculate discriminnt
             double discriminant = bCoefficient * bCoefficient - 4 * aCoefficient * cCoefficient;
 
-            // no inters (no real sol)
             if (discriminant < 0)
             {
                 return Intersection.NONE;

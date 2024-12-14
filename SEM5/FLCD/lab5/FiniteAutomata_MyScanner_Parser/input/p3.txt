@@ -1,0 +1,14 @@
+int a;
+int b;
+int c;
+
+read ( a );
+read ( b );
+
+while(b isNot 0) {
+	c takes a % b;
+	a takes b;
+	b takes c;
+}
+
+write ( a );
