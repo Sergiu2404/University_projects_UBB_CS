@@ -32,5 +32,17 @@ namespace lab6_parallel_explore
         {
             return adjList.Keys;
         }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (var vertex in adjList)
+            {
+                sb.Append(vertex.Key).Append(": ");
+                sb.Append(string.Join(", ", vertex.Value));
+                sb.AppendLine();
+            }
+            return sb.ToString();
+        }
     }
 }

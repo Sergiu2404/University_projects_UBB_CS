@@ -9,21 +9,20 @@ namespace rt
         public static void Main(string[] args)
         {
             // Cleanup
-            const string frames = "../../../frames";
-            if (Directory.Exists(frames))
+            if (Directory.Exists("../../../frames"))
             {
-                var d = new DirectoryInfo(frames);
+                var d = new DirectoryInfo("../../../frames");
                 foreach (var file in d.EnumerateFiles("*.png"))
                 {
                     file.Delete();
                 }
             }
-            Directory.CreateDirectory(frames);
+            Directory.CreateDirectory("../../../frames");
 
             // Scene
             var geometries = new Geometry[]
             {
-                new Ellipsoid(new Vector(  0.0, -25.0, 100.0), new Vector(1.0, 1.0, 1.0), 5.0, Color.WHITE),
+                new Ellipsoid(new Vector(  0.0, -25.0, 100.0), new Vector(1.0, 1.0, 1.0), 5.0, Color.NONE),
 
                 new Ellipsoid(new Vector( 15.0, -25.0, 100.0), new Vector(2.0, 0.5, 0.5), 5.0, Color.RED),
                 new Ellipsoid(new Vector( 35.0, -25.0, 100.0), new Vector(2.0, 0.5, 0.5), 5.0, Color.RED),
@@ -97,7 +96,7 @@ namespace rt
                             1000.0
                         );
 
-                        var filename = frames + "/" + $"{k + 1:000}" + ".png";
+                        var filename = "../../../frames" + "/" + $"{k + 1:000}" + ".png";
 
                         rt.Render(camera, width, height, filename);
                         Console.WriteLine($"Frame {k + 1}/{n} completed");

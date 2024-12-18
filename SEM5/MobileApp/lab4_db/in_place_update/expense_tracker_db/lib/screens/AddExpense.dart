@@ -74,8 +74,27 @@ class _AddExpenseState extends State<AddExpense> {
                 Text("Date"),
                 TextField(
                   controller: _dateController,
-                  keyboardType: TextInputType.text, // Change to text for date input
-                  decoration: InputDecoration(hintText: "Enter date..."),
+                  readOnly: true, // Prevents manual text editing
+                  decoration: InputDecoration(
+                    hintText: "Select date...",
+                    suffixIcon: Icon(Icons.calendar_today), // Optional calendar icon
+                  ),
+                  onTap: () async {
+                    DateTime? pickedDate = await showDatePicker(
+                      context: context,
+                      initialDate: DateTime.now(), // Default date to show in the picker
+                      firstDate: DateTime(2000), // Minimum selectable date
+                      lastDate: DateTime(2100), // Maximum selectable date
+                    );
+
+                    if (pickedDate != null) {
+                      // Format the selected date as a string (e.g., "dd/MM/yyyy")
+                      String formattedDate = "${pickedDate.day}/${pickedDate.month}/${pickedDate.year}";
+                      setState(() {
+                        _dateController.text = formattedDate; // Update the controller
+                      });
+                    }
+                  },
                 ),
                 SizedBox(height: 8,),
 
@@ -127,7 +146,7 @@ class _AddExpenseState extends State<AddExpense> {
     String note = _noteController.text;
 
     Expense newExpense = Expense.withId(
-      null, // ID will be auto-generated
+      null, // ID will be auto gen
       amount,
       type,
       category,

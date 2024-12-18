@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab6\\lab6_parallel_explore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09D13B4E-6838-4F71-89A7-A1A1BE31200B}|lab6_parallel_explore\\lab6_parallel_explore.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D13B4E-6838-4F71-89A7-A1A1BE31200B}|lab6_parallel_explore\\lab6_parallel_explore.csproj|solutionrelative:lab6_parallel_explore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09D13B4E-6838-4F71-89A7-A1A1BE31200B}|lab6_parallel_explore\\lab6_parallel_explore.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\hamiltoniancyclefinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09D13B4E-6838-4F71-89A7-A1A1BE31200B}|lab6_parallel_explore\\lab6_parallel_explore.csproj|solutionrelative:lab6_parallel_explore\\hamiltoniancyclefinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D13B4E-6838-4F71-89A7-A1A1BE31200B}|lab6_parallel_explore\\lab6_parallel_explore.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D13B4E-6838-4F71-89A7-A1A1BE31200B}|lab6_parallel_explore\\lab6_parallel_explore.csproj|solutionrelative:lab6_parallel_explore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09D13B4E-6838-4F71-89A7-A1A1BE31200B}|lab6_parallel_explore\\lab6_parallel_explore.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HamiltonianCycleFinder.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\HamiltonianCycleFinder.cs",
               "RelativeDocumentMoniker": "lab6_parallel_explore\\HamiltonianCycleFinder.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\HamiltonianCycleFinder.cs",
               "RelativeToolTip": "lab6_parallel_explore\\HamiltonianCycleFinder.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwCEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T19:42:16.957Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "lab6_parallel_explore\\Graph.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\Graph.cs",
               "RelativeToolTip": "lab6_parallel_explore\\Graph.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T19:41:38.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\Program.cs",
               "RelativeDocumentMoniker": "lab6_parallel_explore\\Program.cs",
-              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\Program.cs*",
-              "RelativeToolTip": "lab6_parallel_explore\\Program.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwAgAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab6\\lab6_parallel_explore\\lab6_parallel_explore\\Program.cs",
+              "RelativeToolTip": "lab6_parallel_explore\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T19:41:02.704Z",
               "EditorCaption": ""

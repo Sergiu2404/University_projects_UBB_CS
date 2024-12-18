@@ -30,17 +30,16 @@ namespace rt
             Vector normalizedRayDirection = new Vector(ray.Dx.X / SemiAxesLength.X, ray.Dx.Y / SemiAxesLength.Y, ray.Dx.Z / SemiAxesLength.Z);
             Vector rayOriginToCenter = new Vector((ray.X0 - Center).X / SemiAxesLength.X, (ray.X0 - Center).Y / SemiAxesLength.Y, (ray.X0 - Center).Z / SemiAxesLength.Z);
 
-            // coef of the quadratic equation (inters of ellipsoid with ray-line): at^2+bt+c = 0
+            // coef of the quadratic equation : at^2+bt+c = 0
             double aCoefficient = normalizedRayDirection.Length2();
             double bCoefficient = normalizedRayDirection * rayOriginToCenter * 2; //interaction between the rays direction and its origin's position relative to the ellipsoids center
             double cCoefficient = rayOriginToCenter.Length2() - Radius * Radius;
 
-            // calculate discriminnt
             double discriminant = bCoefficient * bCoefficient - 4 * aCoefficient * cCoefficient;
 
             if (discriminant < 0)
             {
-                return Intersection.NONE;
+                return new Intersection(false, false, this, ray, 0, null, null, null);
             }
 
             double tNear, tFar;
@@ -48,9 +47,9 @@ namespace rt
             if (Math.Abs(discriminant) < 0)
             {
                 tNear = -bCoefficient / (2 * aCoefficient);
-                tFar = double.NaN; // no inters
+                tFar = double.NaN; // same as t1
             }
-            else // Calculate the 2 possible inters dist along the ray
+            else
             {
                 double sqrtDiscriminant = Math.Sqrt(discriminant);
                 double inverse2a = 1 / (2 * aCoefficient);
@@ -65,13 +64,13 @@ namespace rt
 
             if (double.IsNaN(closestIntersectionDistance))
             {
-                return Intersection.NONE;
+                return new Intersection(false, false, this, ray, 0, null, null, null);
             }
 
             // pos of the 3d intersection point along the ray
             var intersectionPosition = ray.CoordinateToPosition(closestIntersectionDistance);
 
-            // normal vector at the intersection point helping at the ligthing
+            // normal vector at the intersection point
             Vector surfaceNormal = new Vector(
                 ((intersectionPosition - Center) * 2).X / (SemiAxesLength.X * SemiAxesLength.X),
                 ((intersectionPosition - Center) * 2).Y / (SemiAxesLength.Y * SemiAxesLength.Y),

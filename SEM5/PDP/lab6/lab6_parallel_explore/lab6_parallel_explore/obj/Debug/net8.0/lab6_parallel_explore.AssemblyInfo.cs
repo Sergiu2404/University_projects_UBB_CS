@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab6_parallel_explore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+266e495273c1bc1bd8af1f6ec655ce48a179d530")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7463b713669ae3dc2e2c61ddfc0d1f0c00e1d1c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab6_parallel_explore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab6_parallel_explore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

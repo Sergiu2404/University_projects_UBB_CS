@@ -118,7 +118,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      // ... (rest of the UI remains the same)
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -163,7 +162,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                               ),
                                             );
 
-                                            // If the expense was updated, replace it in the list
+                                            // If the expense was updated, replace it directly in the list
                                             if (result is Expense) {
                                               setState(() {
                                                 int index = expenses.indexWhere((e) => e.id == result.id);

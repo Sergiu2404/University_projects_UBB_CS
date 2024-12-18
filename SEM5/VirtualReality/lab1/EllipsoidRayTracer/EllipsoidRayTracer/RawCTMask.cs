@@ -64,7 +64,18 @@ public class RawCtMask: Geometry
 
     public override Intersection GetIntersection(Line ray, double minDistance, double maxDistance)
     {
-        // Step size, normal, color accumulation, and transparency handling
+        //acummulating color: c01 = c0*a0 + c1 * a1 * (1 - a0);  a01 = a0 + a1 * (1 - a0)
+        // intersection: mX + nY + pZ = q;  at + b = X;  ct + d = Y; et + f = Z and substitute each X, Y, Z inside mX + nY + pZ = q
+        // interseciotn is the first voxel that does not have0 oppacity
+        //inv direction for faster inters calculation(avoid repeatedly dividing by the direction comp during inters calc and instead
+
+        //multiply the bounding box bounds by the inverse of the direction vector components)
+
+
+
+
+
+        // step size, normal, color accumulation, and transparency handling
         double stepSize = _scale;
         double firstIntersectionDistance = -1;
         Vector surfaceNormal = new Vector(0, 0, 0);
@@ -93,16 +104,13 @@ public class RawCtMask: Geometry
         double endIntersection = Math.Min(intersectionMax, maxDistance);
 
 
-        // If there is no valid intersection, return none
-        if (startIntersection > endIntersection) return Intersection.NONE;
+        if (startIntersection > endIntersection) return new Intersection(false, false, this, ray, 0, null, null, null);
 
-        // Iterate through the ray from start to end, accumulating color and transparency
         for (double t = startIntersection; t <= endIntersection; t += stepSize)
         {
             Vector pointOnRay = ray.CoordinateToPosition(t);
             Color pointColor = GetColor(pointOnRay);
 
-            // Check for the first non-transparent voxel (alpha > 0)
             if (pointColor.Alpha > 0)
             {
                 if (!foundFirstIntersection)
@@ -118,10 +126,9 @@ public class RawCtMask: Geometry
             }
         }
 
-        // If no intersection was found, return none
-        if (firstIntersectionDistance < 0) return Intersection.NONE;
+        if(firstIntersectionDistance < 0)
+            return new Intersection(false, false, this, ray, 0, null, null, null);
 
-        // Return the final intersection details
         return new Intersection(true, foundFirstIntersection, this, ray, firstIntersectionDistance, surfaceNormal, Material.FromColor(accumulatedColor), accumulatedColor);
     }
 

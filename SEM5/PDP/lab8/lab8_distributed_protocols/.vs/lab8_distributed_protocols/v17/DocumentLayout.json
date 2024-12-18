@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AF9EC8B-FD75-4D8F-9E41-DA7BF5453F92}|lab8_distributed_protocols\\lab8_distributed_protocols.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AF9EC8B-FD75-4D8F-9E41-DA7BF5453F92}|lab8_distributed_protocols\\lab8_distributed_protocols.csproj|solutionrelative:lab8_distributed_protocols\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1AF9EC8B-FD75-4D8F-9E41-DA7BF5453F92}|lab8_distributed_protocols\\lab8_distributed_protocols.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\distributedsharedmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AF9EC8B-FD75-4D8F-9E41-DA7BF5453F92}|lab8_distributed_protocols\\lab8_distributed_protocols.csproj|solutionrelative:lab8_distributed_protocols\\distributedsharedmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AF9EC8B-FD75-4D8F-9E41-DA7BF5453F92}|lab8_distributed_protocols\\lab8_distributed_protocols.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AF9EC8B-FD75-4D8F-9E41-DA7BF5453F92}|lab8_distributed_protocols\\lab8_distributed_protocols.csproj|solutionrelative:lab8_distributed_protocols\\variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF9EC8B-FD75-4D8F-9E41-DA7BF5453F92}|lab8_distributed_protocols\\lab8_distributed_protocols.csproj|c:\\users\\sergiugoian\\desktop\\university_projects_ubb_cs\\sem5\\pdp\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF9EC8B-FD75-4D8F-9E41-DA7BF5453F92}|lab8_distributed_protocols\\lab8_distributed_protocols.csproj|solutionrelative:lab8_distributed_protocols\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,41 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DistributedSharedMemory.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\DistributedSharedMemory.cs",
               "RelativeDocumentMoniker": "lab8_distributed_protocols\\DistributedSharedMemory.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\DistributedSharedMemory.cs",
               "RelativeToolTip": "lab8_distributed_protocols\\DistributedSharedMemory.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwCEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:53:42.16Z"
+              "WhenOpened": "2024-10-13T19:53:42.16Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Variable.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\Variable.cs",
               "RelativeDocumentMoniker": "lab8_distributed_protocols\\Variable.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\Variable.cs",
               "RelativeToolTip": "lab8_distributed_protocols\\Variable.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwCEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:53:04.166Z"
+              "WhenOpened": "2024-10-13T19:53:04.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\Program.cs",
               "RelativeDocumentMoniker": "lab8_distributed_protocols\\Program.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\Program.cs",
               "RelativeToolTip": "lab8_distributed_protocols\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAgwDIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T19:52:28.658Z",
               "EditorCaption": ""

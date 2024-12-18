@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
+﻿using System.Collections.Concurrent;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace lab6_parallel_explore
@@ -11,6 +8,7 @@ namespace lab6_parallel_explore
     {
         private readonly Graph graph;
         private readonly int startVertex;
+        private List<int> cycleFound;
         private readonly ConcurrentBag<List<int>> cyclesFound;
 
         public HamiltonianCycleFinder(Graph graph, int startVertex)
@@ -24,44 +22,47 @@ namespace lab6_parallel_explore
         {
             List<int> path = new List<int> { startVertex };
             HashSet<int> visited = new HashSet<int> { startVertex };
+
             Backtrack(path, visited);
+
             return cyclesFound.FirstOrDefault();
         }
 
         private void Backtrack(List<int> path, HashSet<int> visited)
         {
+            // If reached nr of vertices, check if the last vertex connects to the start vertex
             if (path.Count == graph.GetVertices().Count())
             {
-                // Check if there's an edge back to the starting vertex
                 if (graph.GetNeighbors(path.Last()).Contains(startVertex))
                 {
-                    path.Add(startVertex); // Complete the cycle
+                    path.Add(startVertex);  // complete cycle
                     cyclesFound.Add(new List<int>(path));
-                    path.RemoveAt(path.Count - 1); // Backtrack
                 }
                 return;
             }
 
             var neighbors = graph.GetNeighbors(path.Last());
 
-            // Prepare tasks for each neighbor
-            Parallel.ForEach(neighbors.Where(n => !visited.Contains(n)), neighbor =>
+            // task for each unvisited neighbor
+            var tasks = neighbors.Where(n => !visited.Contains(n))
+                                 .Select(neighbor => Task.Run(() =>
+                                 {
+                                     var newVisited = new HashSet<int>(visited);
+                                     var newPath = new List<int>(path);
+
+                                     newPath.Add(neighbor);
+                                     newVisited.Add(neighbor);
+
+                                     Backtrack(newPath, newVisited);
+                                 }))
+                                 .ToList();
+
+            Task.WhenAll(tasks).Wait();
+
+            if (cyclesFound.Any())
             {
-                lock (visited) // Lock to modify the shared visited set
-                {
-                    path.Add(neighbor);
-                    visited.Add(neighbor);
-                }
-
-                Backtrack(path, visited);
-
-                lock (visited) // Lock to revert the visited set
-                {
-                    visited.Remove(neighbor);
-                    path.RemoveAt(path.Count - 1);
-                }
-            });
+                return;
+            }
         }
     }
-
 }

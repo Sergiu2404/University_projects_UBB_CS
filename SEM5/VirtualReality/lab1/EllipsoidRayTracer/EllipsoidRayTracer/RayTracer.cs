@@ -44,19 +44,21 @@ namespace rt
         private bool IsLit(Vector point, Light light)
         {
             // TODO: ADD CODE HERE
-            const double minDistance = 1;  // ?? why for 0 not all pixels are rendered but for 0.001 are
+            const double minDistance = 1;
             var rayToLight = new Line(point, light.Position);
             var lightDistance = (point - light.Position).Length();
 
             foreach (var geometry in geometries)
             {
-                if (geometry is RawCtMask) continue;
-
-                var intersection = geometry.GetIntersection(rayToLight, minDistance, lightDistance);
-
-                if (intersection.Visible)
+                if (!(geometry is RawCtMask))
                 {
-                    return false;
+
+                    var intersection = geometry.GetIntersection(rayToLight, minDistance, lightDistance);
+
+                    if (intersection.Visible)
+                    {
+                        return false;
+                    }
                 }
             }
 
@@ -110,22 +112,23 @@ namespace rt
                         continue;
                     }
 
-                    // if inters, find the material and apply lighting
+                    // find the material and apply lighting
                     var material = intersection.Material;
                     var pixelColor = new Color();
                     var intersectionPoint = intersection.Position;
-                    var viewDirection = (camera.Position - intersectionPoint).Normalize(); // dir from the camera to the intersection
-                    var normalVector = intersection.Normal;
-
+                    var viewDirection = (camera.Position - intersectionPoint).Normalize();
+                 
                     foreach (var lightSource in lights)
                     {
-                        var lightingColor = material.Ambient * lightSource.Ambient;
+                        var lightingColor = material.Ambient;
 
                         if (IsLit(intersectionPoint, lightSource))
                         {
+                            var normalVector = intersection.Normal;
+
                             var lightDirection = (lightSource.Position - intersectionPoint).Normalize(); // dir form point to light
                             var reflectionDirection = (normalVector * (normalVector * lightDirection) * 2 - lightDirection).Normalize(); // dir of reflection
-                            var diffuseFactor = normalVector * lightDirection; // diffuse (how much light hits the surface)
+                            var diffuseFactor = normalVector * lightDirection; // how much light hits the surface
                             var specularFactor = viewDirection * reflectionDirection; // specular
 
                             if (diffuseFactor > 0)

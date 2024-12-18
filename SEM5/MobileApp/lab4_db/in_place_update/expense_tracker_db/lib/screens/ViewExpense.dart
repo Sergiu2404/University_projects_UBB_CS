@@ -108,8 +108,28 @@ class _ExpenseDetailState extends State<ViewExpense> {
             ),
             TextField(
               controller: _dateController,
-              decoration: InputDecoration(hintText: "enetr a date..."),
-              keyboardType: TextInputType.text,
+              readOnly: true, // Prevent manual editing
+              decoration: InputDecoration(
+                hintText: "Enter a date...",
+                suffixIcon: Icon(Icons.calendar_today), // Optional icon for better UX
+              ),
+              onTap: () async {
+                // Display the date picker dialog
+                DateTime? pickedDate = await showDatePicker(
+                  context: context,
+                  initialDate: DateTime.now(), // Default date
+                  firstDate: DateTime(2000), // Earliest selectable date
+                  lastDate: DateTime(2100), // Latest selectable date
+                );
+
+                if (pickedDate != null) {
+                  // Format the selected date as a string
+                  String formattedDate = "${pickedDate.day}/${pickedDate.month}/${pickedDate.year}";
+                  setState(() {
+                    _dateController.text = formattedDate; // Update the controller
+                  });
+                }
+              },
             ),
             SizedBox(height: 8),
 
@@ -128,7 +148,6 @@ class _ExpenseDetailState extends State<ViewExpense> {
             Center(
               child: ElevatedButton(
                 onPressed: () async {
-                  // Update the expense with new values from text fields
                   Expense updatedExpense = Expense.withId(
                     widget.expense.id,
                     double.tryParse(_amountController.text) ?? widget.expense.amount,
@@ -138,13 +157,12 @@ class _ExpenseDetailState extends State<ViewExpense> {
                     _noteController.text,
                   );
 
-                  // Update in database
                   int result = await DatabaseContext().updateExpense(updatedExpense);
 
                   if (result != 0) {
                     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Expense updated successfully")));
 
-                    // Return the updated expense object instead of 'true'
+                    // Returned updated exp instead of "true"
                     Navigator.pop(context, updatedExpense);
                   } else {
                     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Error updating expense")));

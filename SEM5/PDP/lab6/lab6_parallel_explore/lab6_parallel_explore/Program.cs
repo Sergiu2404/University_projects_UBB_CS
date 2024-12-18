@@ -13,6 +13,8 @@ class Program
         graph.AddEdge(3, 2);
         graph.AddEdge(2, 3);
 
+        Console.WriteLine(graph.ToString());
+
         int startVertex = 0;
         var finder = new HamiltonianCycleFinder(graph, startVertex);
 
