@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 void main()
 {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 MaterialColor createMaterialColor(Color color) {
@@ -31,10 +31,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: "My Financial Tracker",
         theme: ThemeData(
-            primarySwatch: createMaterialColor(Color(0xFF32A146))
+            primarySwatch: createMaterialColor(const Color(0xFF32A146))
         ),
         debugShowCheckedModeBanner: false,
-        home: MyHomePage()
+        home: const MyHomePage()
     );
   }
 }

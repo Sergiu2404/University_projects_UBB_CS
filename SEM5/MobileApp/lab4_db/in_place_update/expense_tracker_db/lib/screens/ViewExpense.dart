@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class ViewExpense extends StatefulWidget {
   final Expense expense;
 
-  const ViewExpense({Key? key, required this.expense}) : super(key: key);
+  const ViewExpense({super.key, required this.expense});
 
   @override
   State<ViewExpense> createState() => _ExpenseDetailState();
@@ -44,8 +44,8 @@ class _ExpenseDetailState extends State<ViewExpense> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("My Financial Tracker"),
-        backgroundColor: Color(0xFF32A146),
+        title: const Text("My Financial Tracker"),
+        backgroundColor: const Color(0xFF32A146),
       ),
       body: WillPopScope(
         onWillPop: () async {
@@ -53,55 +53,55 @@ class _ExpenseDetailState extends State<ViewExpense> {
           return true;
         },
         child: Padding(
-        padding: EdgeInsets.all(15),
+        padding: const EdgeInsets.all(15),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             //show expense ID
-            Text(
+            const Text(
               "ID",
               style: TextStyle(fontSize: 17),
               textAlign: TextAlign.center,
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
 
-            Text(
+            const Text(
               "Amount",
               style: TextStyle(fontSize: 17),
               textAlign: TextAlign.center,
             ),
             TextField(
               controller: _amountController,
-              decoration: InputDecoration(hintText: "enetr an amount..."),
+              decoration: const InputDecoration(hintText: "enetr an amount..."),
               keyboardType: TextInputType.number,
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
 
-            Text(
+            const Text(
               "Type",
               style: TextStyle(fontSize: 17),
               textAlign: TextAlign.center,
             ),
             TextField(
               controller: _typeController,
-              decoration: InputDecoration(hintText: "enetr a type..."),
+              decoration: const InputDecoration(hintText: "enetr a type..."),
               keyboardType: TextInputType.text,
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
 
-            Text(
+            const Text(
               "Category",
               style: TextStyle(fontSize: 17),
               textAlign: TextAlign.center,
             ),
             TextField(
               controller: _categoryController,
-              decoration: InputDecoration(hintText: "enetr a category..."),
+              decoration: const InputDecoration(hintText: "enetr a category..."),
               keyboardType: TextInputType.text,
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
 
-            Text(
+            const Text(
               "Date",
               style: TextStyle(fontSize: 17),
               textAlign: TextAlign.center,
@@ -109,7 +109,7 @@ class _ExpenseDetailState extends State<ViewExpense> {
             TextField(
               controller: _dateController,
               readOnly: true, // Prevent manual editing
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 hintText: "Enter a date...",
                 suffixIcon: Icon(Icons.calendar_today), // Optional icon for better UX
               ),
@@ -131,19 +131,19 @@ class _ExpenseDetailState extends State<ViewExpense> {
                 }
               },
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
 
-            Text(
+            const Text(
               "Notes",
               style: TextStyle(fontSize: 17),
               textAlign: TextAlign.center,
             ),
             TextField(
               controller: _noteController,
-              decoration: InputDecoration(hintText: "enetr notes..."),
+              decoration: const InputDecoration(hintText: "enetr notes..."),
               keyboardType: TextInputType.text,
             ),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
 
             Center(
               child: ElevatedButton(
@@ -160,15 +160,15 @@ class _ExpenseDetailState extends State<ViewExpense> {
                   int result = await DatabaseContext().updateExpense(updatedExpense);
 
                   if (result != 0) {
-                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Expense updated successfully")));
+                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Expense updated successfully")));
 
                     // Returned updated exp instead of "true"
                     Navigator.pop(context, updatedExpense);
                   } else {
-                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Error updating expense")));
+                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Error updating expense")));
                   }
                 },
-                child: Text(
+                child: const Text(
                   "Submit",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Color(0xFF32A146)),
                 ),

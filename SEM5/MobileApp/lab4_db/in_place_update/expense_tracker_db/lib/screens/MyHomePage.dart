@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:expense_tracker_db/models/Expense.dart';
 import 'package:expense_tracker_db/utils/DatabaseContext.dart';
-import 'package:sqflite/sqflite.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -48,8 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("My Financial Tracker"),
-        backgroundColor: Color(0xFF32A146),
+        title: const Text("My Financial Tracker"),
+        backgroundColor: const Color(0xFF32A146),
       ),
       body: _getExpenseListView(),
     );
@@ -58,8 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget _getExpenseListView() {
     return Column(
       children: [
-        Padding(
-          padding: const EdgeInsets.all(16.0),
+        const Padding(
+          padding: EdgeInsets.all(16.0),
           child: Text(
             "Expenses List",
             style: TextStyle(
@@ -92,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 backgroundColor: Colors.transparent,
                 shadowColor: Colors.transparent,
               ),
-              child: Text(
+              child: const Text(
                 "Add Expense",
                 style: TextStyle(
                   color: Colors.black,
@@ -103,14 +102,14 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ],
         ),
-        SizedBox(height: 16),
+        const SizedBox(height: 16),
         Expanded(
           child: ListView.builder(
             itemCount: expenses.length,
             itemBuilder: (BuildContext context, int position) {
               final expense = expenses[position];
               return Card(
-                color: Color(0xFFC1F7C7),
+                color: const Color(0xFFC1F7C7),
                 elevation: 2.0,
                 margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
                 child: Container(
@@ -124,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Expanded(
                             child: Text(
                               "${expense.amount} RON",
-                              style: TextStyle(
+                              style: const TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black,
@@ -135,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: Center(
                               child: Text(
                                 "${expense.id}",
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontSize: 14,
                                   fontWeight: FontWeight.bold,
                                   color: Colors.black,
@@ -150,8 +149,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                   context: context,
                                   builder: (BuildContext context) {
                                     return AlertDialog(
-                                      title: Text("Options"),
-                                      content: Text("Choose an option"),
+                                      title: const Text("Options"),
+                                      content: const Text("Choose an option"),
                                       actions: [
                                         TextButton(
                                           onPressed: () async {
@@ -172,14 +171,14 @@ class _MyHomePageState extends State<MyHomePage> {
                                               });
                                             }
                                           },
-                                          child: Text("View"),
+                                          child: const Text("View"),
                                         ),
                                         TextButton(
                                           onPressed: () {
                                             _delete(context, expense);
                                             Navigator.of(context).pop(); // Close the dialog
                                           },
-                                          child: Text("Delete"),
+                                          child: const Text("Delete"),
                                         ),
                                       ],
                                     );
@@ -189,7 +188,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.blue,
                               ),
-                              child: Text(
+                              child: const Text(
                                 "More",
                                 style: TextStyle(
                                   fontSize: 14,
@@ -200,14 +199,14 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ],
                       ),
-                      SizedBox(height: 8),
+                      const SizedBox(height: 8),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Expanded(
                             child: Text(
                               expense.category, // Expense category
-                              style: TextStyle(
+                              style: const TextStyle(
                                 fontSize: 14,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black,
@@ -218,7 +217,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: Center(
                               child: Text(
                                 expense.date, // Expense date
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontSize: 14,
                                   fontWeight: FontWeight.bold,
                                   color: Colors.black,
@@ -229,7 +228,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Expanded(
                             child: Text(
                               expense.type, // Expense type
-                              style: TextStyle(
+                              style: const TextStyle(
                                 fontSize: 14,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black,
@@ -239,10 +238,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ],
                       ),
-                      SizedBox(height: 8),
+                      const SizedBox(height: 8),
                       Text(
                         expense.note, // Description
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.bold,
                           color: Colors.black,

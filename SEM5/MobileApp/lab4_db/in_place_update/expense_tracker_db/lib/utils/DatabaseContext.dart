@@ -1,4 +1,3 @@
-import 'dart:math';
 
 import 'package:sqflite/sqflite.dart';
 import 'dart:async';
@@ -36,9 +35,7 @@ class DatabaseContext {
   }
 
   Future<Database> get database async {
-    if (_database == null) {
-      _database = await initializeDatabase();
-    }
+    _database ??= await initializeDatabase();
     return _database!; // Ensure we return a non-null value
   }
 
@@ -55,31 +52,31 @@ class DatabaseContext {
   }
 
   Future<List<Map<String, dynamic>>> getAllExpensesMapList() async {
-    Database db = await this.database;
+    Database db = await database;
     var result = await db.rawQuery('SELECT * FROM $expensesTable ORDER BY $colAmount DESC');
     return result;
   }
 
   Future<int> insertExpense(Expense expense) async {
-    Database db = await this.database;
+    Database db = await database;
     var result = await db.insert(expensesTable, expense.toMap()); // Updated method name
     return result;
   }
 
   Future<int> updateExpense(Expense expense) async {
-    Database db = await this.database;
+    Database db = await database;
     var result = await db.update(expensesTable, expense.toMap(), where: '$colId = ?', whereArgs: [expense.id]);
     return result;
   }
 
   Future<int> deleteExpense(int id) async {
-    var db = await this.database;
+    var db = await database;
     int result = await db.delete(expensesTable, where: '$colId = ?', whereArgs: [id]);
     return result;
   }
 
   Future<int?> getSize() async {
-    Database db = await this.database;
+    Database db = await database;
     List<Map<String, dynamic>> elements = await db.rawQuery('SELECT COUNT(*) FROM $expensesTable'); // Fixed count query
     int? result = Sqflite.firstIntValue(elements);
     return result;

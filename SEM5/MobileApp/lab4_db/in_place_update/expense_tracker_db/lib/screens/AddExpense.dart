@@ -28,8 +28,8 @@ class _AddExpenseState extends State<AddExpense> {
       },
       child: Scaffold(
         appBar: AppBar(
-          title: Text("My Financial Tracker"),
-          backgroundColor: Color(0xFF32A146),
+          title: const Text("My Financial Tracker"),
+          backgroundColor: const Color(0xFF32A146),
         ),
         body: Padding(
           padding: const EdgeInsets.all(25.0),
@@ -37,17 +37,17 @@ class _AddExpenseState extends State<AddExpense> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text("Amount"),
+                const Text("Amount"),
                 TextField(
                   controller: _amountController,
                   keyboardType: TextInputType.number,
-                  decoration: InputDecoration(hintText: "Enter amount..."),
+                  decoration: const InputDecoration(hintText: "Enter amount..."),
                 ),
-                SizedBox(height: 8,),
+                const SizedBox(height: 8,),
 
-                Text("Type"),
+                const Text("Type"),
                 DropdownButton<String>(
-                  hint: Text("Select type"),
+                  hint: const Text("Select type"),
                   value: _selectedType,
                   items: <String>['SPENDING', 'RECEIVING'].map((String value) {
                     return DropdownMenuItem<String>(
@@ -61,21 +61,21 @@ class _AddExpenseState extends State<AddExpense> {
                     });
                   },
                 ),
-                SizedBox(height: 8,),
+                const SizedBox(height: 8,),
 
-                Text("Category"),
+                const Text("Category"),
                 TextField(
                   controller: _categoryController,
                   keyboardType: TextInputType.text,
-                  decoration: InputDecoration(hintText: "Enter category..."),
+                  decoration: const InputDecoration(hintText: "Enter category..."),
                 ),
-                SizedBox(height: 8,),
+                const SizedBox(height: 8,),
 
-                Text("Date"),
+                const Text("Date"),
                 TextField(
                   controller: _dateController,
                   readOnly: true, // Prevents manual text editing
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     hintText: "Select date...",
                     suffixIcon: Icon(Icons.calendar_today), // Optional calendar icon
                   ),
@@ -96,22 +96,22 @@ class _AddExpenseState extends State<AddExpense> {
                     }
                   },
                 ),
-                SizedBox(height: 8,),
+                const SizedBox(height: 8,),
 
-                Text("Notes"),
+                const Text("Notes"),
                 TextField(
                   controller: _noteController,
                   keyboardType: TextInputType.text,
-                  decoration: InputDecoration(hintText: "Enter notes..."),
+                  decoration: const InputDecoration(hintText: "Enter notes..."),
                 ),
-                SizedBox(height: 20,),
+                const SizedBox(height: 20,),
 
                 Center(
                   child: ElevatedButton(
                     onPressed: () {
                       _addExpense();
                     },
-                    child: Text(
+                    child: const Text(
                       "Submit new expense",
                       style: TextStyle(
                         fontSize: 15,
