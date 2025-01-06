@@ -1,0 +1,117 @@
+1) Consider the BNF rules:
+
+expr::= term "+" factor | term
+
+term::= term "*" factor
+
+factor::= const | id
+
+const::="1"|"2"|"3"|....|"9"
+
+id::="a"|"b"|....|"z"
+
+Sequence a+2*b corresponds to this description? (2 Points)
+yes
+no
+
+SOL:
+no 
+first, "a" cannot be a term (term is defined as term * factor, but "a" does not match this)
+also, "2 * b" cannot be a factor since factor is defined as a constant or id, not a constant * id
+
+
+
+
+2) Consider the EBNF rules:
+
+id::=letter|letter{letter}{digit}
+
+letter::="a"|"b"|.....|"z"
+
+digit::="0"|"1"|..."9"
+
+Which of the following is NOT generated using these rules?
+(2 Points)
+2a
+a2
+a2a
+a22
+
+SOL:
+2a (no sequence could start with a digit) and a2a (no sequence could contain letter after a digit)
+
+
+
+3) Alphabet of a language contains:
+(2 Points)
+only digits
+only letters
+all symbols used in writing tokens of the language
+only letters and digits
+
+SOL: all symbols used in writing tokens of the language
+
+
+4) Consider the BNF rules:
+
+digit::="2"|"4"|"6"|"8"
+
+nr::="0"|digit nr
+
+Which of the following can be generated using these rules?
+(2 Points)
+22
+240
+028
+470
+
+SOL: 240
+for the others: 
+22, at first step we have digit 2 and the nr which needs to be 2, but that means that the sequence generates to infinity, to avoid that number must end with base case 0
+028 bc once we have 0 we have to stop generation
+470 bc 7 is not in the digit set
+
+
+
+5) What strings does the following BNF definition cover?
+<def> := <dig> | <dig><def>
+<dig> := 1 | 2
+
+SOL: all the numbers that contain only digits 1 and 2
+
+
+
+6) Is the EBNF expression {"0"|"1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9"} a correct representation for natural numbers?
+
+SOL:
+No, because even if the expression allows any combinaiton of the digits, it could also contain numbers starting with digit 0
+Correct version: 
+<digit> := "0"|"1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9"
+<nat_nr> := <digit> {<digit>}
+
+
+
+7) How many tokens are in the line below?
+int main(int a, b);
+
+SOL: 'int', 'main', '(', 'int', 'a', ',', 'b', ')', ';', so 9 tokens
+
+
+
+8) what is the output of the scanning?
+
+SOL:
+keyword: "int"
+identifier: "main"
+separator: "("
+keyword: "int"
+identifier: "a"
+separator: ","
+...
+
+
+
+9) By missing a letter in a keyword, do we introduce a lexical error or not? why?
+
+SOL: It depends, since the lexer (scanner) is responsible for breaking the input code into tokens, if the misspelled keyword matches as an identifier
+then it will be considered an identifier and no error occurs, but if it can be matched with any token, then it will be considered a lexical error
