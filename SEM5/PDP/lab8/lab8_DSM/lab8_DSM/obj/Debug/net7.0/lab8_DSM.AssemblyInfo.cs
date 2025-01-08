@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab8_DSM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7463b713669ae3dc2e2c61ddfc0d1f0c00e1d1c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6f98e287151cd4badc805fb9f027d6245e0ecdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab8_DSM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab8_DSM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
