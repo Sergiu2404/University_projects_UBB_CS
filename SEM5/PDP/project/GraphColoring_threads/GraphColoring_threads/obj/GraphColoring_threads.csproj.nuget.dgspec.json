@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj": {}
+    "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj": {
+    "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
+        "projectUniqueName": "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
         "projectName": "GraphColoring_threads",
-        "projectPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
+        "projectPath": "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
         "packagesPath": "C:\\Users\\SergiuGoian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\obj\\",
+        "outputPath": "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

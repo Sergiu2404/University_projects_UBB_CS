@@ -58,8 +58,7 @@
               "RelativeToolTip": "GraphColoring_threads\\utils\\Node.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:48:30.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:48:30.339Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "GraphColoring_threads\\utils\\Graph.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAuwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:48:19.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:48:19.823Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "GraphColoring_threads\\entities\\Colors.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:12:08.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:12:08.856Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "GraphColoring_threads\\ProgramFuture.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:05:45.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:05:45.098Z"
             },
             {
               "$type": "Document",
@@ -108,7 +104,7 @@
               "RelativeDocumentMoniker": "GraphColoring_threads\\ProgramMPI.cs",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\ProgramMPI.cs",
               "RelativeToolTip": "GraphColoring_threads\\ProgramMPI.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwEQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T13:06:03.604Z",
               "EditorCaption": ""
@@ -123,8 +119,7 @@
               "RelativeToolTip": "GraphColoring_threads\\graph_coloring\\GraphColoringFuture.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAkwAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:05:24.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:05:24.558Z"
             },
             {
               "$type": "Document",
@@ -136,21 +131,19 @@
               "RelativeToolTip": "GraphColoring_threads\\graph_coloring\\GraphColoring.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAuwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:05:07.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:05:07.474Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GraphColoring_threads",
+              "Title": "GraphColoring_threads.csproj",
               "DocumentMoniker": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
               "RelativeDocumentMoniker": "GraphColoring_threads\\GraphColoring_threads.csproj",
               "ToolTip": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
               "RelativeToolTip": "GraphColoring_threads\\GraphColoring_threads.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-11T13:04:01.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:04:01.084Z"
             },
             {
               "$type": "Document",
@@ -162,8 +155,7 @@
               "RelativeToolTip": "GraphColoring_threads\\Program.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAA1wCgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:03:27.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:03:27.345Z"
             }
           ]
         }

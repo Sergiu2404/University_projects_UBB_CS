@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q2/MtYNktSg=",
+  "dgSpecHash": "xzgDEnhPAKY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
+  "projectFilePath": "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\project\\GraphColoring_threads\\GraphColoring_threads\\GraphColoring_threads.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SergiuGoian\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\SergiuGoian\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

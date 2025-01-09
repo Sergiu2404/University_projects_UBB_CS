@@ -9,8 +9,9 @@ namespace lab8_distributed_protocols
     public class Variable
     {
         public int Value { get; set; }
+        //collection of proc ids
         public HashSet<string> Subscribers { get; private set; }
-        public event Action<string, int> OnChange;
+        public event Action<string, int> OnChange; //triggered when value changes for a variable and notifies subscribers about change
 
         public Variable(int initialValue)
         {
@@ -23,6 +24,7 @@ namespace lab8_distributed_protocols
             Subscribers.Add(processId);
         }
 
+        //remove a proc id form subscribers list
         public void Unsubscribe(string processId)
         {
             Subscribers.Remove(processId);
@@ -41,11 +43,9 @@ namespace lab8_distributed_protocols
         {
             foreach (var subscriber in Subscribers)
             {
-                if (subscriber != processId)
-                {
-                    OnChange?.Invoke(subscriber, Value);
-                }
+                OnChange?.Invoke(subscriber, Value);
             }
         }
+
     }
 }

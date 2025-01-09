@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GraphColoring_threads")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+266e495273c1bc1bd8af1f6ec655ce48a179d530")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48351c83f75ef1bcd7a1393cd6f2489afa6f364b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GraphColoring_threads")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GraphColoring_threads")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

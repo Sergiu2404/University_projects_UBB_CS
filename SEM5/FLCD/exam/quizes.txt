@@ -86,8 +86,8 @@ SOL: all the numbers that contain only digits 1 and 2
 SOL:
 No, because even if the expression allows any combinaiton of the digits, it could also contain numbers starting with digit 0
 Correct version: 
-<digit> := "0"|"1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9"
-<nat_nr> := <digit> {<digit>}
+<nonzero_dig> := "1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9"
+<nat_nr> := "0" | {nonzero_dig} {"0"} {digit}
 
 
 

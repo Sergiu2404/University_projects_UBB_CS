@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\lab8_distributed_protocols.csproj": {}
+    "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\lab8_distributed_protocols.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\lab8_distributed_protocols.csproj": {
+    "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\lab8_distributed_protocols.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\lab8_distributed_protocols.csproj",
+        "projectUniqueName": "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\lab8_distributed_protocols.csproj",
         "projectName": "lab8_distributed_protocols",
-        "projectPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\lab8_distributed_protocols.csproj",
+        "projectPath": "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\lab8_distributed_protocols.csproj",
         "packagesPath": "C:\\Users\\SergiuGoian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SergiuGoian\\Desktop\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\obj\\",
+        "outputPath": "C:\\Users\\SergiuGoian\\Desktop\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\lab8\\lab8_distributed_protocols\\lab8_distributed_protocols\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

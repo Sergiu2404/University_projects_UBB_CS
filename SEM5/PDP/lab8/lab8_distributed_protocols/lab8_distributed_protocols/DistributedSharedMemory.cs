@@ -22,23 +22,16 @@ public class DistributedSharedMemory
     {
         if (variables.ContainsKey(name))
         {
-            variables[name].Subscribe(processId);
-            variables[name].OnChange += (subscriber, newValue) =>
-                Console.WriteLine($"Process {subscriber} notified: {name} changed to {newValue}");
-        }
-    }
-
-    public void CompareAndExchange(string name, int expectedValue, int newValue, string processId)
-    {
-        if (variables.ContainsKey(name))
-        {
             var variable = variables[name];
-            if (variable.Value == expectedValue)
+            if (!variable.Subscribers.Contains(processId))
             {
-                variable.SetValue(newValue, processId);
+                variable.Subscribe(processId);
+                variable.OnChange += (subscriber, newValue) =>
+                    Console.WriteLine($"Process notified: {name} changed to {newValue}");
             }
         }
     }
+
 
     public int GetValue(string name)
     {

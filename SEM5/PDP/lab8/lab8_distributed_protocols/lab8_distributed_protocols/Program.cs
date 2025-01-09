@@ -4,48 +4,66 @@
     {
         DistributedSharedMemory dsm = new DistributedSharedMemory();
 
-        // Create shared variables
-        dsm.CreateVariable("var1", 10);
-        dsm.CreateVariable("var2", 20);
+        dsm.CreateVariable("varUnaffected", 10);
+        dsm.CreateVariable("varAffected1", 20);
+        //dsm.CreateVariable("varAffected2", 100);
 
-        // Simulating processes
         string process1Id = "Process1";
         string process2Id = "Process2";
+        //string process3Id = "Process3";
 
-        // Subscribing processes to variables
-        dsm.Subscribe("var1", process1Id);
-        dsm.Subscribe("var1", process2Id);
-        dsm.Subscribe("var2", process1Id);
-        dsm.Subscribe("var2", process2Id);
+        dsm.Subscribe("varUnaffected", process1Id);
+        dsm.Subscribe("varUnaffected", process2Id);
+        //dsm.Subscribe("varUnaffected", process3Id);
+        dsm.Subscribe("varAffected1", process1Id);
+        dsm.Subscribe("varAffected1", process2Id);
+        //dsm.Subscribe("varAffected1", process3Id);
+        //dsm.Subscribe("varAffected2", process1Id);
+        //dsm.Subscribe("varAffected2", process2Id);
+        //dsm.Subscribe("varAffected2", process3Id);
 
-        // Start threads to simulate concurrent operations
         Thread process1 = new Thread(() =>
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 1; i < 6; i++)
             {
                 Thread.Sleep(500);
-                dsm.Write("var1", i * 5, process1Id);
+                dsm.Write("varUnaffected", i * 10, process1Id);
+              
             }
         });
 
         Thread process2 = new Thread(() =>
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 1; i < 6; i++)
             {
                 Thread.Sleep(700);
-                dsm.CompareAndExchange("var1", i * 5, i * 5 + 1, process2Id);
-                dsm.Write("var2", i * 10, process2Id);
+                int currentVal = dsm.GetValue("varUnaffected");
+                dsm.Write("varAffected1", currentVal - i, process2Id);
+                dsm.Write("varAffected1", currentVal - i * 2, process1Id);
             }
         });
 
+        //Thread process3 = new Thread(() =>
+        //{
+        //    for (int i = 0; i < 6; i++)
+        //    {
+        //        Thread.Sleep(800);
+        //        int currentVal = dsm.GetValue("varAffected1");
+        //        dsm.Write("varAffected2", currentVal * 2, process3Id);
+        //    }
+        //});
+
         process1.Start();
         process2.Start();
+        //process3.Start();
 
         process1.Join();
         process2.Join();
+        //process3.Join();
 
         Console.WriteLine("Final Values:");
-        Console.WriteLine($"var1: {dsm.GetValue("var1")}");
-        Console.WriteLine($"var2: {dsm.GetValue("var2")}");
+        Console.WriteLine($"varUnaffected: {dsm.GetValue("varUnaffected")}");
+        Console.WriteLine($"varAffected1: {dsm.GetValue("varAffected1")}");
+        //Console.WriteLine($"varAffected2: {dsm.GetValue("varAffected2")}");
     }
 }
