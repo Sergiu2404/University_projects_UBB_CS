@@ -1,0 +1,54 @@
+
+%{ 	 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int currentLine = 1;
+%} 
+
+%option noyywrap
+
+IDENTIFIER		[a-zA-Z_][a-zA-Z0-9_]*
+NUMBER_CONST	0|[+|-]?[1-9][0-9]*([.][0-9]*)?|[+|-]?0[.][0-9]*
+STRING_CONST	[\"][a-zA-Z0-9 ]+[\"]
+CHAR_CONST		[\'][a-zA-Z0-9 ][\']
+
+%%
+
+"read"|"write"|"if"|"else"|"for"|"while"|"int"|"string"|"char"|"return"|"start"|"array"		{printf("Reserved word: %s\n", yytext);}
+"+"|"-"|"*"|"/"|"%"|"<="|">="|"=="|"!="|"<"|">"|"="		{printf("Operator: %s\n", yytext);}
+"{"|"}"|"("|")"|"["|"]"|":"|";"|","|"'"|"\""		{printf("Separator: %s\n", yytext);}
+{IDENTIFIER}		{printf("Identifier: %s\n", yytext);}
+{NUMBER_CONST}		{printf("Number: %s\n", yytext);}
+{STRING_CONST}		{printf("String: %s\n", yytext);}
+{CHAR_CONST}		{printf("Character: %s\n", yytext);}
+
+[ \t]+		{}
+[\n]+	{currentLine++;}
+
+[0-9][a-zA-Z0-9_]*		{printf("Illegal identifier at line %d\n", currentLine);}
+[+|-]0		{printf("Illegal numeric constant at line %d\n", currentLine);}
+[+|-]?[0][0-9]*([.][0-9]*)?		{printf("Illegal numeric constant at line %d\n", currentLine);}
+[\'][a-zA-Z0-9 ]{2,}[\']|[\'][a-zA-Z0-9 ][a-zA-Z0-9 ][\']		{printf("Illegal character constant at line %d\n", currentLine);}
+[\"][a-zA-Z0-9_]+|[a-zA-Z0-9_]+[\"]		{printf("Illegal string constant at line %d\n", currentLine);}
+
+%%
+
+void main(argc, argv)
+int argc;
+char** argv;
+{           
+if (argc > 1)
+{
+    FILE *file;
+    file = fopen(argv[1], "r");
+    if (!file)
+    {
+        fprintf(stderr, "Could not open %s\n", argv[1]);
+        exit(1);
+    }
+    yyin = file;
+}
+
+yylex();
+}

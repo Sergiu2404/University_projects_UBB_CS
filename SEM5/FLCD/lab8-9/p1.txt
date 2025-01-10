@@ -1,0 +1,30 @@
+start
+{
+	int a;
+	int b;
+	int c;
+	read ( a );
+	read ( b );
+	read ( c );
+	int maxim;
+	if (a > b)
+	{
+		maxim = a;
+    }
+	else
+	{
+		maxim = b;
+	}
+	if (c > maxim)
+	{
+		maxim = c;
+	}
+	else
+	{
+	    c = 0;
+	}
+	string text;
+	text = "Maximum is ";
+	write ( 'a' );
+	write ( maxim );
+}
