@@ -1,0 +1,16 @@
+First download MPJ Express from https://sourceforge.net/projects/mpjexpress/files/
+
+Unzip it somewhere in your PC, then add it to the environment variables:
+->env variables -> system variables -> add new (variable name: MPJ_HOME, variable value: location in your file explorer- ex: C:\tools\MPJ)
+
+In Intellij:
+File -> Project Structure -> Libraries -> add new -> Java -> path to lib folder inside MPJ location, ex: C:\tools\MPJ\lib
+
+Open edit configurations:
+-> for the main class, choose your Main class for running mpi
+-> for env variables: MPJ_HOME=C:\tools\MPJ
+-> click modify options and ensure Add VM options is checked, then for VM options field: -jar $MPJ_HOME$\lib\starter.jar -np 5
+For -jar command, 5 represents nr of processes. In this case, make sure that nr of processes (-np 5) is greater then number of nodes/colors depending on your approach
+
+Run MPI Main with created configuration
+For threads, add a new configuration (run current file/MainThreads file)
