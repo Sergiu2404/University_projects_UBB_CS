@@ -1,0 +1,192 @@
+Class: Node
+
+Attributes:
+    id (Integer):
+        - Represents a unique identifier for the node.
+
+    NeighborNodes (Set<Node>):
+        - A set of all neigbor nodes of the current node.
+
+Methods:
+    public Node(Integer id):
+        - Constructor that initializes a node with the given id and an empty set of neighbor nodes.
+
+    public Integer getId():
+        - Returns the unique id of the current node.
+
+    public Set<Node> getNeighborNodes():
+        - Returns the set of neighbor nodes.
+
+    public boolean isNeighbor(Node node):
+        - Checks if a given node is a neighbor of the current node.
+        - Parameters:
+            node (Node): The node to check for being a neighbor.
+        - Return Type: boolean
+
+    public void setNeighborNode(Node node):
+        - Adds a node to the set of neighboring nodes.
+        - Parameters:
+            node (Node): The node to be added as a neighbor.
+
+    @Override public boolean equals(Object o):
+        - Compares this node with another node for equality based on the id attribute.
+        - Parameters:
+            o (Object): The object to compare with this node (another node).
+        - Return: true (if ids are equal)/ false (otherwise)
+
+    @Override public int hashCode():
+        - Returns the hash code value for the node based on the id attribute.
+
+---
+
+Class: Graph
+
+Attributes:
+    nodes (Set<Node>):
+        - A set of all nodes in the graph.
+
+Methods:
+    public Graph(int size):
+        - Constructor that initializes a graph with a given number of nodes (size).
+
+    public void addEdge(Integer n1, Integer n2):
+        - Adds an edge between two nodes in the graph by connecting them as neighbors.
+        - Parameters:
+            n1 , n2 (Integers): The ids of the first node and the second node.
+        - Description: Finds the nodes with ids n1 and n2 and adds each node as a neighbor of the other.
+
+    public boolean isEdge(Integer n1, Integer n2):
+        - Checks if there is an edge between two nodes.
+        - Parameters:
+            n1 (Integer): The id of the first node.
+            n2 (Integer): The id of the second node.
+
+    public int getNoNodes():
+        - Returns the number of nodes in the graph.
+        - Return Type: int
+
+    @Override public String toString():
+        - Returns a string representation of the graph.
+
+---
+
+Class: Colors
+
+Attributes:
+    colors (String[]):
+        - An array that holds all color names.
+
+Methods:
+    public static void setNoColors(int noColors):
+        - Sets the number of colors available by initializing the colors array.
+        - Parameters:
+            noColors (int): The number of colors to initialize.
+
+    public static void setColorName(int colorId, String color):
+        - Sets the name of a specific color based on the colorId.
+        - Parameters:
+            colorId (int): The index (1-based) of the color to be set.
+            color (String): The name of the color.
+
+    public static Map<Integer, String> getNodesToColors(int[] codes):
+        - Returns a map associating node indices with their respective colors based on an array of color codes.
+        - Parameters:
+            codes (int[]): An array of color codes (1-based indices) representing the colors assigned to each node.
+
+    public static int getNoColors():
+        - Returns the number of colors available.
+
+---
+
+Class: GraphColoring
+
+Attributes:
+    solutionFound (boolean):
+        - A flag to indicate if a solution has been found.
+
+Methods:
+    public static void graphColoringMain(Graph graph) throws InterruptedException:
+        - Main method to execute the graph coloring using MPI.
+        - Parameters:
+            graph (Graph): The graph to be colored.
+
+    private static int[] graphColoringRec(int solutionNode, Graph graph, int noColors, int[] solution, int mpiId) throws InterruptedException:
+        - Recursive method to attempt coloring the graph.
+        - Parameters:
+            solutionNode (int): The index of the node being processed.
+            graph (Graph): The graph to be colored.
+            noColors (int): The number of available colors.
+            solution (int[]): The current coloring solution.
+            mpiId (int): The MPI process ID.
+
+    public static void graphColoringWorker(int mpiId, Graph graph) throws InterruptedException:
+        - Worker method to perform graph coloring in parallel using MPI.
+        - Parameters:
+            mpiId (int): The MPI process ID.
+            graph (Graph): The graph to be colored.
+        - Description: Receives data, performs coloring, and sends back results.
+
+    private static boolean isSolution(int node, int[] solution, Graph graph):
+        - Checks if the current coloring solution is valid.
+        - Parameters:
+            node (int): The node being processed.
+            solution (int[]): The current coloring solution.
+            graph (Graph): The graph to be checked.
+        - Description: Returns true if the solution does not cause conflicts, otherwise false.
+
+    private static int[] getInvalidSolution(int length):
+        - Returns an invalid solution with -1 values.
+        - Parameters:
+            length (int): The length of the solution array.
+        - Return Type: int[]
+
+    private static int[] getArrayCopy(int[] array):
+        - Creates a copy of the provided array.
+        - Parameters:
+            array (int[]): The array to be copied.
+        - Return Type: int[]
+
+---
+
+Class: GraphColoringFuture
+
+Methods:
+    public static int[] graphColoringWorker(int id, Graph graph, int node, int[] initialSolution) throws InterruptedException, ExecutionException:
+        - Worker method to perform graph coloring using futures.
+        - Parameters:
+            id (int): The worker ID.
+            graph (Graph): The graph to be colored.
+            node (int): The index of the current node.
+            initialSolution (int[]): The current coloring solution.
+        - Description: Uses futures to color the graph asynchronously.
+
+    private static int[] graphColoringRec(int id, Graph graph, int node, int[] solution, int noColors) throws InterruptedException, ExecutionException:
+        - Recursive method to attempt coloring the graph with futures.
+        - Parameters:
+            id (int): The worker ID.
+            graph (Graph): The graph to be colored.
+            node (int): The index of the current node.
+            solution (int[]): The current coloring solution.
+            noColors (int): The number of available colors.
+        - Description: Recursively attempts to color the graph, managing parallel tasks with futures.
+
+    private static boolean isSolution(int node, int[] solution, Graph graph):
+        - Checks if the current solution is valid.
+        - Parameters:
+            node (int): The node being processed.
+            solution (int[]): The current coloring solution.
+            graph (Graph): The graph to be checked.
+        - Description: Returns true if the solution is valid, otherwise false.
+
+    private static int[] getInvalidSolution(int length):
+        - Returns an invalid solution with -1 values.
+        - Parameters:
+            length (int): The length of the solution array.
+        - Return Type: int[]
+
+    private static int[] getArrayCopy(int[] array):
+        - Creates a copy of the provided array.
+        - Parameters:
+            array (int[]): The array to be copied.
+        - Return Type: int[]
+

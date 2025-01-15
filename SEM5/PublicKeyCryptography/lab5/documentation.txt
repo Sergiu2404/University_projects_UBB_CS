@@ -1,0 +1,47 @@
+generate_keys(bit_length=512)-generates a public-private key pair for the Paillier cryptosystem.
+Parameters:
+bit_length (int): bit length of the large prime numbers p and q (default: 512 bits).
+Returns:
+public_key (tuple): The public key (n, g), where n = p * q and g =n+1
+private_key (tuple): The private key (λ, μ), where λ = lcm(p-1, q-1) and μ is computed as the modular inverse of (g^λ mod n^2) modulo n.
+
+generate_large_prime(bit_length)-generates a large prime number with the specified bit length.
+Parameters:
+bit_length (int): The bit length of the prime number to generate.
+Returns:
+prime (int): A randomly generated prime number.
+
+encrypt(public_key, plaintext)-encrypts plaintext using the Paillier cryptosystem.
+Parameters:
+public_key (tuple): The public key (n, g).
+plaintext (str): The text message to encrypt.
+Returns:
+ciphertext (int): The encrypted ciphertext as a large integer.
+Raises:
+ValueError: If the plaintext's numeric representation is too large for the key size.
+
+decrypt_paillier(ciphertext, private_key, public_key)-decrypts ciphertext using the private key of the Paillier cryptosystem.
+Parameters:
+ciphertext (int): The ciphertext to decrypt.
+private_key (tuple): The private key (λ, μ).
+public_key (tuple): The public key (n, g).
+Returns:
+plaintext (int): The numeric representation of the decrypted plaintext.
+Raises:
+ValueError: If the decryption process encounters errors in text conversion.
+
+text_to_number(text)-converts a text string into a compact numerical representation using a custom characted mapping.
+Parameters:
+text (str): The text string to convert.
+Returns:
+number (int): The numeric representation of the text.
+Raises:
+ValueError: If the text contains characters not in the defined mapping.
+
+number_to_text(number)-converts a compact numeric representation back to its original text using the custom character mapping.
+Parameters:
+number (int): The numeric representation to convert.
+Returns:
+text (str): The original text string.
+Raises:
+ValueError: If the numeric representation contains unmapped values or is invalid.

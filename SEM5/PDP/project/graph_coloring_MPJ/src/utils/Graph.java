@@ -8,9 +8,7 @@ import java.util.stream.Collectors;
 
 public class Graph {
     private final Set<Node> nodes;
-
-    private final int threadCount = 16;
-
+    
     public Graph(int size) {
 
         nodes = new HashSet<>(size);
@@ -21,13 +19,13 @@ public class Graph {
         }
     }
 
-    public void setEdge(Integer n1, Integer n2) {
+    public void addEdge(Integer n1, Integer n2) {
 
         Node node1 = nodes.stream().filter((n) -> Objects.equals(n.getId(), n1)).findFirst().get();
         Node node2 = nodes.stream().filter((n) -> Objects.equals(n.getId(), n2)).findFirst().get();
 
-        node1.setAdjacentNode(node2);
-        node2.setAdjacentNode(node1);
+        node1.setNeighborNode(node2);
+        node2.setNeighborNode(node1);
     }
 
     public boolean isEdge(Integer n1, Integer n2) {
@@ -35,18 +33,7 @@ public class Graph {
         Node node1 = nodes.stream().filter((n) -> Objects.equals(n.getId(), n1)).findFirst().get();
         Node node2 = nodes.stream().filter((n) -> Objects.equals(n.getId(), n2)).findFirst().get();
 
-        return node1.isAdjacent(node2);
-    }
-
-
-    public List<Node> getNodes() {
-
-        return nodes.stream().toList().stream().sorted().toList();
-    }
-
-    public Node getNodeById(int id) {
-
-        return nodes.stream().filter((n) -> Objects.equals(n.getId(), id)).findFirst().get();
+        return node1.isNeighbor(node2);
     }
 
     public int getNoNodes() {
@@ -57,7 +44,7 @@ public class Graph {
     @Override
     public String toString() {
         return nodes.stream()
-                .map(node -> "Node " + node.getId() + " -> " + node.getAdjacentNodes().stream()
+                .map(node -> "Node " + (node.getId() + 1) + " -> " + node.getNeighborNodes().stream()
                         .map(Node::getId)
                         .sorted()
                         .map(String::valueOf)

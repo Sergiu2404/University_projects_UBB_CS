@@ -17,20 +17,21 @@ public class GraphColoringFuture {
 
 
     private static int[] graphColoringRec(int id, Graph graph, int node, int[] solution, int noColors) throws InterruptedException, ExecutionException, ExecutionException {
+        //recursively try to assign colors to nodes
 
         int noNodes = graph.getNoNodes();
 
         // If a solution is invalid, we invalidate it.
-        if (!isCodeValid(node, solution, graph)) {
+        if (!isSolution(node, solution, graph)) {
             return getInvalidSolution(noNodes);
         }
 
-        // If a solution is valid and complete until its last index, we return it.
+        // return a solution if valid and complete until its last index
         if (node+1 == graph.getNoNodes()) {
             return solution;
         }
 
-        // changeNode - The next index in the solution that needs to be changed
+        //next index in the solution to be changed
         int changeNode = node + 1;
 
 
@@ -81,14 +82,8 @@ public class GraphColoringFuture {
 
         return getInvalidSolution(noColors);
     }
-
-
-    /*
-        solution - The partial solution
-        node - Until which node the solution is complete
-        graph - The whole graph
-    */
-    private static boolean isCodeValid(int node, int[] solution, Graph graph) {
+    
+    private static boolean isSolution(int node, int[] solution, Graph graph) {
 
         for (int currentNode = 0; currentNode < node; currentNode++) {
 

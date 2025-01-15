@@ -6,28 +6,28 @@ import java.util.Set;
 
 public class Node {
     private final Integer id;
-    private final Set<Node> adjacentNodes;
+    private final Set<Node> NeighborNodes;
 
     public Node(Integer id) {
         this.id = id;
-        this.adjacentNodes = new HashSet<>();
+        this.NeighborNodes = new HashSet<>();
     }
 
     public Integer getId() {
         return id;
     }
 
-    public Set<Node> getAdjacentNodes() {
-        return adjacentNodes;
+    public Set<Node> getNeighborNodes() {
+        return NeighborNodes;
     }
 
-    public boolean isAdjacent(Node node) {
+    public boolean isNeighbor(Node node) {
 
-        return adjacentNodes.contains(node);
+        return NeighborNodes.contains(node);
     }
 
-    public void setAdjacentNode(Node node) {
-        this.adjacentNodes.add(node);
+    public void setNeighborNode(Node node) {
+        this.NeighborNodes.add(node);
     }
 
     @Override
