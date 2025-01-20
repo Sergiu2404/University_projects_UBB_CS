@@ -1,0 +1,400 @@
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int v|(Ref(int) a|(v = 10|(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement)))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(Ref(int) a|(v = 10|(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int v
+(Ref(int) a|(v = 10|(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Ref(int) a|(v = 10|(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement))))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Ref(int) a|(v = 10|(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement))))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(int) a
+(v = 10|(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Ref(int) a
+(v = 10|(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement)))
+[SYMBOL TABLE]: 
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 10|(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement)))
+[SYMBOL TABLE]: 
+a -> (0, int)
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(v = 10|(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement)))
+[SYMBOL TABLE]: 
+a -> (0, int)
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 10
+(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement))
+[SYMBOL TABLE]: 
+a -> (0, int)
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+v = 10
+(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement))
+[SYMBOL TABLE]: 
+a -> (0, int)
+v -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement))
+[SYMBOL TABLE]: 
+a -> (0, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(New(a, 22)|(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement))
+[SYMBOL TABLE]: 
+a -> (0, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(a, 22)
+(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement)
+[SYMBOL TABLE]: 
+a -> (0, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+New(a, 22)
+(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement)
+[SYMBOL TABLE]: 
+a -> (0, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement)
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))|NopStatement)
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))
+NopStatement
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Fork((WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a))))))
+NopStatement
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+NopStatement
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a)))))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+NopStatement
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(WriteHeap(a, 30)|(v = 32|(Print(v)|Print(ReadHeap(a)))))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+WriteHeap(a, 30)
+(v = 32|(Print(v)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+WriteHeap(a, 30)
+(v = 32|(Print(v)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 22
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(v = 32|(Print(v)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(v = 32|(Print(v)|Print(ReadHeap(a))))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+v = 32
+(Print(v)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+v = 32
+(Print(v)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(v)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 32
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(v)|Print(ReadHeap(a)))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 32
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(v)
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 32
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(v)
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 32
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 32
+[OUTPUT LIST]: 
+32
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(ReadHeap(a))
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 32
+[OUTPUT LIST]: 
+32
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+a -> (1, int)
+v -> 32
+[OUTPUT LIST]: 
+32
+30
+[FILE TABLE]:
+[HEAP STORAGE]:
+1 -> 30
+

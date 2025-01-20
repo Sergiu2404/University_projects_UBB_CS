@@ -1,0 +1,1119 @@
+[PROCESS ID]: 1
+[EXE STACK]: 
+(string varf|(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+string varf
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+string varf
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+OpenReadFile(varf)
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+OpenReadFile(varf)
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int varc
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+int varc
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(varc)
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(varc)
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(varc)
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+Print(varc)
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+15
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+15
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 1
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+15
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(string varf|(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+string varf
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+string varf
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+OpenReadFile(varf)
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+OpenReadFile(varf)
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+int varc
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+int varc
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(varc)
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(varc)
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(varc)
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+Print(varc)
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+15
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+15
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 4
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+15
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(string varf|(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+string varf
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+string varf
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"|(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+varf = "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> ""
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(OpenReadFile(varf)|(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+OpenReadFile(varf)
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+OpenReadFile(varf)
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(int varc|(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+int varc
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+int varc
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 0
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(varc)|(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf))))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(varc)
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(varc)
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(ReadFile(varf, varc)|(Print(varc)|CloseReadFile(varf)))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+ReadFile(varf, varc)
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 10
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+(Print(varc)|CloseReadFile(varf))
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(varc)
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+Print(varc)
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+15
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+CloseReadFile(varf)
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+15
+[FILE TABLE]:
+C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in
+[HEAP STORAGE]:
+
+[PROCESS ID]: 2
+[EXE STACK]: 
+[SYMBOL TABLE]: 
+varf -> "C:\Users\Sergiu\Desktop\SEM3\metode_avansate_de_programare\A7\A7_gui\src\main\java\com\example\a7_gui\test.in"
+varc -> 15
+[OUTPUT LIST]: 
+10
+15
+[FILE TABLE]:
+[HEAP STORAGE]:
+

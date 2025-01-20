@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.a7_gui.ProgramSwitchController">
+  <children>
+    <VBox alignment="CENTER" style="-fx-background-color: #b2c8d8;">
+        <children>
+            <ListView fx:id="programsListView" prefHeight="356.0" prefWidth="525.0">
+                <VBox.margin>
+                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                </VBox.margin>
+            </ListView>
+            <Button fx:id="displayButton" alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#displayProgram" prefHeight="42.0" prefWidth="232.0" style="-fx-background-color: #ffffff; -fx-border-radius: 12; -fx-background-radius: 12; -fx-border-color: #000000;" text="Display program" textAlignment="CENTER">
+                <font>
+                    <Font name="Arial Black" size="15.0" />
+                </font>
+                <VBox.margin>
+                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                </VBox.margin>
+            </Button>
+        </children>
+    </VBox>
+  </children>
+</StackPane>
