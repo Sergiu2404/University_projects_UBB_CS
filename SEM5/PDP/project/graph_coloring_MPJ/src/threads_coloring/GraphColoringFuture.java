@@ -17,11 +17,9 @@ public class GraphColoringFuture {
 
 
     private static int[] graphColoringRec(int id, Graph graph, int node, int[] solution, int noColors) throws InterruptedException, ExecutionException, ExecutionException {
-        //recursively try to assign colors to nodes
 
         int noNodes = graph.getNoNodes();
 
-        // If a solution is invalid, we invalidate it.
         if (!isSolution(node, solution, graph)) {
             return getInvalidSolution(noNodes);
         }

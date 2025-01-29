@@ -46,7 +46,7 @@ public class Main {
 
         for (int i = 1; i <= coloringDegree; i++) Colors.setColorName(i, colors[i-1]);
 
-        // Rationale: Each of the n processes (excluding the main process) will handle
+        // each of the n processes (excluding the main process) will handle
         // the partial solutions ending in color k (1 <= k <= n)
         if (size-1 != Colors.getNoColors()) {
             throw new IllegalArgumentException("Number of processes must be number of colors + 1");
