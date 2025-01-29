@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-convert": "^2.0.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^13.0.1",
+    "phaser": "^3.87.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/register": "^7.25.9"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

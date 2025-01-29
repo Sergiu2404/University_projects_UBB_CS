@@ -86,7 +86,7 @@ public class GraphColoring {
                 int[] codes = new int[noNodes];
                 System.arraycopy(buf, 1, codes, 0, codes.length);
 
-                // if this process isn't the main one, recursively try to color the graph with this worker's solution
+                // if this process isnt the main, recursively try to color the graph with this worker's sol
                 if (mpiId != 0) {
                     int[] result = graphColoringRec(prevNode, graph, noColors, codes, mpiId);
                     if (result[0] != -1) {
