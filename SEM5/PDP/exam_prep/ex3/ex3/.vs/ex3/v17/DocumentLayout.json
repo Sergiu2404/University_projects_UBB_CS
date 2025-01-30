@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\exam_prep\\ex3\\ex3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93F75F8D-EF26-4F35-8EF3-DEE7168CEBAD}|ex3\\ex3.vcxproj|E:\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\exam_prep\\ex3\\ex3\\ex3\\ex3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93F75F8D-EF26-4F35-8EF3-DEE7168CEBAD}|ex3\\ex3.vcxproj|solutionrelative:ex3\\ex3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F75F8D-EF26-4F35-8EF3-DEE7168CEBAD}|ex3\\ex3.vcxproj|E:\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\exam_prep\\ex3\\ex3\\ex3\\binary_tree_sum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93F75F8D-EF26-4F35-8EF3-DEE7168CEBAD}|ex3\\ex3.vcxproj|solutionrelative:ex3\\binary_tree_sum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "binary_tree_sum.cpp",
+              "DocumentMoniker": "E:\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\exam_prep\\ex3\\ex3\\ex3\\binary_tree_sum.cpp",
+              "RelativeDocumentMoniker": "ex3\\binary_tree_sum.cpp",
+              "ToolTip": "E:\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\exam_prep\\ex3\\ex3\\ex3\\binary_tree_sum.cpp",
+              "RelativeToolTip": "ex3\\binary_tree_sum.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-29T16:50:50.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ex3.cpp",
+              "DocumentMoniker": "E:\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\exam_prep\\ex3\\ex3\\ex3\\ex3.cpp",
+              "RelativeDocumentMoniker": "ex3\\ex3.cpp",
+              "ToolTip": "E:\\Uni_projects_UBB_CS\\University_projects_UBB_CS\\SEM5\\PDP\\exam_prep\\ex3\\ex3\\ex3\\ex3.cpp",
+              "RelativeToolTip": "ex3\\ex3.cpp",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-29T16:30:55.864Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

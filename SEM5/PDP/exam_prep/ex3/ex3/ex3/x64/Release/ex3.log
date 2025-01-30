@@ -1,0 +1,9 @@
+﻿  ex3.cpp
+E:\Uni_projects_UBB_CS\University_projects_UBB_CS\SEM5\PDP\exam_prep\ex3\ex3\ex3\ex3.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Uni_projects_UBB_CS\University_projects_UBB_CS\SEM5\PDP\exam_prep\ex3\ex3\ex3\ex3.cpp(97,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Uni_projects_UBB_CS\University_projects_UBB_CS\SEM5\PDP\exam_prep\ex3\ex3\ex3\ex3.cpp(98,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 149 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ex3.vcxproj -> E:\Uni_projects_UBB_CS\University_projects_UBB_CS\SEM5\PDP\exam_prep\ex3\ex3\x64\Release\ex3.exe
