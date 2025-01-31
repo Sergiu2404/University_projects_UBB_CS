@@ -75,7 +75,42 @@ int computeDotProduct(Node* tree1, Node* tree2) {
 
 
 
-int main() {
+
+//2023 nr 7
+#include <cstdlib>
+#include <chrono>
+#include <sstream>
+#include <mutex>
+
+
+//void partialDotProduct(const vector<int>& a, const vector<int>& b, int start, int end, long long& partialSum) {
+//    partialSum = 0;
+//    for (int i = start; i < end; ++i) {
+//        partialSum += a[i] * b[i];
+//    }
+//}
+vector<int> partialSums;
+mutex mtx;
+
+void partialDotProduct(vector<int> a, vector<int> b, int start, int end)
+{
+    int current_sum = 0;
+    for (int i = start; i < end; i++)
+    {
+        current_sum += a[i] * b[i];
+    }
+    cout << current_sum << " from thread " << this_thread::get_id() << "| ";
+
+    mtx.lock();
+    partialSums.push_back(current_sum);
+    mtx.unlock();
+}
+
+
+
+
+
+int main(int argc, char* argv[]) {
     // 2023 nr 2
     /*std::vector<std::vector<int>> matrix = {
         {1, 2, 3},
@@ -89,14 +124,54 @@ int main() {
 
 
     //2023 nr 3
-    vector<int> vector1 = { 1, 2, 3, 4 };
+    /*vector<int> vector1 = { 1, 2, 3, 4 };
     vector<int> vector2 = { 5, 6, 7, 8 };
 
     Node* tree1 = createTree(vector1, 0, vector1.size() - 1);
     Node* tree2 = createTree(vector2, 0, vector2.size() - 1);
 
     int result = computeDotProduct(tree1, tree2);
-    cout << "The scalar prod of the vectors is: " << result << endl;
+    cout << "The scalar prod of the vectors is: " << result << endl;*/
+
+
+
+
+    // 2023 nr 7
+    //int numThreads = 3;
+    //int vectorSize = 8;
+
+    //vector<int> a{ 1, 2, 3, 4, 5, 6, 7, 8 };
+    //vector<int> b{ 0, 1, 2, 3, 4, 5, 6, 7 };
+
+    //vector<thread> threads;
+
+    //int chunkSize = vectorSize / numThreads;
+    //int remainder = vectorSize % numThreads;
+
+    //int startIdx = 0;
+    //for (int i = 0; i < numThreads; ++i) {
+    //    int endIdx = startIdx + chunkSize + (i < remainder ? 1 : 0); // Distribute remainder fairly
+    //    threads.emplace_back(partialDotProduct, a, b, startIdx, endIdx);
+    //    startIdx = endIdx;
+    //}
+
+    //for (auto& t : threads) {
+    //    t.join();
+    //}
+
+    //int dotProduct = 0;
+
+    //for (int i = 0; i < partialSums.size(); i++)
+    //{
+    //    dotProduct += partialSums[i];
+    //}
+
+    //cout << "Partial Sums: ";
+    //for (int sum : partialSums) {
+    //    cout << sum << " ";
+    //}
+    //cout << "\nFinal Dot Product: " << dotProduct << endl;
+
 
 
     return 0;
