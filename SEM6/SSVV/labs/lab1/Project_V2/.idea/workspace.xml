@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="df49f66c-c920-4ef2-986d-907a98f55e55" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="df49f66c-c920-4ef2-986d-907a98f55e55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/DataInceput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Note.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Studenti.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Studenti.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Teme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Teme.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/eu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/la.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/app/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/curent/Curent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/domain/Nota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/domain/Tema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/AbstractCrudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/AbstractFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/AbstractXMLRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/CrudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/FileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/HasID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/NotaFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/NotaXMLRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/StudentFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/StudentXMLRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/TemaFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/TemaXMLRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/NotaValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/StudentValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/TemaValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/view/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenV2/src/test/java/ExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment01Files/Lab01_ReviewForms.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment01Files/Lab01_ReviewForms.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_V1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_V1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_V1/MonitorizareTemeLaboratorV01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_V1/MonitorizareTemeLaboratorV01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fisiere/Studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fisiere/Studenti.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,6 +161,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -126,11 +172,15 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="815" />
     <option name="height" value="868" />
   </component>
+  <component name="ProjectId" id="2tvy4PUttYIaM8RAzHvd1Q7LKFd" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -198,24 +248,32 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550872803614" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ExampleTest.exampleTestCase.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Uni_projects_UBB_CS/University_projects_UBB_CS/SEM6/SSVV/labs/lab1/V2Maven",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="app.MainApplication" />
       <module name="MonitorizareTemeLaboratorV02" />
@@ -225,59 +283,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="ExampleTest.exampleTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MonitorizareTemeLaboratorV02" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="MonitorizareTemeLaboratorV02" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
+      <option name="METHOD_NAME" value="exampleTestCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExampleTest.exampleTestCase" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -289,6 +320,8 @@
       <option name="presentableId" value="Default" />
       <updated>1550872413602</updated>
       <workItem from="1550872416616" duration="388000" />
+      <workItem from="1741246651809" duration="69000" />
+      <workItem from="1741335027873" duration="3730000" />
     </task>
     <servers />
   </component>
@@ -331,7 +364,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">

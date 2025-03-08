@@ -1,0 +1,8 @@
+- Adding a student giving fields: id, name, group, email
+- Removing a student by id. It has also validation that checks if the user exists
+- Updating a student by id. It has also validation that checks if the user exists
+- Search for a student by id
+- Extend deadline for homework by id , with validation if the deadline has passed.
+- Search for a homework by id
+- CRUD operations for grade, it has grade validations (if grade not in valid range)
+- Search for student by id
