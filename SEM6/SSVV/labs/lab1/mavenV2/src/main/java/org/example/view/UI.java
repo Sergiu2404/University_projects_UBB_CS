@@ -7,6 +7,7 @@ import org.example.service.Service;
 import org.example.validation.ValidationException;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeParseException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -99,20 +100,35 @@ public class UI {
      */
     private void adaugaStudent() throws ValidationException {
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Introduceti id student: ");
-        String idStudent = scanner.next();
+        String idStudent = scanner.nextLine();
         if (service.findStudent(idStudent) != null) {
             throw new ValidationException("Studentul exista!");
         }
+
         System.out.print("Introduceti numele: ");
-        scanner.nextLine();
         String numeStudent = scanner.nextLine();
-        System.out.print("Introduceti grupa: ");
-        int grupa = scanner.nextInt();
+
+        String grupaInput = null;
+        int grupa = -1;
+        while(grupaInput == null){
+            System.out.print("Introduceti grupa: ");
+            grupaInput = scanner.nextLine();
+            try{
+                grupa = Integer.parseInt(grupaInput);
+            } catch(Exception exception){
+                System.out.println("Numarul grupei trebuie  sa fie un numar intreg!");
+                grupaInput = null;
+            }
+        }
+
         System.out.print("Introduceti email: ");
-        String email = scanner.next();
+        String email = scanner.nextLine();
+
         Student student = new Student(idStudent, numeStudent, grupa, email);
         Student student1 = service.addStudent(student);
+
         if (student1 == null) {
             System.out.println("Student adaugat cu succes!");
         } else {
@@ -228,19 +244,41 @@ public class UI {
     private void adaugaTema() throws ValidationException{
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduceti nr tema: ");
-        String nrTema = scanner.next();
+        String nrTema = scanner.nextLine();
         if (service.findTema(nrTema) != null) {
             throw new ValidationException("Tema exista deja!");
         }
+
         System.out.print("Introduceti descrierea: ");
-        scanner.nextLine();
         String descriere = scanner.nextLine();
-        System.out.print("Introduceti deadline-ul(nr saptamanii): ");
-        int deadline = scanner.nextInt();
-        System.out.print("Introduceti saptamana primirii: ");
-        int primire = scanner.nextInt();
+
+        String deadlineInput = null;
+        int deadline = -1;
+        while(deadline == -1){
+            System.out.print("Introduceti deadline-ul(nr saptamanii): ");
+            deadlineInput = scanner.nextLine();
+            try{
+                deadline = Integer.parseInt(deadlineInput);
+            } catch(Exception exception){
+                System.out.println("Deadline-ul trebuie sa fie un numar intreg!");
+            }
+        }
+
+        String primireInput = null;
+        int primire = -1;
+        while(primire == -1){
+            System.out.print("Introduceti saptamana primirii: ");
+            primireInput = scanner.nextLine();
+            try {
+                primire = Integer.parseInt(primireInput);
+            } catch(Exception exception){
+                System.out.println("Saptamana primirii trebuie sa fie un numar intreg!");
+            }
+        }
+
         Tema tema = new Tema(nrTema, descriere, deadline, primire);
         tema = service.addTema(tema);
+
         if (tema == null) {
             System.out.println("Tema adaugata cu succes!");
         } else {
@@ -362,22 +400,45 @@ public class UI {
      */
     private void adaugaNota() throws ValidationException {
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Introduceti id student: ");
-        String idStudent = scanner.next();
+        String idStudent = scanner.nextLine();
+
         System.out.print("Introduceti numarul temei: ");
-        String nrTema = scanner.next();
+        String nrTema = scanner.nextLine();
+
         String idNota = idStudent + "#" + nrTema;
         if (service.findNota(idNota) != null) {
             throw new ValidationException("Nota exista deja!");
         }
-        System.out.print("Introduceti nota: ");
-        Double nota = scanner.nextDouble();
-        System.out.print("Introduceti data predarii temei(format: an-luna-data): ");
-        String data = scanner.next();
-        String[] date = data.split("-");
-        LocalDate dataPredare = LocalDate.of(Integer.parseInt(date[0]), Integer.parseInt(date[1]), Integer.parseInt(date[2]));
+
+        Double nota = null;
+        while(nota == null) {
+            System.out.print("Introduceti nota: ");
+            String inputNota = scanner.nextLine();
+            try {
+                nota = Double.parseDouble(inputNota);
+            } catch (Exception exception) {
+                System.out.println("Eroare! Introduceti valoare numerica pentru nota! (ex: 9.70)");
+            }
+        }
+
+        String data;
+        LocalDate dataPredare = null;
+        while(dataPredare == null) {
+            System.out.print("Introduceti data predarii temei(format: an-luna-data): ");
+            data = scanner.next();
+            try {
+                String[] date = data.split("-");
+                dataPredare = LocalDate.of(Integer.parseInt(date[0]), Integer.parseInt(date[1]), Integer.parseInt(date[2]));
+            } catch (Exception exception) {
+                System.out.println("Formatul datei este invalid!");
+            }
+        }
+
         System.out.print("Introduceti feedback: ");
         scanner.nextLine();
+
         String feedback = scanner.nextLine();        //System.out.println(feedback);
         Nota notaCatalog = new Nota(idNota, idStudent, nrTema, nota, dataPredare);
         double notaFinala = service.addNota(notaCatalog, feedback);
