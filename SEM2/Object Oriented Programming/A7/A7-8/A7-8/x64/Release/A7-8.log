@@ -1,0 +1,17 @@
+﻿  A7-8.cpp
+  AdministratorRepository.cpp
+  CSVUserRepository.cpp
+  Exceptions.cpp
+  HTMLUserRepository.cpp
+  Movie.cpp
+  Service.cpp
+  Tests.cpp
+  UI.cpp
+E:\Uni_projects_UBB_CS\University_projects_UBB_CS\SEM2\Object Oriented Programming\A7\A7-8\A7-8\UI.cpp(319,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  UserRepository.cpp
+  Validator.h
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 532 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  A7-8.vcxproj -> E:\Uni_projects_UBB_CS\University_projects_UBB_CS\SEM2\Object Oriented Programming\A7\A7-8\x64\Release\A7-8.exe
