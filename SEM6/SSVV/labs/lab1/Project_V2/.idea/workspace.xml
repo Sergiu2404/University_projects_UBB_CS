@@ -5,47 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df49f66c-c920-4ef2-986d-907a98f55e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/DataInceput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Note.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Studenti.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Studenti.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Teme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/Teme.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/eu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/fisiere/la.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/app/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/curent/Curent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/domain/Nota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/domain/Tema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/AbstractCrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/AbstractFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/AbstractXMLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/FileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/HasID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/NotaFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/NotaXMLRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/StudentFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/StudentXMLRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/TemaFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/repository/TemaXMLRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/NotaValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/StudentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/TemaValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/validation/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/main/java/org/example/view/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mavenV2/src/test/java/ExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment01Files/Lab01_ReviewForms.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment01Files/Lab01_ReviewForms.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_V1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_V1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_V1/MonitorizareTemeLaboratorV01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_V1/MonitorizareTemeLaboratorV01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MonitorizareTemeLaboratorV02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fisiere/Studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fisiere/Studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenV2.7z" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +132,9 @@
       </list>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -263,7 +226,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Uni_projects_UBB_CS/University_projects_UBB_CS/SEM6/SSVV/labs/lab1/V2Maven",
+    "last_opened_file_path": "E:/Uni_projects_UBB_CS/University_projects_UBB_CS/SEM6/SSVV/labs/lab1/Project_V2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -322,6 +285,7 @@
       <workItem from="1550872416616" duration="388000" />
       <workItem from="1741246651809" duration="69000" />
       <workItem from="1741335027873" duration="3730000" />
+      <workItem from="1742540391014" duration="43000" />
     </task>
     <servers />
   </component>
